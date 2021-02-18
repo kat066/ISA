@@ -2,7 +2,8 @@
 // Design Name:    BasicProcessor
 // Module Name:    TopLevel 
 // CSE141L
-// partial only										   
+// partial only	
+import definitions::*;									   
 module TopLevel(		   // you will have the same 3 ports
     input        Reset,	   // init/reset, active high
 			     Start,    // start next program
@@ -89,16 +90,16 @@ logic[15:0] CycleCt;	   // standalone; NOT PC!
 	  .Out     (ALU_out),//regWriteValue),
 	  .Zero
 	  );
-  
+  assign MemWriteValue = ALU_out;
 	DataMem DM1(
-		.DataAddress  (ReadA)    , 
+		.DataAddress  (ReadB)    , 
 		.WriteEn      (MemWrite), 
 		.DataIn       (MemWriteValue), 
 		.DataOut      (MemReadValue)  , 
 		.Clk 		  		     ,
 		.Reset		  (Reset)
 	);
-	
+	assign RegWrEn = (MemWrite||BranchEn||Jump)? 'b0 : 'b1;
 // count number of instructions executed
 always_ff @(posedge Clk)
   if (Start == 1)	   // if(start)

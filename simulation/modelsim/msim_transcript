@@ -1,0 +1,144 @@
+# Reading pref.tcl
+# do ISA_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/Quartus/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/blade/Desktop/ISA {C:/Users/blade/Desktop/ISA/RegFile.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:34:04 on Feb 17,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/blade/Desktop/ISA" C:/Users/blade/Desktop/ISA/RegFile.sv 
+# -- Compiling module RegFile
+# 
+# Top level modules:
+# 	RegFile
+# End time: 20:34:04 on Feb 17,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/blade/Desktop/ISA {C:/Users/blade/Desktop/ISA/InstFetch.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:34:04 on Feb 17,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/blade/Desktop/ISA" C:/Users/blade/Desktop/ISA/InstFetch.sv 
+# -- Compiling module InstFetch
+# 
+# Top level modules:
+# 	InstFetch
+# End time: 20:34:04 on Feb 17,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/blade/Desktop/ISA {C:/Users/blade/Desktop/ISA/Definitions.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:34:04 on Feb 17,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/blade/Desktop/ISA" C:/Users/blade/Desktop/ISA/Definitions.sv 
+# -- Compiling package definitions
+# ** Warning: C:/Users/blade/Desktop/ISA/Definitions.sv(27): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: C:/Users/blade/Desktop/ISA/Definitions.sv(28): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# Top level modules:
+# 	--none--
+# End time: 20:34:04 on Feb 17,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# vlog -sv -work work +incdir+C:/Users/blade/Desktop/ISA {C:/Users/blade/Desktop/ISA/DataMem.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:34:04 on Feb 17,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/blade/Desktop/ISA" C:/Users/blade/Desktop/ISA/DataMem.sv 
+# -- Compiling module DataMem
+# 
+# Top level modules:
+# 	DataMem
+# End time: 20:34:04 on Feb 17,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/blade/Desktop/ISA {C:/Users/blade/Desktop/ISA/InstROM.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:34:04 on Feb 17,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/blade/Desktop/ISA" C:/Users/blade/Desktop/ISA/InstROM.sv 
+# -- Compiling module InstROM
+# 
+# Top level modules:
+# 	InstROM
+# End time: 20:34:04 on Feb 17,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/blade/Desktop/ISA {C:/Users/blade/Desktop/ISA/Ctrl.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:34:04 on Feb 17,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/blade/Desktop/ISA" C:/Users/blade/Desktop/ISA/Ctrl.sv 
+# -- Compiling package Ctrl_sv_unit
+# -- Importing package definitions
+# -- Compiling module Ctrl
+# 
+# Top level modules:
+# 	Ctrl
+# End time: 20:34:04 on Feb 17,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/blade/Desktop/ISA {C:/Users/blade/Desktop/ISA/ALU.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:34:04 on Feb 17,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/blade/Desktop/ISA" C:/Users/blade/Desktop/ISA/ALU.sv 
+# -- Compiling package ALU_sv_unit
+# -- Importing package definitions
+# -- Compiling module ALU
+# 
+# Top level modules:
+# 	ALU
+# End time: 20:34:04 on Feb 17,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/blade/Desktop/ISA {C:/Users/blade/Desktop/ISA/TopLevel.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:34:04 on Feb 17,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/blade/Desktop/ISA" C:/Users/blade/Desktop/ISA/TopLevel.sv 
+# -- Compiling package TopLevel_sv_unit
+# -- Importing package definitions
+# -- Compiling module TopLevel
+# 
+# Top level modules:
+# 	TopLevel
+# End time: 20:34:04 on Feb 17,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vlog -reportprogress 300 -work work C:/Users/blade/Desktop/ISA/TopLevel.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:34:18 on Feb 17,2021
+# vlog -reportprogress 300 -work work C:/Users/blade/Desktop/ISA/TopLevel.sv 
+# ** Warning: C:/Users/blade/Desktop/ISA/TopLevel.sv(6): (vlog-13233) Design unit "TopLevel_sv_unit" already exists and will be overwritten. Design unit compiled with different set of options.
+# -- Compiling package TopLevel_sv_unit
+# -- Importing package definitions
+# -- Compiling module TopLevel
+# 
+# Top level modules:
+# 	TopLevel
+# End time: 20:34:18 on Feb 17,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+vlog -reportprogress 300 -work work C:/Users/blade/Desktop/ISA/TopLevel_tb.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:34:43 on Feb 17,2021
+# vlog -reportprogress 300 -work work C:/Users/blade/Desktop/ISA/TopLevel_tb.sv 
+# -- Compiling module TopLevel_tb
+# 
+# Top level modules:
+# 	TopLevel_tb
+# End time: 20:34:43 on Feb 17,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.TopLevel_tb
+# vsim work.TopLevel_tb 
+# Start time: 20:34:45 on Feb 17,2021
+# Loading sv_std.std
+# Loading work.TopLevel_tb
+# Loading work.definitions
+# Loading work.TopLevel_sv_unit
+# Loading work.TopLevel
+# Loading work.InstFetch
+# Loading work.Ctrl_sv_unit
+# Loading work.Ctrl
+# Loading work.InstROM
+# Loading work.RegFile
+# Loading work.ALU_sv_unit
+# Loading work.ALU
+# Loading work.DataMem
+add wave -position end sim:/TopLevel_tb/*
+add wave -position end sim:/TopLevel_tb/DUT/*
+run -all
+add wave -position end sim:/TopLevel_tb/DUT/RF1/*

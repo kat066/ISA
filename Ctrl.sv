@@ -7,6 +7,7 @@ module Ctrl (
   input[ 8:0] Instruction,	   // machine code
   output logic Jump,
                BranchEn,
+					
   output logic[2:0] RegReadAddr,
 						RegWriteAddr,
   output logic[ 4:0] Imm,

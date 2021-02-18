@@ -19,11 +19,15 @@ wire [ 7:0] InA, InB, 	   // ALU operand inputs
 wire [ 7:0] RegWriteValue, // data in to reg file
             MemWriteValue, // data in to data_memory
 	   	    MemReadValue;  // data out from data_memory
+wire [ 2:0] RegWriteAddr,
+				RegReadAddr;
 wire        MemWrite,	   // data_memory write enable
 			RegWrEn,	   // reg_file write enable
 			Zero,		   // ALU output = 0 flag
             Jump,	       // to program counter: jump 
             BranchEn;	   // to program counter: branch enable
+wire[ 4:0] OP,
+			 Imm;
 logic[15:0] CycleCt;	   // standalone; NOT PC!
 
 // Fetch = Program Counter + Instruction ROM
@@ -43,7 +47,11 @@ logic[15:0] CycleCt;	   // standalone; NOT PC!
   Ctrl Ctrl1 (
 	.Instruction  (Instruction), // from instr_ROM
 	.Jump         (Jump),		     // to PC
-	.BranchEn     (BranchEn)		 // to PC
+	.BranchEn     (BranchEn),		 // to PC
+	.RegReadAddr  (RegReadAddr),
+	.RegWriteAddr (RegWriteAddr),
+	.Imm			  (Imm),
+	.OP			  (OP)
   );
 // instruction ROM
   InstROM #(.W(9)) IR1(
@@ -51,44 +59,46 @@ logic[15:0] CycleCt;	   // standalone; NOT PC!
 	.InstOut       (Instruction)
 	);
 
-  assign LoadInst = Instruction[8:6]==3'b110;  // calls out load specially
+  assign LoadInst = Instruction[8:3]=={typeI,iLOAD};  // calls out load specially
   assign Ack = &Instruction;
 // reg file
 	RegFile #(.W(8),.D(3)) RF1 (
 		.Clk    				  ,
 		.WriteEn   (RegWrEn)    , 
-		.RaddrA    (Instruction[5:3]),         //concatenate with 0 to give us 4 bits
-		.RaddrB    (Instruction[2:0]), 
-		.Waddr     (Instruction[5:3]), 	       // mux above
+		.Raddr    (RegReadAddr),         //concatenate with 0 to give us 4 bits
+		.Waddr     (RegWriteAddr), 	       // mux above
 		.DataIn    (RegWriteValue) , 
 		.DataOutA  (ReadA        ) , 
 		.DataOutB  (ReadB		 )
 	);
+
 // one pointer, two adjacent read accesses: (optional approach)
 //	.raddrA ({Instruction[5:3],1'b0});
 //	.raddrB ({Instruction[5:3],1'b1});
 
     assign InA = ReadA;						          // connect RF out to ALU in
 	assign InB = ReadB;
-	assign MemWrite = (Instruction == 9'h111);       // mem_store command
-	assign RegWriteValue = LoadInst? MemReadValue : ALU_out;  // 2:1 switch into reg_file
+	assign MemWrite = (Instruction[8:3] == {typeI,iSTORE});       // mem_store command
+	assign RegWriteValue = LoadInst? MemReadValue : ALU_out;  // 2:1 switch into reg_file  
+
     ALU ALU1  (
 	  .InputA  (InA),
-	  .InputB  (InB), 
-	  .OP      (Instruction[8:6]),
+	  .InputB  (InB),
+	  .Imm	  (Imm), 
+	  .OP      (OP),
 	  .Out     (ALU_out),//regWriteValue),
 	  .Zero
 	  );
-  
+  assign MemWriteValue = ALU_out;
 	DataMem DM1(
-		.DataAddress  (ReadA)    , 
+		.DataAddress  (ReadB)    , 
 		.WriteEn      (MemWrite), 
 		.DataIn       (MemWriteValue), 
 		.DataOut      (MemReadValue)  , 
 		.Clk 		  		     ,
 		.Reset		  (Reset)
 	);
-	
+	assign RegWrEn = (MemWrite||BranchEn||Jump)? 'b0 : 'b1;
 // count number of instructions executed
 always_ff @(posedge Clk)
   if (Start == 1)	   // if(start)

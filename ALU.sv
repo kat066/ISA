@@ -10,12 +10,12 @@ module ALU(
   input        [7:0] InputA,             // data inputs
                      InputB,
   input			[4:0] Imm,
-  input        [2:0] OP,		         // ALU opcode, part of microcode
+  input        [4:0] OP,		         // ALU opcode, part of microcode
   output logic [7:0] Out,		         // or:  output reg [7:0] OUT,
   output logic       Zero                // output = zero flag
     );								    
 	 
-  //op_mne op_mnemonic;			         // type enum: used for convenient waveform viewing
+  op_mne op_mnemonic;			         // type enum: used for convenient waveform viewing
 	
   always_comb begin
     Out = 0;                             // No Op = default
@@ -48,7 +48,7 @@ module ALU(
 	  default : Zero = 1'b0;
     endcase
 
-  //always_comb
-//    op_mnemonic = op_mne'(OP);			 // displays operation name in waveform viewer
+  always_comb
+   op_mnemonic = op_mne'(OP);			 // displays operation name in waveform viewer
 
 endmodule

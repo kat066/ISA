@@ -49,9 +49,9 @@ package definitions;
 											
 	
 // enum names will appear in timing diagram
-    typedef enum logic[2:0] {
-        ADD, LSH, RSH, XOR,
-        AND, SUB, CLR } op_mne;
+    typedef enum logic[4:0] {
+        LSR, RSR, MOVER, MOVEA, XOR,RXOR, AND, ANDI,LOAD,
+		 STORE,BEQ,BNE,BLE,BLT,JUMP,ADD,ADDI,SUB,LUT } op_mne;
 // note: kADD is of type logic[2:0] (3-bit binary)
 //   ADD is of type enum -- equiv., but watch casting
 //   see ALU.sv for how to handle this   
