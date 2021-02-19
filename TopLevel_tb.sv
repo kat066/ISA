@@ -25,19 +25,20 @@ module TopLevel_tb;	     // Lab 17
 
 initial begin
   #10ns Init = 'b0;
-  #10ns Req  = 'b1;
+  Req  = 'b1;
 // Initialize DUT's data memory
   #10ns for(int i=0; i<256; i++) begin
     DUT.DM1.Core[i] = 8'h0;	     // clear data_mem
+  end
     DUT.DM1.Core[1] = 8'h03;      // MSW of operand A
     DUT.DM1.Core[2] = 8'hff;
     DUT.DM1.Core[3] = 8'hff;      // MSW of operand B
     DUT.DM1.Core[4] = 8'hfb;
-  end
 // students may also pre_load desired constants into DM
 // Initialize DUT's register file
-  for(int j=0; j<16; j++)
-    DUT.RF1.Registers[j] = 8'b0;    // default -- clear it
+//  for(int j=0; j<16; j++)
+    DUT.RF1.Registers[0] = 8'b0;    // default -- clear it
+	 DUT.RF1.Registers[7] = 8'b111;
 // students may pre-load desired constants into the reg_file
     
 // launch prodvgram in DUT

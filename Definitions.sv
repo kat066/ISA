@@ -24,8 +24,8 @@ package definitions;
 	const logic [1:0]iiiADDI  = 2'b01;
 	const logic [1:0]iiiSUB  = 2'b10;
 	const logic [1:0]iiiJUMP  = 2'b11;
-	const logic ivLSR = 1'b 00;
-	const logic ivRSR = 1'b 01;
+	const logic ivLSR = 1'b0;
+	const logic ivRSR = 1'b1;
 	
 	const logic [4:0]oLSR = 5'b00000;
 	const logic [4:0]oRSR = 5'b00001;

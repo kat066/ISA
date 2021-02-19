@@ -11,26 +11,26 @@ cModel Technology
 Z0 dC:/Users/blade/Desktop/ISA/simulation/modelsim
 vALU
 Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-Z2 DXx4 work 11 definitions 0 22 likBn_4i7Y5^9>2kW6_jU2
+Z2 DXx4 work 11 definitions 0 22 TLJJ_TnzGFzKfmZVJ3ebO2
 DXx4 work 11 ALU_sv_unit 0 22 mMUNADYN3WmV<<dd^c>YX0
-Z3 !s110 1613622844
+Z3 !s110 1613707991
 Z4 VDg1SIo80bB@j0V0VzS_@n1
 r1
 !s85 0
 !i10b 1
-!s100 ;T8Af3QCej46aB]dk?V1o2
-Ib=0jGWT>X;VGHb^To:V^Z3
+!s100 3Q?fiI:7;Lz]In=f0CEMH2
+IfP`BjkW<T=aE7Z6A?[jDG1
 !s105 ALU_sv_unit
 S1
 R0
-Z5 w1613622813
+Z5 w1613707960
 Z6 8C:/Users/blade/Desktop/ISA/ALU.sv
 Z7 FC:/Users/blade/Desktop/ISA/ALU.sv
 !i122 6
 L0 9 46
 Z8 OV;L;2020.1;71
 31
-Z9 !s108 1613622844.000000
+Z9 !s108 1613707991.000000
 Z10 !s107 C:/Users/blade/Desktop/ISA/ALU.sv|
 Z11 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/blade/Desktop/ISA|C:/Users/blade/Desktop/ISA/ALU.sv|
 !i113 1
@@ -75,12 +75,12 @@ R4
 r1
 !s85 0
 !i10b 1
-!s100 A1K;i6nbJ5__<AE:^<>EL3
-I1IK]ToLic6<o1i@;m?FG;3
+!s100 L1XkBQB=A`NGag2:LON[L3
+I4PZhM;24MVN0<i;BES@b?2
 !s105 Ctrl_sv_unit
 S1
 R0
-Z15 w1613618832
+Z15 w1613706105
 Z16 8C:/Users/blade/Desktop/ISA/Ctrl.sv
 Z17 FC:/Users/blade/Desktop/ISA/Ctrl.sv
 !i122 5
@@ -154,13 +154,13 @@ Xdefinitions
 R1
 R3
 !i10b 1
-!s100 C>^]D04WC]Tze]nofeJ6^3
+!s100 NWGKLMF9S_S9KL>`hTg5n1
 R20
-IlikBn_4i7Y5^9>2kW6_jU2
-VlikBn_4i7Y5^9>2kW6_jU2
+ITLJJ_TnzGFzKfmZVJ3ebO2
+VTLJJ_TnzGFzKfmZVJ3ebO2
 S1
 R0
-w1613622782
+w1613707505
 8C:/Users/blade/Desktop/ISA/Definitions.sv
 FC:/Users/blade/Desktop/ISA/Definitions.sv
 !i122 2
@@ -178,15 +178,15 @@ R13
 R14
 vInstFetch
 R1
-R3
+Z21 !s110 1613707990
 !i10b 1
-!s100 `P6hOI9oC51>^k6aeYeb^0
+!s100 =_oMV8LBPSYLQH`h[i12Z0
 R20
-I=>W[7b:=4=nkBTFcgP:3e3
+IMgcPQK3Zh3NCo[Zb2VE5j0
 R4
 S1
 R0
-Z21 w1613469206
+w1613707192
 8C:/Users/blade/Desktop/ISA/InstFetch.sv
 FC:/Users/blade/Desktop/ISA/InstFetch.sv
 !i122 1
@@ -195,7 +195,7 @@ R8
 r1
 !s85 0
 31
-R9
+Z22 !s108 1613707990.000000
 !s107 C:/Users/blade/Desktop/ISA/InstFetch.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/blade/Desktop/ISA|C:/Users/blade/Desktop/ISA/InstFetch.sv|
 !i113 1
@@ -213,7 +213,7 @@ IF_QiW;D<l6PHbo`1E974a3
 R4
 S1
 R0
-R21
+w1613469206
 8C:/Users/blade/Desktop/ISA/InstROM.sv
 FC:/Users/blade/Desktop/ISA/InstROM.sv
 !i122 4
@@ -232,15 +232,15 @@ R14
 n@inst@r@o@m
 vRegFile
 R1
-R3
+R21
 !i10b 1
-!s100 3U1e48kQUVLi;VL`d5VUD0
+!s100 @Mgocj2BL7YD;OO:0PI9l2
 R20
-IB=`2d>EN`9A8;k53M34Sa3
+IUIFDc@2_l1?igV?DRKzdZ0
 R4
 S1
 R0
-w1613448267
+w1613705524
 8C:/Users/blade/Desktop/ISA/RegFile.sv
 FC:/Users/blade/Desktop/ISA/RegFile.sv
 !i122 0
@@ -249,7 +249,7 @@ R8
 r1
 !s85 0
 31
-R9
+R22
 !s107 C:/Users/blade/Desktop/ISA/RegFile.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/blade/Desktop/ISA|C:/Users/blade/Desktop/ISA/RegFile.sv|
 !i113 1
@@ -260,81 +260,83 @@ n@reg@file
 vTopLevel
 R1
 R2
-DXx4 work 16 TopLevel_sv_unit 0 22 d`Oh<e8VeT0oc8832NHbC2
-Z22 !s110 1613622858
+DXx4 work 16 TopLevel_sv_unit 0 22 Om1TTT@5P_oY7VYjI:UO`1
+Z23 !s110 1613707995
 R4
 r1
 !s85 0
 !i10b 1
 !s100 j8HM@>cI8oh<<T5?@]FTX2
-IPV_L<A]giYWNI:UI=z8^n3
+Iefo`CA5P=GHcLjOXJWI961
 !s105 TopLevel_sv_unit
 S1
 R0
-Z23 w1613621752
-Z24 8C:/Users/blade/Desktop/ISA/TopLevel.sv
-Z25 FC:/Users/blade/Desktop/ISA/TopLevel.sv
-!i122 8
+Z24 w1613706143
+Z25 8C:/Users/blade/Desktop/ISA/TopLevel.sv
+Z26 FC:/Users/blade/Desktop/ISA/TopLevel.sv
+!i122 7
 L0 7 104
 R8
 31
-Z26 !s108 1613622858.000000
-Z27 !s107 C:/Users/blade/Desktop/ISA/TopLevel.sv|
-Z28 !s90 -reportprogress|300|-work|work|C:/Users/blade/Desktop/ISA/TopLevel.sv|
+Z27 !s108 1613707995.000000
+Z28 !s107 C:/Users/blade/Desktop/ISA/TopLevel.sv|
+Z29 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/blade/Desktop/ISA|C:/Users/blade/Desktop/ISA/TopLevel.sv|
 !i113 1
-Z29 o-work work
+R12
+R13
 R14
 n@top@level
 XTopLevel_sv_unit
 R1
 R2
-R22
-Vd`Oh<e8VeT0oc8832NHbC2
+R23
+VOm1TTT@5P_oY7VYjI:UO`1
 r1
 !s85 0
 !i10b 1
 !s100 ICOdKaJR@3JK`_JXa2n4D1
-Id`Oh<e8VeT0oc8832NHbC2
+IOm1TTT@5P_oY7VYjI:UO`1
 !i103 1
 S1
 R0
-R23
 R24
 R25
-!i122 8
+R26
+!i122 7
 L0 6 0
 R8
 31
-R26
 R27
 R28
-!i113 1
 R29
+!i113 1
+R12
+R13
 R14
 n@top@level_sv_unit
 vTopLevel_tb
 R1
-!s110 1613622883
+!s110 1613708000
 !i10b 1
-!s100 az_0a>Ylgj7k1]BhQjST_0
+!s100 I;m3jh`ob=5AT@z^4D7IE3
 R20
-I?g6e3:R]O>cM7mk2ASbn[3
+IdZ@P]88YkWh[J7lKBNnPA3
 R4
 S1
 R0
-R21
+w1613706953
 8C:/Users/blade/Desktop/ISA/TopLevel_tb.sv
 FC:/Users/blade/Desktop/ISA/TopLevel_tb.sv
-!i122 9
-L0 8 53
+!i122 8
+L0 8 54
 R8
 r1
 !s85 0
 31
-!s108 1613622883.000000
+!s108 1613708000.000000
 !s107 C:/Users/blade/Desktop/ISA/TopLevel_tb.sv|
 !s90 -reportprogress|300|-work|work|C:/Users/blade/Desktop/ISA/TopLevel_tb.sv|
 !i113 1
-R29
+o-work work
 R14
 n@top@level_tb

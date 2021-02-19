@@ -16,12 +16,12 @@ module Ctrl (
   );
 // jump on right shift that generates a zero
 always_comb begin
-  if(Instruction[1:0] ==  typeIII && Instruction[3:2] == iiiJUMP) begin
+  if(Instruction[8:7] ==  typeIII && Instruction[6:5] == iiiJUMP) begin
 	 Jump = 1;
   end else
     Jump = 0;
 	 
-  if(Instruction[1:0] ==  typeII)  
+  if(Instruction[8:7] ==  typeII)  
 		BranchEn = 1;
   else
     BranchEn = 0;
@@ -30,14 +30,14 @@ always_comb begin
 	RegReadAddr = 3'b001;
 	Imm = 5'b0;
 	OP = 5'b0;
-   case(Instruction[1:0])
+   case(Instruction[8:7])
 		typeI: begin
-			RegReadAddr = Instruction[8:6];
-			case(Instruction[5:2])
+			RegReadAddr = Instruction[2:0];
+			case(Instruction[6:3])
 				iADD:OP = oADD;
 				iMOVER: begin
 					OP = oMOVER;
-					RegWriteAddr = Instruction[8:6];
+					RegWriteAddr = Instruction[2:0];
 				end
 				iMOVEA: OP = oMOVEA;
 				iRXOR: OP = oRXOR;
@@ -49,9 +49,9 @@ always_comb begin
 			endcase
 		end
 		typeII: begin
-			RegReadAddr = Instruction[6:4];
-			Imm = {2'b00,Instruction[8:6]};
-			case(Instruction[3:2])
+			RegReadAddr = Instruction[4:2];
+			Imm = {3'b000,Instruction[1:0]};
+			case(Instruction[6:5])
 				iiBEQ: OP = oBEQ;
 				iiBNE: OP = oBNE;
 				iiBLE: OP = oBLE;
@@ -59,8 +59,8 @@ always_comb begin
 			endcase
 		end
 		typeIII:begin
-			Imm = Instruction[8:4];
-			case(Instruction[3:2])
+			Imm = Instruction[4:0];
+			case(Instruction[6:5])
 				iiiANDI: OP = oANDI;
 				iiiADDI: OP = oADDI;
 				iiiSUB: OP = oSUB;
@@ -69,9 +69,9 @@ always_comb begin
 		end
 		typeIV: begin
 			RegReadAddr = Instruction[5:3];
-			Imm = {2'b00,Instruction[8:6]};
+			Imm = {2'b00,Instruction[2:0]};
 			RegWriteAddr = Instruction[5:3];
-			case(Instruction[2])
+			case(Instruction[6])
 				ivLSR: OP = oLSR;
 				ivRSR: OP = oRSR;
 			endcase

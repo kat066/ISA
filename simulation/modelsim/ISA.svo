@@ -17,7 +17,7 @@
 // PROGRAM "Quartus Prime"
 // VERSION "Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition"
 
-// DATE "02/17/2021 20:33:51"
+// DATE "02/18/2021 20:16:47"
 
 // 
 // Device: Altera EP4CE6E22C6 Package TQFP144
@@ -34,10 +34,10 @@ module TopLevel (
 	Start,
 	Clk,
 	Ack);
-input 	reg Reset ;
-input 	reg Start ;
-input 	reg Clk ;
-output 	logic Ack ;
+input 	Reset;
+input 	Start;
+input 	Clk;
+output 	Ack;
 
 // Design Ports Information
 // Ack	=>  Location: PIN_84,	 I/O Standard: 2.5 V,	 Current Strength: Default

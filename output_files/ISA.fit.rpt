@@ -1,5 +1,5 @@
 Fitter report for ISA
-Wed Feb 17 20:33:46 2021
+Thu Feb 18 20:16:41 2021
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -59,7 +59,7 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Fitter Summary                                                                   ;
 +------------------------------------+---------------------------------------------+
-; Fitter Status                      ; Successful - Wed Feb 17 20:33:46 2021       ;
+; Fitter Status                      ; Successful - Thu Feb 18 20:16:41 2021       ;
 ; Quartus Prime Version              ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name                      ; ISA                                         ;
 ; Top-level Entity Name              ; TopLevel                                    ;
@@ -763,10 +763,10 @@ Info (334004): Delay annotation completed successfully
 Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:00
 Info (144001): Generated suppressed messages file C:/Users/blade/Desktop/ISA/output_files/ISA.fit.smsg
 Info: Quartus Prime Fitter was successful. 0 errors, 6 warnings
-    Info: Peak virtual memory: 6455 megabytes
-    Info: Processing ended: Wed Feb 17 20:33:46 2021
+    Info: Peak virtual memory: 6462 megabytes
+    Info: Processing ended: Thu Feb 18 20:16:42 2021
     Info: Elapsed time: 00:00:03
-    Info: Total CPU time (on all processors): 00:00:04
+    Info: Total CPU time (on all processors): 00:00:03
 
 
 +----------------------------+

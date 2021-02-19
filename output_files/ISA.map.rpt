@@ -1,5 +1,5 @@
 Analysis & Synthesis report for ISA
-Wed Feb 17 20:33:42 2021
+Thu Feb 18 20:16:38 2021
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -47,7 +47,7 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Wed Feb 17 20:33:42 2021       ;
+; Analysis & Synthesis Status        ; Successful - Thu Feb 18 20:16:38 2021       ;
 ; Quartus Prime Version              ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name                      ; ISA                                         ;
 ; Top-level Entity Name              ; TopLevel                                    ;
@@ -2276,62 +2276,62 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; DataMem:DM1|Core[253][0]                 ; Lost fanout                                 ;
 ; DataMem:DM1|Core[254][0]                 ; Lost fanout                                 ;
 ; DataMem:DM1|Core[255][0]                 ; Lost fanout                                 ;
-; RegFile:RF1|Registers[0][7]              ; Stuck at GND due to stuck port clock_enable ;
-; RegFile:RF1|Registers[2][7]              ; Stuck at GND due to stuck port clock_enable ;
-; RegFile:RF1|Registers[3][7]              ; Stuck at GND due to stuck port clock_enable ;
+; RegFile:RF1|Registers[2][7]              ; Lost fanout                                 ;
+; RegFile:RF1|Registers[3][7]              ; Lost fanout                                 ;
 ; RegFile:RF1|Registers[4][7]              ; Lost fanout                                 ;
 ; RegFile:RF1|Registers[5][7]              ; Lost fanout                                 ;
 ; RegFile:RF1|Registers[6][7]              ; Lost fanout                                 ;
 ; RegFile:RF1|Registers[7][7]              ; Lost fanout                                 ;
-; RegFile:RF1|Registers[0][6]              ; Stuck at GND due to stuck port clock_enable ;
-; RegFile:RF1|Registers[2][6]              ; Stuck at GND due to stuck port clock_enable ;
-; RegFile:RF1|Registers[3][6]              ; Stuck at GND due to stuck port clock_enable ;
+; RegFile:RF1|Registers[2][6]              ; Lost fanout                                 ;
+; RegFile:RF1|Registers[3][6]              ; Lost fanout                                 ;
 ; RegFile:RF1|Registers[4][6]              ; Lost fanout                                 ;
 ; RegFile:RF1|Registers[5][6]              ; Lost fanout                                 ;
 ; RegFile:RF1|Registers[6][6]              ; Lost fanout                                 ;
 ; RegFile:RF1|Registers[7][6]              ; Lost fanout                                 ;
-; RegFile:RF1|Registers[0][5]              ; Stuck at GND due to stuck port clock_enable ;
-; RegFile:RF1|Registers[2][5]              ; Stuck at GND due to stuck port clock_enable ;
-; RegFile:RF1|Registers[3][5]              ; Stuck at GND due to stuck port clock_enable ;
+; RegFile:RF1|Registers[2][5]              ; Lost fanout                                 ;
+; RegFile:RF1|Registers[3][5]              ; Lost fanout                                 ;
 ; RegFile:RF1|Registers[4][5]              ; Lost fanout                                 ;
 ; RegFile:RF1|Registers[5][5]              ; Lost fanout                                 ;
 ; RegFile:RF1|Registers[6][5]              ; Lost fanout                                 ;
 ; RegFile:RF1|Registers[7][5]              ; Lost fanout                                 ;
-; RegFile:RF1|Registers[0][4]              ; Stuck at GND due to stuck port clock_enable ;
-; RegFile:RF1|Registers[2][4]              ; Stuck at GND due to stuck port clock_enable ;
-; RegFile:RF1|Registers[3][4]              ; Stuck at GND due to stuck port clock_enable ;
+; RegFile:RF1|Registers[2][4]              ; Lost fanout                                 ;
+; RegFile:RF1|Registers[3][4]              ; Lost fanout                                 ;
 ; RegFile:RF1|Registers[4][4]              ; Lost fanout                                 ;
 ; RegFile:RF1|Registers[5][4]              ; Lost fanout                                 ;
 ; RegFile:RF1|Registers[6][4]              ; Lost fanout                                 ;
 ; RegFile:RF1|Registers[7][4]              ; Lost fanout                                 ;
-; RegFile:RF1|Registers[0][3]              ; Stuck at GND due to stuck port clock_enable ;
-; RegFile:RF1|Registers[2][3]              ; Stuck at GND due to stuck port clock_enable ;
-; RegFile:RF1|Registers[3][3]              ; Stuck at GND due to stuck port clock_enable ;
+; RegFile:RF1|Registers[2][3]              ; Lost fanout                                 ;
+; RegFile:RF1|Registers[3][3]              ; Lost fanout                                 ;
 ; RegFile:RF1|Registers[4][3]              ; Lost fanout                                 ;
 ; RegFile:RF1|Registers[5][3]              ; Lost fanout                                 ;
 ; RegFile:RF1|Registers[6][3]              ; Lost fanout                                 ;
 ; RegFile:RF1|Registers[7][3]              ; Lost fanout                                 ;
-; RegFile:RF1|Registers[0][2]              ; Stuck at GND due to stuck port clock_enable ;
-; RegFile:RF1|Registers[2][2]              ; Stuck at GND due to stuck port clock_enable ;
-; RegFile:RF1|Registers[3][2]              ; Stuck at GND due to stuck port clock_enable ;
+; RegFile:RF1|Registers[2][2]              ; Lost fanout                                 ;
+; RegFile:RF1|Registers[3][2]              ; Lost fanout                                 ;
 ; RegFile:RF1|Registers[4][2]              ; Lost fanout                                 ;
 ; RegFile:RF1|Registers[5][2]              ; Lost fanout                                 ;
 ; RegFile:RF1|Registers[6][2]              ; Lost fanout                                 ;
 ; RegFile:RF1|Registers[7][2]              ; Lost fanout                                 ;
-; RegFile:RF1|Registers[0][1]              ; Stuck at GND due to stuck port clock_enable ;
-; RegFile:RF1|Registers[2][1]              ; Stuck at GND due to stuck port clock_enable ;
-; RegFile:RF1|Registers[3][1]              ; Stuck at GND due to stuck port clock_enable ;
+; RegFile:RF1|Registers[2][1]              ; Lost fanout                                 ;
+; RegFile:RF1|Registers[3][1]              ; Lost fanout                                 ;
 ; RegFile:RF1|Registers[4][1]              ; Lost fanout                                 ;
 ; RegFile:RF1|Registers[5][1]              ; Lost fanout                                 ;
 ; RegFile:RF1|Registers[6][1]              ; Lost fanout                                 ;
 ; RegFile:RF1|Registers[7][1]              ; Lost fanout                                 ;
-; RegFile:RF1|Registers[0][0]              ; Stuck at GND due to stuck port clock_enable ;
-; RegFile:RF1|Registers[2][0]              ; Stuck at GND due to stuck port clock_enable ;
-; RegFile:RF1|Registers[3][0]              ; Stuck at GND due to stuck port clock_enable ;
+; RegFile:RF1|Registers[2][0]              ; Lost fanout                                 ;
+; RegFile:RF1|Registers[3][0]              ; Lost fanout                                 ;
 ; RegFile:RF1|Registers[4][0]              ; Lost fanout                                 ;
 ; RegFile:RF1|Registers[5][0]              ; Lost fanout                                 ;
 ; RegFile:RF1|Registers[6][0]              ; Lost fanout                                 ;
 ; RegFile:RF1|Registers[7][0]              ; Lost fanout                                 ;
+; RegFile:RF1|Registers[0][7]              ; Stuck at GND due to stuck port clock_enable ;
+; RegFile:RF1|Registers[0][6]              ; Stuck at GND due to stuck port clock_enable ;
+; RegFile:RF1|Registers[0][5]              ; Stuck at GND due to stuck port clock_enable ;
+; RegFile:RF1|Registers[0][4]              ; Stuck at GND due to stuck port clock_enable ;
+; RegFile:RF1|Registers[0][3]              ; Stuck at GND due to stuck port clock_enable ;
+; RegFile:RF1|Registers[0][2]              ; Stuck at GND due to stuck port clock_enable ;
+; RegFile:RF1|Registers[0][1]              ; Stuck at GND due to stuck port clock_enable ;
+; RegFile:RF1|Registers[0][0]              ; Stuck at GND due to stuck port clock_enable ;
 ; InstFetch:IF1|ProgCtr[0..9]              ; Lost fanout                                 ;
 ; RegFile:RF1|Registers[1][7]              ; Lost fanout                                 ;
 ; RegFile:RF1|Registers[1][6]              ; Lost fanout                                 ;
@@ -2345,22 +2345,20 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +------------------------------------------+---------------------------------------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------------------+
-; Removed Registers Triggering Further Register Optimizations                                                                                  ;
-+-----------------------------+--------------------------------+-------------------------------------------------------------------------------+
-; Register name               ; Reason for Removal             ; Registers Removed due to This Register                                        ;
-+-----------------------------+--------------------------------+-------------------------------------------------------------------------------+
-; RegFile:RF1|Registers[0][7] ; Stuck at GND                   ; RegFile:RF1|Registers[0][1], RegFile:RF1|Registers[2][1],                     ;
-;                             ; due to stuck port clock_enable ; RegFile:RF1|Registers[3][1], RegFile:RF1|Registers[0][0],                     ;
-;                             ;                                ; RegFile:RF1|Registers[2][0], RegFile:RF1|Registers[3][0],                     ;
-;                             ;                                ; RegFile:RF1|Registers[1][7], RegFile:RF1|Registers[1][6],                     ;
-;                             ;                                ; RegFile:RF1|Registers[1][5], RegFile:RF1|Registers[1][4],                     ;
-;                             ;                                ; RegFile:RF1|Registers[1][3], RegFile:RF1|Registers[1][2],                     ;
-;                             ;                                ; RegFile:RF1|Registers[1][1], RegFile:RF1|Registers[1][0]                      ;
-; InstFetch:IF1|ProgCtr[0]    ; Lost Fanouts                   ; InstFetch:IF1|ProgCtr[1], InstFetch:IF1|ProgCtr[2], InstFetch:IF1|ProgCtr[3], ;
-;                             ;                                ; InstFetch:IF1|ProgCtr[4], InstFetch:IF1|ProgCtr[5], InstFetch:IF1|ProgCtr[6], ;
-;                             ;                                ; InstFetch:IF1|ProgCtr[7], InstFetch:IF1|ProgCtr[8], InstFetch:IF1|ProgCtr[9]  ;
-+-----------------------------+--------------------------------+-------------------------------------------------------------------------------+
++----------------------------------------------------------------------------------------------------------------------------------------------------+
+; Removed Registers Triggering Further Register Optimizations                                                                                        ;
++-----------------------------+--------------------------------+-------------------------------------------------------------------------------------+
+; Register name               ; Reason for Removal             ; Registers Removed due to This Register                                              ;
++-----------------------------+--------------------------------+-------------------------------------------------------------------------------------+
+; RegFile:RF1|Registers[0][7] ; Stuck at GND                   ; RegFile:RF1|Registers[0][6], RegFile:RF1|Registers[0][5],                           ;
+;                             ; due to stuck port clock_enable ; RegFile:RF1|Registers[0][4], RegFile:RF1|Registers[0][3],                           ;
+;                             ;                                ; RegFile:RF1|Registers[0][2], RegFile:RF1|Registers[0][1],                           ;
+;                             ;                                ; RegFile:RF1|Registers[0][0], InstFetch:IF1|ProgCtr[0], InstFetch:IF1|ProgCtr[1],    ;
+;                             ;                                ; InstFetch:IF1|ProgCtr[2], RegFile:RF1|Registers[1][7], RegFile:RF1|Registers[1][6], ;
+;                             ;                                ; RegFile:RF1|Registers[1][5], RegFile:RF1|Registers[1][4],                           ;
+;                             ;                                ; RegFile:RF1|Registers[1][3], RegFile:RF1|Registers[1][2],                           ;
+;                             ;                                ; RegFile:RF1|Registers[1][1], RegFile:RF1|Registers[1][0]                            ;
++-----------------------------+--------------------------------+-------------------------------------------------------------------------------------+
 
 
 +------------------------------------------------------+
@@ -2430,7 +2428,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
-    Info: Processing started: Wed Feb 17 20:33:35 2021
+    Info: Processing started: Thu Feb 18 20:16:31 2021
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off ISA -c ISA
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 16 of the 16 processors detected
@@ -2467,7 +2465,6 @@ Warning (10030): Net "inst_rom.data_a" at InstROM.sv(38) has no driver or initia
 Warning (10030): Net "inst_rom.waddr_a" at InstROM.sv(38) has no driver or initial value, using a default initial value '0' File: C:/Users/blade/Desktop/ISA/InstROM.sv Line: 38
 Warning (10030): Net "inst_rom.we_a" at InstROM.sv(38) has no driver or initial value, using a default initial value '0' File: C:/Users/blade/Desktop/ISA/InstROM.sv Line: 38
 Info (12128): Elaborating entity "RegFile" for hierarchy "RegFile:RF1" File: C:/Users/blade/Desktop/ISA/TopLevel.sv Line: 74
-Warning (10855): Verilog HDL warning at RegFile.sv(36): initial value for variable Registers should be constant File: C:/Users/blade/Desktop/ISA/RegFile.sv Line: 36
 Info (12128): Elaborating entity "ALU" for hierarchy "ALU:ALU1" File: C:/Users/blade/Desktop/ISA/TopLevel.sv Line: 92
 Warning (10036): Verilog HDL or VHDL warning at ALU.sv(18): object "op_mnemonic" assigned a value but never read File: C:/Users/blade/Desktop/ISA/ALU.sv Line: 18
 Warning (10230): Verilog HDL assignment warning at ALU.sv(30): truncated value with size 9 to match size of target (8) File: C:/Users/blade/Desktop/ISA/ALU.sv Line: 30
@@ -2479,7 +2476,7 @@ Info (12128): Elaborating entity "DataMem" for hierarchy "DataMem:DM1" File: C:/
 Warning (127007): Memory Initialization File or Hexadecimal (Intel-Format) File "C:/Users/blade/Desktop/ISA/db/ISA.ram0_InstROM_15efe571.hdl.mif" contains "don't care" values -- overwriting them with 0s
 Warning (13024): Output pins are stuck at VCC or GND
     Warning (13410): Pin "Ack" is stuck at GND File: C:/Users/blade/Desktop/ISA/TopLevel.sv Line: 12
-Info (17049): 2098 registers lost all their fanouts during netlist optimizations.
+Info (17049): 2114 registers lost all their fanouts during netlist optimizations.
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
 Warning (21074): Design contains 3 input pin(s) that do not drive logic
@@ -2489,9 +2486,9 @@ Warning (21074): Design contains 3 input pin(s) that do not drive logic
 Info (21057): Implemented 4 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 3 input pins
     Info (21059): Implemented 1 output pins
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 23 warnings
-    Info: Peak virtual memory: 4741 megabytes
-    Info: Processing ended: Wed Feb 17 20:33:42 2021
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 22 warnings
+    Info: Peak virtual memory: 4737 megabytes
+    Info: Processing ended: Thu Feb 18 20:16:38 2021
     Info: Elapsed time: 00:00:07
     Info: Total CPU time (on all processors): 00:00:18
 
