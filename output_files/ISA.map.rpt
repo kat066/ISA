@@ -1,5 +1,5 @@
 Analysis & Synthesis report for ISA
-Thu Feb 18 20:16:38 2021
+Mon Feb 22 00:22:36 2021
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -18,9 +18,10 @@ Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
  10. General Register Statistics
  11. Parameter Settings for User Entity Instance: InstROM:IR1
  12. Parameter Settings for User Entity Instance: RegFile:RF1
- 13. Post-Synthesis Netlist Statistics for Top Partition
- 14. Elapsed Time Per Partition
- 15. Analysis & Synthesis Messages
+ 13. Port Connectivity Checks: "InstFetch:IF1"
+ 14. Post-Synthesis Netlist Statistics for Top Partition
+ 15. Elapsed Time Per Partition
+ 16. Analysis & Synthesis Messages
 
 
 
@@ -47,7 +48,7 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Thu Feb 18 20:16:38 2021       ;
+; Analysis & Synthesis Status        ; Successful - Mon Feb 22 00:22:36 2021       ;
 ; Quartus Prime Version              ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name                      ; ISA                                         ;
 ; Top-level Entity Name              ; TopLevel                                    ;
@@ -2345,20 +2346,21 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +------------------------------------------+---------------------------------------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------+
-; Removed Registers Triggering Further Register Optimizations                                                                                        ;
-+-----------------------------+--------------------------------+-------------------------------------------------------------------------------------+
-; Register name               ; Reason for Removal             ; Registers Removed due to This Register                                              ;
-+-----------------------------+--------------------------------+-------------------------------------------------------------------------------------+
-; RegFile:RF1|Registers[0][7] ; Stuck at GND                   ; RegFile:RF1|Registers[0][6], RegFile:RF1|Registers[0][5],                           ;
-;                             ; due to stuck port clock_enable ; RegFile:RF1|Registers[0][4], RegFile:RF1|Registers[0][3],                           ;
-;                             ;                                ; RegFile:RF1|Registers[0][2], RegFile:RF1|Registers[0][1],                           ;
-;                             ;                                ; RegFile:RF1|Registers[0][0], InstFetch:IF1|ProgCtr[0], InstFetch:IF1|ProgCtr[1],    ;
-;                             ;                                ; InstFetch:IF1|ProgCtr[2], RegFile:RF1|Registers[1][7], RegFile:RF1|Registers[1][6], ;
-;                             ;                                ; RegFile:RF1|Registers[1][5], RegFile:RF1|Registers[1][4],                           ;
-;                             ;                                ; RegFile:RF1|Registers[1][3], RegFile:RF1|Registers[1][2],                           ;
-;                             ;                                ; RegFile:RF1|Registers[1][1], RegFile:RF1|Registers[1][0]                            ;
-+-----------------------------+--------------------------------+-------------------------------------------------------------------------------------+
++-------------------------------------------------------------------------------------------------------------------------------------------------+
+; Removed Registers Triggering Further Register Optimizations                                                                                     ;
++-----------------------------+--------------------------------+----------------------------------------------------------------------------------+
+; Register name               ; Reason for Removal             ; Registers Removed due to This Register                                           ;
++-----------------------------+--------------------------------+----------------------------------------------------------------------------------+
+; RegFile:RF1|Registers[0][7] ; Stuck at GND                   ; RegFile:RF1|Registers[0][6], RegFile:RF1|Registers[0][5],                        ;
+;                             ; due to stuck port clock_enable ; RegFile:RF1|Registers[0][4], RegFile:RF1|Registers[0][3],                        ;
+;                             ;                                ; RegFile:RF1|Registers[0][2], RegFile:RF1|Registers[0][1],                        ;
+;                             ;                                ; RegFile:RF1|Registers[0][0], InstFetch:IF1|ProgCtr[0], InstFetch:IF1|ProgCtr[1], ;
+;                             ;                                ; InstFetch:IF1|ProgCtr[2], InstFetch:IF1|ProgCtr[3], RegFile:RF1|Registers[1][7], ;
+;                             ;                                ; RegFile:RF1|Registers[1][6], RegFile:RF1|Registers[1][5],                        ;
+;                             ;                                ; RegFile:RF1|Registers[1][4], RegFile:RF1|Registers[1][3],                        ;
+;                             ;                                ; RegFile:RF1|Registers[1][2], RegFile:RF1|Registers[1][1],                        ;
+;                             ;                                ; RegFile:RF1|Registers[1][0]                                                      ;
++-----------------------------+--------------------------------+----------------------------------------------------------------------------------+
 
 
 +------------------------------------------------------+
@@ -2398,6 +2400,15 @@ Note: In order to hide this table in the UI and the text report file, please set
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
++------------------------------------------------+
+; Port Connectivity Checks: "InstFetch:IF1"      ;
++--------------+-------+----------+--------------+
+; Port         ; Type  ; Severity ; Details      ;
++--------------+-------+----------+--------------+
+; Target[9..8] ; Input ; Info     ; Stuck at GND ;
++--------------+-------+----------+--------------+
+
+
 +-----------------------------------------------------+
 ; Post-Synthesis Netlist Statistics for Top Partition ;
 +-----------------------+-----------------------------+
@@ -2428,7 +2439,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
-    Info: Processing started: Thu Feb 18 20:16:31 2021
+    Info: Processing started: Mon Feb 22 00:22:29 2021
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off ISA -c ISA
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 16 of the 16 processors detected
@@ -2487,9 +2498,9 @@ Info (21057): Implemented 4 device resources after synthesis - the final resourc
     Info (21058): Implemented 3 input pins
     Info (21059): Implemented 1 output pins
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 22 warnings
-    Info: Peak virtual memory: 4737 megabytes
-    Info: Processing ended: Thu Feb 18 20:16:38 2021
+    Info: Peak virtual memory: 4738 megabytes
+    Info: Processing ended: Mon Feb 22 00:22:36 2021
     Info: Elapsed time: 00:00:07
-    Info: Total CPU time (on all processors): 00:00:18
+    Info: Total CPU time (on all processors): 00:00:17
 
 

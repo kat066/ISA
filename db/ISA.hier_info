@@ -2,7 +2,7 @@
 Reset => Reset.IN1
 Start => Start.IN1
 Clk => Clk.IN1
-Ack << WideAnd0.DB_MAX_OUTPUT_PORT_TYPE
+Ack <= WideAnd0.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |TopLevel|InstFetch:IF1

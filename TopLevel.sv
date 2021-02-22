@@ -100,6 +100,7 @@ logic[15:0] CycleCt;	   // standalone; NOT PC!
 		.Reset		  (Reset)
 	);
 	assign RegWrEn = (MemWrite||BranchEn||Jump)? 'b0 : 'b1;
+	assign PCTarg = Jump? ALU_out : Imm;
 // count number of instructions executed
 always_ff @(posedge Clk)
   if (Start == 1)	   // if(start)
