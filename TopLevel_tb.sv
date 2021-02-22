@@ -30,10 +30,14 @@ initial begin
   #10ns for(int i=0; i<256; i++) begin
     DUT.DM1.Core[i] = 8'h0;	     // clear data_mem
   end
-    DUT.DM1.Core[1] = 8'h03;      // MSW of operand A
-    DUT.DM1.Core[2] = 8'hff;
-    DUT.DM1.Core[3] = 8'hff;      // MSW of operand B
-    DUT.DM1.Core[4] = 8'hfb;
+    DUT.DM1.Core[128] = 8'h00; 
+    DUT.DM1.Core[129] = 8'h01;
+    DUT.DM1.Core[130] = 8'h02; 
+    DUT.DM1.Core[131] = 8'h03;
+	 DUT.DM1.Core[132] = 8'h04;
+    DUT.DM1.Core[133] = 8'h05;
+	 DUT.DM1.Core[134] = 8'h06;
+	 DUT.DM1.Core[135] = 8'h07;
 // students may also pre_load desired constants into DM
 // Initialize DUT's register file
 //  for(int j=0; j<16; j++)

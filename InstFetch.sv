@@ -25,7 +25,7 @@ module InstFetch(
 	else if(BranchAbs)	                // unconditional absolute jump
 	  ProgCtr <= Target;
 	else if(BranchRelEn && ALU_flag)    // conditional relative jump
-	  ProgCtr <= ProgCtr - Target;
+	  ProgCtr <= Target;
 	else
 	  ProgCtr <= ProgCtr+'b1; 	        // default increment (no need for ARM/MIPS +4 -- why?)
 

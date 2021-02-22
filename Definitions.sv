@@ -16,10 +16,9 @@ package definitions;
 	const logic [3:0]iAND  = 4'b0110;
 	const logic [3:0]iLOAD  = 4'b0111;
 	const logic [3:0]iSTORE  = 4'b1000;
+	const logic [3:0]iHALT  = 4'b1001;
 	const logic [1:0]iiBEQ  = 2'b00;
-	const logic [1:0]iiBNE  = 2'b01;
-	const logic [1:0]iiBLE  = 2'b10;
-	const logic [1:0]iiBLT  = 2'b11;
+	const logic [1:0]iiBLT  = 2'b01;
 	const logic [1:0]iiiANDI  = 2'b00;
 	const logic [1:0]iiiADDI  = 2'b01;
 	const logic [1:0]iiiSUB  = 2'b10;
@@ -37,21 +36,20 @@ package definitions;
 	const logic [4:0]oANDI = 5'b00111;
 	const logic [4:0]oLOAD = 5'b01000;
 	const logic [4:0]oSTORE = 5'b01001;
-	const logic [4:0]oBEQ = 5'b01010;
-	const logic [4:0]oBNE = 5'b01011;
-	const logic [4:0]oBLE = 5'b01100;
-	const logic [4:0]oBLT = 5'b01101;
-	const logic [4:0]oJUMP = 5'b01110;
-	const logic [4:0]oADD = 5'b01111;
-	const logic [4:0]oADDI = 5'b10000;
-	const logic [4:0]oSUB = 5'b10001;
-	const logic [4:0]oLUT = 5'b10010;
+	const logic [4:0]oHALT = 5'b01010;
+	const logic [4:0]oBEQ = 5'b01011;
+	const logic [4:0]oBLT = 5'b01100;
+	const logic [4:0]oJUMP = 5'b01101;
+	const logic [4:0]oADD = 5'b01110;
+	const logic [4:0]oADDI = 5'b01111;
+	const logic [4:0]oSUB = 5'b10000;
+	const logic [4:0]oLUT = 5'b10001;
 											
 	
 // enum names will appear in timing diagram
     typedef enum logic[4:0] {
         LSR, RSR, MOVER, MOVEA, XOR,RXOR, AND, ANDI,LOAD,
-		 STORE,BEQ,BNE,BLE,BLT,JUMP,ADD,ADDI,SUB,LUT } op_mne;
+		 STORE,HALT, BEQ,BLT,JUMP,ADD,ADDI,SUB,LUT } op_mne;
 // note: kADD is of type logic[2:0] (3-bit binary)
 //   ADD is of type enum -- equiv., but watch casting
 //   see ALU.sv for how to handle this   

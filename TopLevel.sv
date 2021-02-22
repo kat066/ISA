@@ -16,7 +16,7 @@ wire [ 9:0] PgmCtr,        // program counter
 wire [ 8:0] Instruction;   // our 9-bit opcode
 wire [ 7:0] ReadA, ReadB;  // reg_file outputs
 wire [ 7:0] InA, InB, 	   // ALU operand inputs
-            ALU_out;       // ALU result
+            ALU_out,DataAddress;       // ALU result
 wire [ 7:0] RegWriteValue, // data in to reg file
             MemWriteValue, // data in to data_memory
 	   	    MemReadValue;  // data out from data_memory
@@ -61,7 +61,7 @@ logic[15:0] CycleCt;	   // standalone; NOT PC!
 	);
 
   assign LoadInst = Instruction[8:3]=={typeI,iLOAD};  // calls out load specially
-  assign Ack = &Instruction;
+  
 // reg file
 	RegFile #(.W(8),.D(3)) RF1 (
 		.Clk    				  ,
@@ -90,17 +90,19 @@ logic[15:0] CycleCt;	   // standalone; NOT PC!
 	  .Out     (ALU_out),//regWriteValue),
 	  .Zero
 	  );
+  assign Ack = (OP==HALT)? 'b1 : 'b0;
   assign MemWriteValue = ALU_out;
+  assign DataAddress = (BranchEn||Jump)? (8'b10000000+Imm) : ReadB;
 	DataMem DM1(
-		.DataAddress  (ReadB)    , 
+		.DataAddress  (DataAddress)    , 
 		.WriteEn      (MemWrite), 
 		.DataIn       (MemWriteValue), 
 		.DataOut      (MemReadValue)  , 
 		.Clk 		  		     ,
 		.Reset		  (Reset)
 	);
-	assign RegWrEn = (MemWrite||BranchEn||Jump)? 'b0 : 'b1;
-	assign PCTarg = Jump? ALU_out : Imm;
+	assign RegWrEn = (MemWrite||BranchEn||Jump||Ack)? 'b0 : 'b1;
+	assign PCTarg = MemReadValue;
 // count number of instructions executed
 always_ff @(posedge Clk)
   if (Start == 1)	   // if(start)

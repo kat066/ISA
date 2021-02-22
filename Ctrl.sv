@@ -46,15 +46,14 @@ always_comb begin
 				iAND: OP = oAND;
 				iLOAD: OP = oLOAD;
 				iSTORE: OP = oSTORE;
+				iHALT: OP = oHALT;
 			endcase
 		end
 		typeII: begin
-			RegReadAddr = Instruction[4:2];
-			Imm = {3'b000,Instruction[1:0]};
-			case(Instruction[6:5])
+			RegReadAddr = Instruction[5:3];
+			Imm = {3'b000,Instruction[2:0]};
+			case(Instruction[6])
 				iiBEQ: OP = oBEQ;
-				iiBNE: OP = oBNE;
-				iiBLE: OP = oBLE;
 				iiBLT: OP = oBLT;
 			endcase
 		end

@@ -7,6 +7,8 @@ module DataMem(
   input              Clk,
                      Reset,
                      WriteEn,
+							BranchEn,
+							Jump,	
   input [7:0]        DataAddress,   // 8-bit-wide pointer to 256-deep memory
                      DataIn,		// 8-bit-wide data path, also
   output logic[7:0]  DataOut);
@@ -17,9 +19,8 @@ module DataMem(
     initial 
       $readmemh("dataram_init.list", Core);
 */
-  always_comb                    // reads are combinational
+  always_comb                 // reads are combinational
     DataOut = Core[DataAddress];
-
   always_ff @ (posedge Clk)		 // writes are sequential
 /*( Reset response is needed only for initialization (see inital $readmemh above for another choice)
   if you do not need to preload your data memory with any constants, you may omit the if(Reset) and the else,

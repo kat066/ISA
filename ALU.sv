@@ -30,9 +30,8 @@ module ALU(
 		oANDI : Out = InputA & {4'b0,Imm};
 		oLOAD : Out = InputB;
 		oSTORE : Out = InputA;
+		oHALT: Out = InputA;
 		oBEQ : Out = !(InputA == InputB);
-		oBNE : Out = !(InputA != InputB);
-		oBLE : Out = !(InputA <= InputB);
 		oBLT : Out = !(InputA < InputB);
 		oJUMP : Out = {4'b0,Imm};
 		oADD : Out = InputA + InputB;      // add 
