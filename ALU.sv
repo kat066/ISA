@@ -6,6 +6,7 @@
 // Additional Comments: 
 //   combinational (unclocked) ALU
 import definitions::*;			         // includes package "definitions"
+//import LUT::*;
 module ALU(
   input        [7:0] InputA,             // data inputs
                      InputB,
@@ -13,10 +14,15 @@ module ALU(
   input        [4:0] OP,		         // ALU opcode, part of microcode
   output logic [7:0] Out,		         // or:  output reg [7:0] OUT,
   output logic       Zero                // output = zero flag
-    );								    
+    );			
+
 	 
+  logic			[7:0] LookUp; 
   op_mne op_mnemonic;			         // type enum: used for convenient waveform viewing
-	
+  LUT LUT1 (
+		.Addr		(InputB),
+		.Target (LookUp)
+  );
   always_comb begin
     Out = 0;                             // No Op = default
     case(OP)
@@ -37,7 +43,7 @@ module ALU(
 		oADD : Out = InputA + InputB;      // add 
 		oADDI : Out = InputA + {4'b0,Imm};
 		oSUB : Out = InputA - {4'b0,Imm};
-		oLUT : Out = InputA;
+		oLUT : Out = LookUp;
     endcase
   end
 

@@ -1,5 +1,5 @@
 Analysis & Synthesis report for ISA
-Mon Feb 22 01:52:24 2021
+Mon Feb 22 04:05:11 2021
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -50,7 +50,7 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Mon Feb 22 01:52:24 2021       ;
+; Analysis & Synthesis Status        ; Successful - Mon Feb 22 04:05:11 2021       ;
 ; Quartus Prime Version              ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name                      ; ISA                                         ;
 ; Top-level Entity Name              ; TopLevel                                    ;
@@ -175,6 +175,7 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------+-----------------+------------------------------+---------------------------------------------+---------+
 ; TopLevel.sv                      ; yes             ; User SystemVerilog HDL File  ; C:/Users/blade/Desktop/ISA/TopLevel.sv      ;         ;
 ; RegFile.sv                       ; yes             ; User SystemVerilog HDL File  ; C:/Users/blade/Desktop/ISA/RegFile.sv       ;         ;
+; LUT.sv                           ; yes             ; User SystemVerilog HDL File  ; C:/Users/blade/Desktop/ISA/LUT.sv           ;         ;
 ; InstROM.sv                       ; yes             ; User SystemVerilog HDL File  ; C:/Users/blade/Desktop/ISA/InstROM.sv       ;         ;
 ; InstFetch.sv                     ; yes             ; User SystemVerilog HDL File  ; C:/Users/blade/Desktop/ISA/InstFetch.sv     ;         ;
 ; Definitions.sv                   ; yes             ; User SystemVerilog HDL File  ; C:/Users/blade/Desktop/ISA/Definitions.sv   ;         ;
@@ -2461,7 +2462,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
-    Info: Processing started: Mon Feb 22 01:52:16 2021
+    Info: Processing started: Mon Feb 22 04:05:04 2021
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off ISA -c ISA
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 16 of the 16 processors detected
@@ -2484,7 +2485,7 @@ Info (12021): Found 1 design units, including 1 entities, in source file datamem
 Info (12021): Found 1 design units, including 1 entities, in source file ctrl.sv
     Info (12023): Found entity 1: Ctrl File: C:/Users/blade/Desktop/ISA/Ctrl.sv Line: 6
 Info (12021): Found 1 design units, including 1 entities, in source file alu.sv
-    Info (12023): Found entity 1: ALU File: C:/Users/blade/Desktop/ISA/ALU.sv Line: 9
+    Info (12023): Found entity 1: ALU File: C:/Users/blade/Desktop/ISA/ALU.sv Line: 10
 Warning (10236): Verilog HDL Implicit Net warning at TopLevel.sv(63): created implicit net for "LoadInst" File: C:/Users/blade/Desktop/ISA/TopLevel.sv Line: 63
 Info (12127): Elaborating entity "TopLevel" for the top level hierarchy
 Warning (10230): Verilog HDL assignment warning at TopLevel.sv(93): truncated value with size 32 to match size of target (1) File: C:/Users/blade/Desktop/ISA/TopLevel.sv Line: 93
@@ -2501,12 +2502,13 @@ Warning (10030): Net "inst_rom.waddr_a" at InstROM.sv(38) has no driver or initi
 Warning (10030): Net "inst_rom.we_a" at InstROM.sv(38) has no driver or initial value, using a default initial value '0' File: C:/Users/blade/Desktop/ISA/InstROM.sv Line: 38
 Info (12128): Elaborating entity "RegFile" for hierarchy "RegFile:RF1" File: C:/Users/blade/Desktop/ISA/TopLevel.sv Line: 74
 Info (12128): Elaborating entity "ALU" for hierarchy "ALU:ALU1" File: C:/Users/blade/Desktop/ISA/TopLevel.sv Line: 92
-Warning (10036): Verilog HDL or VHDL warning at ALU.sv(18): object "op_mnemonic" assigned a value but never read File: C:/Users/blade/Desktop/ISA/ALU.sv Line: 18
-Warning (10230): Verilog HDL assignment warning at ALU.sv(30): truncated value with size 9 to match size of target (8) File: C:/Users/blade/Desktop/ISA/ALU.sv Line: 30
+Warning (10036): Verilog HDL or VHDL warning at ALU.sv(21): object "op_mnemonic" assigned a value but never read File: C:/Users/blade/Desktop/ISA/ALU.sv Line: 21
 Warning (10230): Verilog HDL assignment warning at ALU.sv(36): truncated value with size 9 to match size of target (8) File: C:/Users/blade/Desktop/ISA/ALU.sv Line: 36
-Warning (10230): Verilog HDL assignment warning at ALU.sv(38): truncated value with size 9 to match size of target (8) File: C:/Users/blade/Desktop/ISA/ALU.sv Line: 38
-Warning (10230): Verilog HDL assignment warning at ALU.sv(39): truncated value with size 9 to match size of target (8) File: C:/Users/blade/Desktop/ISA/ALU.sv Line: 39
-Warning (10270): Verilog HDL Case Statement warning at ALU.sv(22): incomplete case statement has no default case item File: C:/Users/blade/Desktop/ISA/ALU.sv Line: 22
+Warning (10230): Verilog HDL assignment warning at ALU.sv(42): truncated value with size 9 to match size of target (8) File: C:/Users/blade/Desktop/ISA/ALU.sv Line: 42
+Warning (10230): Verilog HDL assignment warning at ALU.sv(44): truncated value with size 9 to match size of target (8) File: C:/Users/blade/Desktop/ISA/ALU.sv Line: 44
+Warning (10230): Verilog HDL assignment warning at ALU.sv(45): truncated value with size 9 to match size of target (8) File: C:/Users/blade/Desktop/ISA/ALU.sv Line: 45
+Warning (10270): Verilog HDL Case Statement warning at ALU.sv(28): incomplete case statement has no default case item File: C:/Users/blade/Desktop/ISA/ALU.sv Line: 28
+Info (12128): Elaborating entity "LUT" for hierarchy "ALU:ALU1|LUT:LUT1" File: C:/Users/blade/Desktop/ISA/ALU.sv Line: 25
 Info (12128): Elaborating entity "DataMem" for hierarchy "DataMem:DM1" File: C:/Users/blade/Desktop/ISA/TopLevel.sv Line: 103
 Warning (127007): Memory Initialization File or Hexadecimal (Intel-Format) File "C:/Users/blade/Desktop/ISA/db/ISA.ram0_InstROM_15efe571.hdl.mif" contains "don't care" values -- overwriting them with 0s
 Warning (12241): 1 hierarchies have connectivity warnings - see the Connectivity Checks report folder
@@ -2523,9 +2525,9 @@ Info (21057): Implemented 4 device resources after synthesis - the final resourc
     Info (21058): Implemented 3 input pins
     Info (21059): Implemented 1 output pins
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 25 warnings
-    Info: Peak virtual memory: 4740 megabytes
-    Info: Processing ended: Mon Feb 22 01:52:24 2021
-    Info: Elapsed time: 00:00:08
-    Info: Total CPU time (on all processors): 00:00:19
+    Info: Peak virtual memory: 4741 megabytes
+    Info: Processing ended: Mon Feb 22 04:05:11 2021
+    Info: Elapsed time: 00:00:07
+    Info: Total CPU time (on all processors): 00:00:18
 
 

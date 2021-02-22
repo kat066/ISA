@@ -1,0 +1,22 @@
+{
+	"system" : {
+		"platform" : "windows64",
+		"os_name" : "Windows 10",
+		"os_version" : "10.0"
+	},
+	"error" : {
+		"executable" : "quartus_map",
+		"comment" : "not_applicable",
+		"error_message" : "package",
+		"source_file" : "/quartus/synth/vrfx/verific/verilog/veriname.cpp",
+		"line" : "684",
+		"stack_trace" : "\t0x7ff8e0451f60: synth_vrfx + 0x51f60 (?vrfx_altera_assert@@YAX_NPEBDH1@Z + 0x20)\n\t0x7ff8e0537478: synth_vrfx + 0x137478 (?RecursiveResolve@VeriScopedIdRef@@UEAAXPEAVVeriScope@@AEBVVeriEnv@@@Z + 0x1c8)\n\t0x7ff8e052a789: synth_vrfx + 0x12a789 (?Resolve@VeriExpression@@UEAAXPEAVVeriScope@@AEBVVeriEnv@@@Z + 0x49)\n\t0x7ff8e057ace7: synth_vrfx + 0x17ace7 (?ResolveImport@VeriImport@@UEAAXPEAVVeriScope@@@Z + 0x77)\n\t0x7ff8e0535106: synth_vrfx + 0x135106 (?ResolveImports@VeriScope@@QEAAXXZ + 0x56)\n\t0x7ff8e04e53a4: synth_vrfx + 0xe53a4 (?ResolveGlobals@VeriLibrary@@QEAAXAEAVSet@@@Z + 0x34)\n\t0x7ff8e0465f61: synth_vrfx + 0x65f61 (?resolve_all_design_units@VRFX_ANALYZER_IMPL@@SA_NPEAVHDB_NAMESPACE@@PEAV?$list@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@1@Z + 0x201)\n\t0x7ff8e34b6c2d: synth_sgn + 0x86c2d (?start@SGN_ANALYZER@@QEAAXXZ + 0x79d)\n\t0x7ff8e34431b1: synth_sgn + 0x131b1 (?sgn_qic_full@@YA?AW4SGN_STATE_ENUM@@PEAVCMP_FACADE@@AEAV?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@AEAV?$vector@NV?$allocator@N@std@@@4@@Z + 0x151)\n\t0x7ff64b1543af: quartus_map + 0x43af (?qsyn_execute_sgn@@YA?AW4SGN_STATE_ENUM@@PEAVCMP_FACADE@@AEAV?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@4@PEAVTHR_NAMED_PIPE@@3@Z + 0x13f)\n\t0x7ff64b164246: quartus_map + 0x14246 (?execute_core@QSYN_FRAMEWORK@@AEAA_NPEAVTHR_NAMED_PIPE@@0@Z + 0x136)\n\t0x7ff64b163d2b: quartus_map + 0x13d2b (?execute@QSYN_FRAMEWORK@@UEAA_NXZ + 0x49b)\n\t0x7ff93beb150c: comp_qexe + 0x1150c (qexe_do_normal + 0x1ec)\n\t0x7ff93beb6622: comp_qexe + 0x16622 (qexe_run + 0x432)\n\t0x7ff93beb7371: comp_qexe + 0x17371 (?qexe_standard_main@@YAHPEAVQEXE_FRAMEWORK@@PEAPEBUQEXE_OPTION_DEFINITION@@HPEAPEBD@Z + 0xc1)\n\t0x7ff64b16b42b: quartus_map + 0x1b42b (?qsyn_main@@YAHHPEAPEBD@Z + 0x53b)\n\t0x7ff948733258: CCL_MSG + 0x13258 (?msg_main_thread@@YAPEAXPEAX@Z + 0x18)\n\t0x7ff948734a5e: CCL_MSG + 0x14a5e (?msg_thread_wrapper@@YAPEAXP6APEAXPEAX@Z0@Z + 0x6e)\n\t0x7ff9486f6af0: ccl_mem + 0x16af0 (?mem_thread_wrapper@@YAPEAXP6APEAXPEAX@Z0@Z + 0x70)\n\t0x7ff948732af1: CCL_MSG + 0x12af1 (?msg_exe_main@@YAHHPEAPEBDP6AHH0@Z@Z + 0xa1)\n\t0x7ff64b17a236: quartus_map + 0x2a236 (__tmainCRTStartup + 0x10e)\n\t0x7ff960db7033: KERNEL32 + 0x17033 (BaseThreadInitThunk + 0x13)\n\t0x7ff96109d240: ntdll + 0x4d240 (RtlUserThreadStart + 0x20)\n",
+		"subsystem" : "VRFX"
+	},
+	"quartus" : {
+		"quartus_bits" : "64",
+		"version" : "20.1.1",
+		"build" : "720",
+		"edition" : "Lite Edition"
+	}
+}
