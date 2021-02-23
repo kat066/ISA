@@ -26,23 +26,23 @@ module ALU(
   always_comb begin
     Out = 0;                             // No Op = default
     case(OP)
-		oLSR : Out = InputA << Imm;  	      
-		oRSR : Out = InputA >> Imm;
+		oLSR : Out = InputB << Imm;  	      
+		oRSR : Out = InputB >> Imm;
 		oMOVER : Out = InputA;
 		oMOVEA : Out = InputB;
 		oXOR : Out = InputA ^ InputB;
 		oRXOR : Out = {7'b0, ^InputA};
 		oAND : Out = InputA & InputB;      // and
-		oANDI : Out = InputA & {4'b0,Imm};
+		oANDI : Out = InputA & {3'b0,Imm};
 		oLOAD : Out = InputB;
 		oSTORE : Out = InputA;
 		oHALT: Out = InputA;
 		oBEQ : Out = !(InputA == InputB);
 		oBLT : Out = !(InputA < InputB);
-		oJUMP : Out = {4'b0,Imm};
+		oJUMP : Out = {3'b0,Imm};
 		oADD : Out = InputA + InputB;      // add 
-		oADDI : Out = InputA + {4'b0,Imm};
-		oSUB : Out = InputA - {4'b0,Imm};
+		oADDI : Out = InputA + {3'b0,Imm};
+		oSUB : Out = InputA - {3'b0,Imm};
 		oLUT : Out = LookUp;
     endcase
   end

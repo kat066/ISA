@@ -7,11 +7,9 @@ module Ctrl (
   input[ 8:0] Instruction,	   // machine code
   output logic Jump,
                BranchEn,
-					
-  output logic[2:0] RegReadAddr,
-						RegWriteAddr,
-  output logic[ 4:0] Imm,
-							OP
+					WriteR,
+					ImmMux,
+  output logic[ 4:0] OP
    
   );
 // jump on right shift that generates a zero
@@ -26,18 +24,16 @@ always_comb begin
   else
     BranchEn = 0;
 	
-	RegWriteAddr=3'b001;
-	RegReadAddr = 3'b001;
-	Imm = 5'b0;
+	WriteR = 0;
+	ImmMux = 0;
 	OP = 5'b0;
    case(Instruction[8:7])
 		typeI: begin
-			RegReadAddr = Instruction[2:0];
 			case(Instruction[6:3])
 				iADD:OP = oADD;
 				iMOVER: begin
 					OP = oMOVER;
-					RegWriteAddr = Instruction[2:0];
+					WriteR = 1;
 				end
 				iMOVEA: OP = oMOVEA;
 				iRXOR: OP = oRXOR;
@@ -50,15 +46,13 @@ always_comb begin
 			endcase
 		end
 		typeII: begin
-			RegReadAddr = Instruction[5:3];
-			Imm = {3'b000,Instruction[2:0]};
 			case(Instruction[6])
 				iiBEQ: OP = oBEQ;
 				iiBLT: OP = oBLT;
 			endcase
 		end
 		typeIII:begin
-			Imm = Instruction[4:0];
+			ImmMux=1;
 			case(Instruction[6:5])
 				iiiANDI: OP = oANDI;
 				iiiADDI: OP = oADDI;
@@ -67,9 +61,7 @@ always_comb begin
 			endcase
 		end
 		typeIV: begin
-			RegReadAddr = Instruction[5:3];
-			Imm = {2'b00,Instruction[2:0]};
-			RegWriteAddr = Instruction[5:3];
+			WriteR = 1;
 			case(Instruction[6])
 				ivLSR: OP = oLSR;
 				ivRSR: OP = oRSR;

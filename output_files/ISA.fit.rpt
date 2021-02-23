@@ -1,5 +1,5 @@
 Fitter report for ISA
-Mon Feb 22 04:05:14 2021
+Mon Feb 22 23:05:12 2021
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -59,7 +59,7 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Fitter Summary                                                                   ;
 +------------------------------------+---------------------------------------------+
-; Fitter Status                      ; Successful - Mon Feb 22 04:05:14 2021       ;
+; Fitter Status                      ; Successful - Mon Feb 22 23:05:12 2021       ;
 ; Quartus Prime Version              ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name                      ; ISA                                         ;
 ; Top-level Entity Name              ; TopLevel                                    ;
@@ -148,7 +148,7 @@ https://fpgasoftware.intel.com/eula.
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processors 2-16        ;   0.2%      ;
+;     Processors 2-16        ;   0.1%      ;
 +----------------------------+-------------+
 
 
@@ -755,7 +755,7 @@ Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were
     Info (170201): Optimizations that may affect the design's routability were skipped
     Info (170200): Optimizations that may affect the design's timing were skipped
 Info (170194): Fitter routing operations ending: elapsed time is 00:00:00
-Info (11888): Total time spent on timing analysis during the Fitter is 0.01 seconds.
+Info (11888): Total time spent on timing analysis during the Fitter is 0.02 seconds.
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (334003): Started post-fitting delay annotation
@@ -763,10 +763,10 @@ Info (334004): Delay annotation completed successfully
 Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:00
 Info (144001): Generated suppressed messages file C:/Users/blade/Desktop/ISA/output_files/ISA.fit.smsg
 Info: Quartus Prime Fitter was successful. 0 errors, 6 warnings
-    Info: Peak virtual memory: 6457 megabytes
-    Info: Processing ended: Mon Feb 22 04:05:14 2021
-    Info: Elapsed time: 00:00:02
-    Info: Total CPU time (on all processors): 00:00:04
+    Info: Peak virtual memory: 6458 megabytes
+    Info: Processing ended: Mon Feb 22 23:05:13 2021
+    Info: Elapsed time: 00:00:05
+    Info: Total CPU time (on all processors): 00:00:03
 
 
 +----------------------------+

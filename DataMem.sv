@@ -6,9 +6,7 @@
 module DataMem(
   input              Clk,
                      Reset,
-                     WriteEn,
-							BranchEn,
-							Jump,	
+                     WriteEn,	
   input [7:0]        DataAddress,   // 8-bit-wide pointer to 256-deep memory
                      DataIn,		// 8-bit-wide data path, also
   output logic[7:0]  DataOut);

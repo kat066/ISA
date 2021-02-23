@@ -26,6 +26,8 @@ wire        MemWrite,	   // data_memory write enable
 			RegWrEn,	   // reg_file write enable
 			Zero,		   // ALU output = 0 flag
             Jump,	       // to program counter: jump 
+				WriteR,
+				ImmMux,
             BranchEn;	   // to program counter: branch enable
 wire[ 4:0] OP,
 			 Imm;
@@ -49,9 +51,8 @@ logic[15:0] CycleCt;	   // standalone; NOT PC!
 	.Instruction  (Instruction), // from instr_ROM
 	.Jump         (Jump),		     // to PC
 	.BranchEn     (BranchEn),		 // to PC
-	.RegReadAddr  (RegReadAddr),
-	.RegWriteAddr (RegWriteAddr),
-	.Imm			  (Imm),
+	.WriteR		  (WriteR),
+	.ImmMux		  (ImmMux),
 	.OP			  (OP)
   );
 // instruction ROM
@@ -61,7 +62,9 @@ logic[15:0] CycleCt;	   // standalone; NOT PC!
 	);
 
   assign LoadInst = Instruction[8:3]=={typeI,iLOAD};  // calls out load specially
-  
+  assign RegReadAddr = Instruction[2:0];
+  assign RegWriteAddr = WriteR? Instruction[2:0]:3'b001;
+  assign Imm = ImmMux? Instruction[4:0] : {2'b00,Instruction[5:3]};
 // reg file
 	RegFile #(.W(8),.D(3)) RF1 (
 		.Clk    				  ,
