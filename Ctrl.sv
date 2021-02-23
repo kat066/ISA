@@ -50,8 +50,8 @@ always_comb begin
 			endcase
 		end
 		typeII: begin
-			RegReadAddr = Instruction[5:3];
-			Imm = {3'b000,Instruction[2:0]};
+			Imm = {3'b000,Instruction[5:3]};
+			RegReadAddr = Instruction[2:0];
 			case(Instruction[6])
 				iiBEQ: OP = oBEQ;
 				iiBLT: OP = oBLT;
@@ -67,9 +67,9 @@ always_comb begin
 			endcase
 		end
 		typeIV: begin
-			RegReadAddr = Instruction[5:3];
-			Imm = {2'b00,Instruction[2:0]};
-			RegWriteAddr = Instruction[5:3];
+			RegReadAddr = Instruction[2:0];
+			Imm = {2'b00,Instruction[5:3]};
+			RegWriteAddr = Instruction[2:0];
 			case(Instruction[6])
 				ivLSR: OP = oLSR;
 				ivRSR: OP = oRSR;
@@ -83,4 +83,3 @@ end
 // branch every time ALU result LSB = 0 (even)
 
 endmodule
-
