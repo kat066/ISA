@@ -23,11 +23,11 @@ module encrypt_tb ()        ;
 // note in practice your design should be able to handle ANY ASCII string that is
 //  restricted to characters between space (0x20) and script f (0x9f) and shorter than 
 //  54 characters in length
-  string     str1  = "Mr. Watson, come here. I want to see you.";     // sample program 1 input
+//  string     str1  = "Mr. Watson, come here. I want to see you.";     // sample program 1 input
 //  string     str1  = " Knowledge comes, but wisdom lingers.    ";   // alternative inputs
 //  string     str1  = "  01234546789abcdefghijklmnopqrstuvwxyz. ";   //   (make up your own,
 //  string     str1  = "  f       A joke is a very serious thing.";   // 	as well)
-//  string     str1  = "                           Ajok          ";   // 
+  string     str1  = "                           Ajok          ";   // 
 //  string     str1  = " Knowledge comes, but wisdom lingers.    ";   // 
 
 // displayed encrypted string will go here:
