@@ -2,7 +2,7 @@
 Reset => Reset.IN1
 Start => Start.IN1
 Clk => Clk.IN1
-Ack <= Equal2.DB_MAX_OUTPUT_PORT_TYPE
+Ack << Equal2.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |TopLevel|InstFetch:IF1
@@ -385,8 +385,6 @@ DataOutB[7] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |TopLevel|ALU:ALU1
-InputA[0] => ShiftLeft0.IN8
-InputA[0] => ShiftRight0.IN8
 InputA[0] => Out.IN0
 InputA[0] => WideXor0.IN0
 InputA[0] => Out.IN0
@@ -399,8 +397,6 @@ InputA[0] => Add2.IN16
 InputA[0] => Mux7.IN25
 InputA[0] => Mux7.IN26
 InputA[0] => Mux7.IN27
-InputA[1] => ShiftLeft0.IN7
-InputA[1] => ShiftRight0.IN7
 InputA[1] => Out.IN0
 InputA[1] => WideXor0.IN1
 InputA[1] => Out.IN0
@@ -413,8 +409,6 @@ InputA[1] => Add2.IN15
 InputA[1] => Mux6.IN25
 InputA[1] => Mux6.IN26
 InputA[1] => Mux6.IN27
-InputA[2] => ShiftLeft0.IN6
-InputA[2] => ShiftRight0.IN6
 InputA[2] => Out.IN0
 InputA[2] => WideXor0.IN2
 InputA[2] => Out.IN0
@@ -427,8 +421,6 @@ InputA[2] => Add2.IN14
 InputA[2] => Mux5.IN25
 InputA[2] => Mux5.IN26
 InputA[2] => Mux5.IN27
-InputA[3] => ShiftLeft0.IN5
-InputA[3] => ShiftRight0.IN5
 InputA[3] => Out.IN0
 InputA[3] => WideXor0.IN3
 InputA[3] => Out.IN0
@@ -441,8 +433,6 @@ InputA[3] => Add2.IN13
 InputA[3] => Mux4.IN25
 InputA[3] => Mux4.IN26
 InputA[3] => Mux4.IN27
-InputA[4] => ShiftLeft0.IN4
-InputA[4] => ShiftRight0.IN4
 InputA[4] => Out.IN0
 InputA[4] => WideXor0.IN4
 InputA[4] => Out.IN0
@@ -455,8 +445,6 @@ InputA[4] => Add2.IN12
 InputA[4] => Mux3.IN25
 InputA[4] => Mux3.IN26
 InputA[4] => Mux3.IN27
-InputA[5] => ShiftLeft0.IN3
-InputA[5] => ShiftRight0.IN3
 InputA[5] => Out.IN0
 InputA[5] => WideXor0.IN5
 InputA[5] => Out.IN0
@@ -468,8 +456,6 @@ InputA[5] => Add2.IN11
 InputA[5] => Mux2.IN26
 InputA[5] => Mux2.IN27
 InputA[5] => Mux2.IN28
-InputA[6] => ShiftLeft0.IN2
-InputA[6] => ShiftRight0.IN2
 InputA[6] => Out.IN0
 InputA[6] => WideXor0.IN6
 InputA[6] => Out.IN0
@@ -481,8 +467,6 @@ InputA[6] => Add2.IN10
 InputA[6] => Mux1.IN26
 InputA[6] => Mux1.IN27
 InputA[6] => Mux1.IN28
-InputA[7] => ShiftLeft0.IN1
-InputA[7] => ShiftRight0.IN1
 InputA[7] => Out.IN0
 InputA[7] => WideXor0.IN7
 InputA[7] => Out.IN0
@@ -602,7 +586,7 @@ Target[6] <= <VCC>
 Target[7] <= <GND>
 
 
-|TopLevel|DataMem:DM1
+|TopLevel|DataMem:DM
 Clk => Core[255][0].CLK
 Clk => Core[255][1].CLK
 Clk => Core[255][2].CLK

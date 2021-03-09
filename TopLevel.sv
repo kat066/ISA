@@ -96,7 +96,7 @@ logic[15:0] CycleCt;	   // standalone; NOT PC!
   assign Ack = (OP==HALT)? 'b1 : 'b0;
   assign MemWriteValue = ALU_out;
   assign DataAddress = (BranchEn||Jump)? (8'b10000000+Imm) : ReadB;
-	DataMem DM1(
+	DataMem DM(
 		.DataAddress  (DataAddress)    , 
 		.WriteEn      (MemWrite), 
 		.DataIn       (MemWriteValue), 

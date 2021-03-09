@@ -38,7 +38,7 @@ module ALU(
 		oSTORE : Out = InputA;
 		oHALT: Out = InputA;
 		oBEQ : Out = !(InputA == InputB);
-		oBLT : Out = !(InputA < InputB);
+		oBLT : Out = !( InputB < InputA);
 		oJUMP : Out = {3'b0,Imm};
 		oADD : Out = InputA + InputB;      // add 
 		oADDI : Out = InputA + {3'b0,Imm};

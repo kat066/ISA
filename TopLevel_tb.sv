@@ -28,16 +28,16 @@ initial begin
   Req  = 'b1;
 // Initialize DUT's data memory
   #10ns for(int i=0; i<256; i++) begin
-    DUT.DM1.Core[i] = 8'h0;	     // clear data_mem
+    DUT.DM.Core[i] = 8'h0;	     // clear data_mem
   end
-    DUT.DM1.Core[128] = 8'h00; 
-    DUT.DM1.Core[129] = 8'h01;
-    DUT.DM1.Core[130] = 8'h02; 
-    DUT.DM1.Core[131] = 8'h03;
-	 DUT.DM1.Core[132] = 8'h04;
-    DUT.DM1.Core[133] = 8'h05;
-	 DUT.DM1.Core[134] = 8'h06;
-	 DUT.DM1.Core[135] = 8'h07;
+    DUT.DM.Core[128] = 8'h0d; 
+    DUT.DM.Core[129] = 8'h10;
+    DUT.DM.Core[130] = 8'h13; 
+    DUT.DM.Core[131] = 8'h14;
+	 DUT.DM.Core[132] = 8'h2a;
+    DUT.DM.Core[133] = 8'h37;
+	 DUT.DM.Core[134] = 8'h4E;
+	 DUT.DM.Core[135] = 8'h72;
 // students may also pre_load desired constants into DM
 // Initialize DUT's register file
 //  for(int j=0; j<16; j++)
@@ -49,10 +49,10 @@ initial begin
   #10ns Req = 0;
 // Wait for done flag, then display results
   wait (Ack);
-  #10ns $displayh(DUT.DM1.Core[5],
-                  DUT.DM1.Core[6],"_",
-                  DUT.DM1.Core[7],
-                  DUT.DM1.Core[8]);
+  #10ns $displayh(DUT.DM.Core[5],
+                  DUT.DM.Core[6],"_",
+                  DUT.DM.Core[7],
+                  DUT.DM.Core[8]);
 //        $display("instruction = %d %t",DUT.PC,$time);
   #10ns $stop;			   
 end

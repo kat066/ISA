@@ -33,7 +33,7 @@ always_ff @ (posedge Clk)
   if (WriteEn)	                             // works just like data_memory writes
     Registers[Waddr] <= DataIn;
 	 
-//initial begin
-//	Registers[0]=0;
-//end
+initial begin
+	Registers[0]=0;
+end
 endmodule

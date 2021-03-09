@@ -1,0 +1,70 @@
+C:/Users/blade/Desktop/ISA/InstROM.sv {1 {vlog -work work -sv -stats=none C:/Users/blade/Desktop/ISA/InstROM.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module InstROM
+
+Top level modules:
+	InstROM
+
+} {} {}} C:/Users/blade/Desktop/ISA/InstFetch.sv {1 {vlog -work work -sv -stats=none C:/Users/blade/Desktop/ISA/InstFetch.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module InstFetch
+
+Top level modules:
+	InstFetch
+
+} {} {}} C:/Users/blade/Desktop/ISA/Definitions.sv {1 {vlog -work work -sv -stats=none C:/Users/blade/Desktop/ISA/Definitions.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling package definitions
+
+Top level modules:
+	--none--
+
+} {} {}} C:/Users/blade/Desktop/ISA/LUT.sv {1 {vlog -work work -sv -stats=none C:/Users/blade/Desktop/ISA/LUT.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module LUT
+
+Top level modules:
+	LUT
+
+} {} {}} C:/Users/blade/Desktop/ISA/DataMem.sv {1 {vlog -work work -sv -stats=none C:/Users/blade/Desktop/ISA/DataMem.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DataMem
+
+Top level modules:
+	DataMem
+
+} {} {}} C:/Users/blade/Desktop/ISA/Ctrl.sv {1 {vlog -work work -sv -stats=none {C:\Users\blade\Desktop\ISA\Ctrl.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling package Ctrl_sv_unit
+-- Importing package definitions
+-- Compiling module Ctrl
+
+Top level modules:
+	Ctrl
+
+} {} {}} C:/Users/blade/Desktop/ISA/RegFile.sv {1 {vlog -work work -sv -stats=none C:/Users/blade/Desktop/ISA/RegFile.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module RegFile
+
+Top level modules:
+	RegFile
+
+} {} {}} C:/Users/blade/Desktop/ISA/ALU.sv {1 {vlog -work work -sv -stats=none C:/Users/blade/Desktop/ISA/ALU.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling package ALU_sv_unit
+-- Importing package definitions
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} C:/Users/blade/Desktop/ISA/TopLevel.sv {1 {vlog -work work -sv -stats=none C:/Users/blade/Desktop/ISA/TopLevel.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling package TopLevel_sv_unit
+-- Importing package definitions
+-- Compiling module TopLevel
+
+Top level modules:
+	TopLevel
+
+} {} {}}
