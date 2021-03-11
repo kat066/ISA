@@ -13,7 +13,7 @@ vALU
 Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
 Z2 DXx4 work 11 definitions 0 22 T<;g`k`0TGG3<zi7eeAJ30
 DXx4 work 11 ALU_sv_unit 0 22 VY=K2ngF1C`IcW`l>Fgf02
-Z3 !s110 1615285547
+Z3 !s110 1615444127
 Z4 VDg1SIo80bB@j0V0VzS_@n1
 r1
 !s85 0
@@ -30,7 +30,7 @@ Z7 FC:/Users/blade/Desktop/ISA/ALU.sv
 L0 10 50
 Z8 OV;L;2020.1;71
 31
-Z9 !s108 1615285547.000000
+Z9 !s108 1615444127.000000
 Z10 !s107 C:/Users/blade/Desktop/ISA/ALU.sv|
 Z11 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/blade/Desktop/ISA|C:/Users/blade/Desktop/ISA/ALU.sv|
 !i113 1
@@ -178,24 +178,24 @@ R13
 R14
 vencrypt_tb
 R1
-!s110 1615285644
+!s110 1615447844
 !i10b 1
-!s100 3WiCW9AUdo=P1IEfCU5`H1
+!s100 CB]UCiZ2GMZ>Z[O1bf`z50
 R20
-IOlho6a;if20h>Xg1W_NHW0
+IAHMhAiW_mFEU>f8Gn5aMk3
 R4
 S1
 R0
-w1615285638
+w1615447825
 8C:/Users/blade/Desktop/ISA/program1_tb1.sv
 FC:/Users/blade/Desktop/ISA/program1_tb1.sv
-!i122 10
+!i122 16
 L0 7 157
 R8
 r1
 !s85 0
 31
-!s108 1615285644.000000
+!s108 1615447844.000000
 !s107 C:/Users/blade/Desktop/ISA/program1_tb1.sv|
 !s90 -reportprogress|300|-work|work|C:/Users/blade/Desktop/ISA/program1_tb1.sv|
 !i113 1
@@ -220,7 +220,7 @@ R8
 r1
 !s85 0
 31
-Z21 !s108 1615285546.000000
+R9
 !s107 C:/Users/blade/Desktop/ISA/InstFetch.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/blade/Desktop/ISA|C:/Users/blade/Desktop/ISA/InstFetch.sv|
 !i113 1
@@ -257,7 +257,7 @@ R14
 n@inst@r@o@m
 vLUT
 R1
-Z22 !s110 1615285546
+R3
 !i10b 1
 !s100 __kBmb9=ZX]Jdf7N>go6g2
 R20
@@ -274,7 +274,7 @@ R8
 r1
 !s85 0
 31
-R21
+Z21 !s108 1615444126.000000
 !s107 C:/Users/blade/Desktop/ISA/LUT.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/blade/Desktop/ISA|C:/Users/blade/Desktop/ISA/LUT.sv|
 !i113 1
@@ -284,7 +284,7 @@ R14
 n@l@u@t
 vRegFile
 R1
-R22
+!s110 1615444126
 !i10b 1
 !s100 3U1e48kQUVLi;VL`d5VUD0
 R20
@@ -324,15 +324,15 @@ I`0Mo[UQYl]hk;@hE0hQ=P1
 S1
 R0
 R5
-Z23 8C:/Users/blade/Desktop/ISA/TopLevel.sv
-Z24 FC:/Users/blade/Desktop/ISA/TopLevel.sv
+Z22 8C:/Users/blade/Desktop/ISA/TopLevel.sv
+Z23 FC:/Users/blade/Desktop/ISA/TopLevel.sv
 !i122 8
 L0 7 110
 R8
 31
 R9
-Z25 !s107 C:/Users/blade/Desktop/ISA/TopLevel.sv|
-Z26 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/blade/Desktop/ISA|C:/Users/blade/Desktop/ISA/TopLevel.sv|
+Z24 !s107 C:/Users/blade/Desktop/ISA/TopLevel.sv|
+Z25 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/blade/Desktop/ISA|C:/Users/blade/Desktop/ISA/TopLevel.sv|
 !i113 1
 R12
 R13
@@ -352,15 +352,15 @@ IZL64>2nN4<GCZ40a6DNR30
 S1
 R0
 R5
+R22
 R23
-R24
 !i122 8
 L0 6 0
 R8
 31
 R9
+R24
 R25
-R26
 !i113 1
 R12
 R13

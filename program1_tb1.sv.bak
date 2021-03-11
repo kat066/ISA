@@ -26,7 +26,7 @@ module encrypt_tb ()        ;
 //  string     str1  = "Mr. Watson, come here. I want to see you.";     // sample program 1 input
 //  string     str1  = " Knowledge comes, but wisdom lingers.    ";   // alternative inputs
 //  string     str1  = "  01234546789abcdefghijklmnopqrstuvwxyz. ";   //   (make up your own,
-//  string     str1  = "  f       A joke is a very serious thing.";   // 	as well)
+  string     str1  = "  f       A joke is a very serious thing.";   // 	as well)
 //  string     str1  = "                           Ajok          ";   // 
 //  string     str1  = " Knowledge comes, but wisdom lingers.    ";   // 
 

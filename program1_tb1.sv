@@ -25,9 +25,9 @@ module encrypt_tb ()        ;
 //  54 characters in length
 //  string     str1  = "Mr. Watson, come here. I want to see you.";     // sample program 1 input
 //  string     str1  = " Knowledge comes, but wisdom lingers.    ";   // alternative inputs
-//  string     str1  = "  01234546789abcdefghijklmnopqrstuvwxyz. ";   //   (make up your own,
+  string     str1  = "  01234546789abcdefghijklmnopqrstuvwxyz. ";   //   (make up your own,
 //  string     str1  = "  f       A joke is a very serious thing.";   // 	as well)
-  string     str1  = "                           Ajok          ";   // 
+//  string     str1  = "                           Ajok          ";   // 
 //  string     str1  = " Knowledge comes, but wisdom lingers.    ";   // 
 
 // displayed encrypted string will go here:
@@ -79,7 +79,7 @@ module encrypt_tb ()        ;
 // you may also pre-load desired constants, etc. into
 //   your data_mem here -- the upper addresses are reserved for your use
 //    dut.data_mem.DM[128]=8'hfe;       //whatever constants you want	
-    file_no = $fopen("msg_enocder_out.txt","w");		 // create your output file
+    file_no = $fopen("msg_enocder_out1.txt","w");		 // create your output file
     #0ns strlen = str1.len;             // length of string 1 (# characters between " ")
     if(strlen>54) strlen = 54;          // clip message at 54 characters
 // program 1 -- precompute encrypted message
@@ -120,17 +120,17 @@ module encrypt_tb ()        ;
 	  dut.DM.Core[m] = 8'h20;         // pad memory w/ ASCII space characters
     for(int m=0; m<strlen; m++)
       dut.DM.Core[m] = str1[m];       // overwrite/copy original string into device's data memory[0:strlen-1]
-    dut.DM.Core[61] = pre_length;     // number of bytes preceding message
+    dut.DM.Core[61] = pre_length1;     // number of bytes preceding message
     dut.DM.Core[62] = pt_no;//lfsr_ptrn;      // LFSR feedback tap positions (9 possible ptrns)
     dut.DM.Core[63] = LFSR_init;      // LFSR starting state (nonzero)
-	 dut.DM.Core[128] = 8'h0c;//TEN 000;
-    dut.DM.Core[129] = 8'h0e;//TWENTYSIX 001;
-    dut.DM.Core[130] = 8'h11;//TORANGE 010;
-    dut.DM.Core[131] = 8'h12;//GETTAP 011;
-	 dut.DM.Core[132] = 8'h28;//REPLACE 100;
-    dut.DM.Core[133] = 8'h2b;//PREAMBLE 101;
-	 dut.DM.Core[134] = 8'h4b;//LFSR 110;
-	 dut.DM.Core[135] = 8'h6e;//EXIT 111;
+	 dut.DM.Core[128] = 8'h0e;//TWENTYSIX 000;
+    dut.DM.Core[129] = 8'h11;//TORANGE 001;
+    dut.DM.Core[130] = 8'h12;//GETTAP 010;
+    dut.DM.Core[131] = 8'h1e;//VALIDTAP 011;
+	 dut.DM.Core[132] = 8'h2f;//REPLACE 100;
+    dut.DM.Core[133] = 8'h32;//PREAMBLE 101;
+	 dut.DM.Core[134] = 8'h52;//LFSR 110;
+	 dut.DM.Core[135] = 8'h75;//EXIT 111;
 
 	#10ns start = 1'b0; 			  //   request/start = 1 holds your program counter 
     #60ns;                            // wait for 6 clock cycles of nominal 10ns each

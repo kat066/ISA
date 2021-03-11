@@ -1,9 +1,9 @@
 ﻿  assembler.cpp
-C:\Users\blade\Desktop\assembler\assembler\assembler.cpp(41,20): warning C4018: '<': signed/unsigned mismatch
-C:\Users\blade\Desktop\assembler\assembler\assembler.cpp(54,20): warning C4018: '<': signed/unsigned mismatch
-C:\Users\blade\Desktop\assembler\assembler\assembler.cpp(60,20): warning C4018: '<': signed/unsigned mismatch
-C:\Users\blade\Desktop\assembler\assembler\assembler.cpp(63,20): warning C4018: '<': signed/unsigned mismatch
-C:\Users\blade\Desktop\assembler\assembler\assembler.cpp(461,13): warning C4018: '<': signed/unsigned mismatch
-C:\Users\blade\Desktop\assembler\assembler\assembler.cpp(534,13): warning C4018: '<': signed/unsigned mismatch
-C:\Users\blade\Desktop\assembler\assembler\assembler.cpp(978,13): warning C4018: '<': signed/unsigned mismatch
-  assembler.vcxproj -> C:\Users\blade\Desktop\assembler\assembler\Debug\assembler.exe
+C:\Users\blade\Desktop\ISA\assembler\assembler\assembler.cpp(41,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\blade\Desktop\ISA\assembler\assembler\assembler.cpp(54,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\blade\Desktop\ISA\assembler\assembler\assembler.cpp(60,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\blade\Desktop\ISA\assembler\assembler\assembler.cpp(63,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\blade\Desktop\ISA\assembler\assembler\assembler.cpp(462,13): warning C4018: '<': signed/unsigned mismatch
+C:\Users\blade\Desktop\ISA\assembler\assembler\assembler.cpp(535,13): warning C4018: '<': signed/unsigned mismatch
+C:\Users\blade\Desktop\ISA\assembler\assembler\assembler.cpp(979,13): warning C4018: '<': signed/unsigned mismatch
+  assembler.vcxproj -> C:\Users\blade\Desktop\ISA\assembler\assembler\Debug\assembler.exe

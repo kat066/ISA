@@ -2,7 +2,7 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\Users\blade\Desktop\assembler\assembler\Debug\assembler.exe</FullPath>
+      <FullPath>C:\Users\blade\Desktop\ISA\assembler\assembler\Debug\assembler.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

@@ -1,1 +1,2 @@
 C:\Users\blade\Desktop\assembler\assembler\Debug\assembler.exe
+C:\Users\blade\Desktop\ISA\assembler\assembler\Debug\assembler.exe

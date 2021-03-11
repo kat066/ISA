@@ -108,7 +108,7 @@ void exportMachineCode(vector<string> vec) {
 			machineCode << "0001";
 
 			if (vec[j + 1] == "$ZERO" || vec[j + 1] == "$R0") {
-				cout << "hello" << vec[j + 1]<<endl;
+				
 				machineCode << "000" << endl;
 				++j;
 			}
@@ -140,6 +140,7 @@ void exportMachineCode(vector<string> vec) {
 				machineCode << "111" << endl;
 				++j;
 			}
+			
 
 		}
 		else if (vec[j] == "MOVEA") {

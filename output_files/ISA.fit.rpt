@@ -1,5 +1,5 @@
 Fitter report for ISA
-Tue Mar 09 02:25:29 2021
+Wed Mar 10 22:28:32 2021
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -66,7 +66,7 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Fitter Summary                                                                   ;
 +------------------------------------+---------------------------------------------+
-; Fitter Status                      ; Successful - Tue Mar 09 02:25:29 2021       ;
+; Fitter Status                      ; Successful - Wed Mar 10 22:28:32 2021       ;
 ; Quartus Prime Version              ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name                      ; ISA                                         ;
 ; Top-level Entity Name              ; TopLevel                                    ;
@@ -150,19 +150,19 @@ https://fpgasoftware.intel.com/eula.
 ; Number detected on machine ; 16          ;
 ; Maximum allowed            ; 16          ;
 ;                            ;             ;
-; Average used               ; 1.27        ;
+; Average used               ; 1.26        ;
 ; Maximum used               ; 16          ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;   2.2%      ;
+;     Processor 2            ;   2.1%      ;
 ;     Processor 3            ;   2.1%      ;
-;     Processor 4            ;   2.1%      ;
-;     Processor 5            ;   2.0%      ;
-;     Processor 6            ;   2.0%      ;
-;     Processor 7            ;   1.9%      ;
-;     Processor 8            ;   1.9%      ;
-;     Processors 9-16        ;   1.6%      ;
+;     Processor 4            ;   2.0%      ;
+;     Processor 5            ;   1.9%      ;
+;     Processor 6            ;   1.9%      ;
+;     Processor 7            ;   1.8%      ;
+;     Processor 8            ;   1.8%      ;
+;     Processors 9-16        ;   1.5%      ;
 +----------------------------+-------------+
 
 
@@ -1476,7 +1476,7 @@ Info (176215): I/O bank details before I/O pin placement
         Info (176213): I/O bank number 6 does not use VREF pins and has undetermined VCCIO pins. 1 total pin(s) used --  9 pins available
         Info (176213): I/O bank number 7 does not use VREF pins and has undetermined VCCIO pins. 0 total pin(s) used --  13 pins available
         Info (176213): I/O bank number 8 does not use VREF pins and has undetermined VCCIO pins. 0 total pin(s) used --  12 pins available
-Info (171121): Fitter preparation operations ending: elapsed time is 00:00:01
+Info (171121): Fitter preparation operations ending: elapsed time is 00:00:02
 Info (14896): Fitter has disabled Advanced Physical Optimization because it is not supported for the current family.
 Info (170189): Fitter placement preparation operations beginning
 Info (170190): Fitter placement preparation operations ending: elapsed time is 00:00:00
@@ -1488,19 +1488,19 @@ Info (170195): Router estimated average interconnect usage is 13% of the availab
     Info (170196): Router estimated peak interconnect usage is 22% of the available device resources in the region that extends from location X11_Y0 to location X22_Y11
 Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were skipped to reduce compilation time.
     Info (170201): Optimizations that may affect the design's routability were skipped
-Info (170194): Fitter routing operations ending: elapsed time is 00:00:14
-Info (11888): Total time spent on timing analysis during the Fitter is 1.83 seconds.
+Info (170194): Fitter routing operations ending: elapsed time is 00:00:15
+Info (11888): Total time spent on timing analysis during the Fitter is 1.81 seconds.
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
-Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:02
+Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:01
 Info (144001): Generated suppressed messages file C:/Users/blade/Desktop/ISA/output_files/ISA.fit.smsg
 Info: Quartus Prime Fitter was successful. 0 errors, 5 warnings
-    Info: Peak virtual memory: 6535 megabytes
-    Info: Processing ended: Tue Mar 09 02:25:30 2021
-    Info: Elapsed time: 00:00:26
-    Info: Total CPU time (on all processors): 00:00:44
+    Info: Peak virtual memory: 6539 megabytes
+    Info: Processing ended: Wed Mar 10 22:28:32 2021
+    Info: Elapsed time: 00:00:25
+    Info: Total CPU time (on all processors): 00:00:46
 
 
 +----------------------------+

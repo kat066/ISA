@@ -1,5 +1,4 @@
 # Reading pref.tcl
-# ERROR: No extended dataflow license exists
 # do ISA_run_msim_rtl_verilog.do
 # if {[file exists rtl_work]} {
 # 	vdel -lib rtl_work -all
@@ -13,67 +12,67 @@
 # 
 # vlog -sv -work work +incdir+C:/Users/blade/Desktop/ISA {C:/Users/blade/Desktop/ISA/RegFile.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 02:25:46 on Mar 09,2021
+# Start time: 22:28:46 on Mar 10,2021
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/blade/Desktop/ISA" C:/Users/blade/Desktop/ISA/RegFile.sv 
 # -- Compiling module RegFile
 # 
 # Top level modules:
 # 	RegFile
-# End time: 02:25:46 on Mar 09,2021, Elapsed time: 0:00:00
+# End time: 22:28:46 on Mar 10,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/blade/Desktop/ISA {C:/Users/blade/Desktop/ISA/LUT.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 02:25:46 on Mar 09,2021
+# Start time: 22:28:46 on Mar 10,2021
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/blade/Desktop/ISA" C:/Users/blade/Desktop/ISA/LUT.sv 
 # -- Compiling module LUT
 # 
 # Top level modules:
 # 	LUT
-# End time: 02:25:46 on Mar 09,2021, Elapsed time: 0:00:00
+# End time: 22:28:47 on Mar 10,2021, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/blade/Desktop/ISA {C:/Users/blade/Desktop/ISA/InstFetch.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 02:25:46 on Mar 09,2021
+# Start time: 22:28:47 on Mar 10,2021
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/blade/Desktop/ISA" C:/Users/blade/Desktop/ISA/InstFetch.sv 
 # -- Compiling module InstFetch
 # 
 # Top level modules:
 # 	InstFetch
-# End time: 02:25:47 on Mar 09,2021, Elapsed time: 0:00:01
+# End time: 22:28:47 on Mar 10,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/blade/Desktop/ISA {C:/Users/blade/Desktop/ISA/Definitions.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 02:25:47 on Mar 09,2021
+# Start time: 22:28:47 on Mar 10,2021
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/blade/Desktop/ISA" C:/Users/blade/Desktop/ISA/Definitions.sv 
 # -- Compiling package definitions
 # 
 # Top level modules:
 # 	--none--
-# End time: 02:25:47 on Mar 09,2021, Elapsed time: 0:00:00
+# End time: 22:28:47 on Mar 10,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/blade/Desktop/ISA {C:/Users/blade/Desktop/ISA/DataMem.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 02:25:47 on Mar 09,2021
+# Start time: 22:28:47 on Mar 10,2021
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/blade/Desktop/ISA" C:/Users/blade/Desktop/ISA/DataMem.sv 
 # -- Compiling module DataMem
 # 
 # Top level modules:
 # 	DataMem
-# End time: 02:25:47 on Mar 09,2021, Elapsed time: 0:00:00
+# End time: 22:28:47 on Mar 10,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/blade/Desktop/ISA {C:/Users/blade/Desktop/ISA/InstROM.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 02:25:47 on Mar 09,2021
+# Start time: 22:28:47 on Mar 10,2021
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/blade/Desktop/ISA" C:/Users/blade/Desktop/ISA/InstROM.sv 
 # -- Compiling module InstROM
 # 
 # Top level modules:
 # 	InstROM
-# End time: 02:25:47 on Mar 09,2021, Elapsed time: 0:00:00
+# End time: 22:28:47 on Mar 10,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/blade/Desktop/ISA {C:/Users/blade/Desktop/ISA/Ctrl.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 02:25:47 on Mar 09,2021
+# Start time: 22:28:47 on Mar 10,2021
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/blade/Desktop/ISA" C:/Users/blade/Desktop/ISA/Ctrl.sv 
 # -- Compiling package Ctrl_sv_unit
 # -- Importing package definitions
@@ -81,11 +80,11 @@
 # 
 # Top level modules:
 # 	Ctrl
-# End time: 02:25:47 on Mar 09,2021, Elapsed time: 0:00:00
+# End time: 22:28:47 on Mar 10,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/blade/Desktop/ISA {C:/Users/blade/Desktop/ISA/ALU.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 02:25:47 on Mar 09,2021
+# Start time: 22:28:47 on Mar 10,2021
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/blade/Desktop/ISA" C:/Users/blade/Desktop/ISA/ALU.sv 
 # -- Compiling package ALU_sv_unit
 # -- Importing package definitions
@@ -93,11 +92,11 @@
 # 
 # Top level modules:
 # 	ALU
-# End time: 02:25:47 on Mar 09,2021, Elapsed time: 0:00:00
+# End time: 22:28:47 on Mar 10,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/blade/Desktop/ISA {C:/Users/blade/Desktop/ISA/TopLevel.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 02:25:47 on Mar 09,2021
+# Start time: 22:28:47 on Mar 10,2021
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/blade/Desktop/ISA" C:/Users/blade/Desktop/ISA/TopLevel.sv 
 # -- Compiling package TopLevel_sv_unit
 # -- Importing package definitions
@@ -105,22 +104,22 @@
 # 
 # Top level modules:
 # 	TopLevel
-# End time: 02:25:47 on Mar 09,2021, Elapsed time: 0:00:00
+# End time: 22:28:47 on Mar 10,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 vlog -reportprogress 300 -work work C:/Users/blade/Desktop/ISA/program1_tb1.sv
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 02:25:55 on Mar 09,2021
+# Start time: 22:30:34 on Mar 10,2021
 # vlog -reportprogress 300 -work work C:/Users/blade/Desktop/ISA/program1_tb1.sv 
 # -- Compiling module encrypt_tb
 # 
 # Top level modules:
 # 	encrypt_tb
-# End time: 02:25:55 on Mar 09,2021, Elapsed time: 0:00:00
+# End time: 22:30:34 on Mar 10,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 vsim work.encrypt_tb
 # vsim work.encrypt_tb 
-# Start time: 02:26:00 on Mar 09,2021
+# Start time: 22:30:38 on Mar 10,2021
 # Loading sv_std.std
 # Loading work.encrypt_tb
 # Loading work.definitions
@@ -136,35 +135,247 @@ vsim work.encrypt_tb
 # Loading work.LUT
 # Loading work.DataMem
 run -all
-# ** Warning: (vsim-7) Failed to open readmem file "machine_code.txt" in read mode.
-# No such file or directory. (errno = ENOENT)    : C:/Users/blade/Desktop/ISA/InstROM.sv(42)
+# ** Warning: (vsim-PLI-3406) Too many digits (15) in data on line 23 of file "machine_code.txt". (Max is 9.)    : C:/Users/blade/Desktop/ISA/InstROM.sv(42)
 #    Time: 0 ps  Iteration: 0  Instance: /encrypt_tb/dut/IR1
 # Break key hit
-# Break in Module DataMem at C:/Users/blade/Desktop/ISA/DataMem.sv line 22
+# Simulation stop requested.
 restart -f
 # ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
 restart -f
 run -all
 # ** Note: $stop    : C:/Users/blade/Desktop/ISA/program1_tb1.sv(155)
-#    Time: 22295 ns  Iteration: 0  Instance: /encrypt_tb
+#    Time: 22325 ns  Iteration: 0  Instance: /encrypt_tb
 # Break in Module encrypt_tb at C:/Users/blade/Desktop/ISA/program1_tb1.sv line 155
 vlog -reportprogress 300 -work work C:/Users/blade/Desktop/ISA/program1_tb1.sv
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 02:27:24 on Mar 09,2021
+# Start time: 22:40:47 on Mar 10,2021
+# vlog -reportprogress 300 -work work C:/Users/blade/Desktop/ISA/program1_tb1.sv 
+# -- Compiling module encrypt_tb
+# ** Error: (vlog-13069) C:/Users/blade/Desktop/ISA/program1_tb1.sv(50): near "if": syntax error, unexpected if, expecting ';'.
+# End time: 22:40:47 on Mar 10,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/blade/Desktop/ISA/program1_tb1.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:41:03 on Mar 10,2021
 # vlog -reportprogress 300 -work work C:/Users/blade/Desktop/ISA/program1_tb1.sv 
 # -- Compiling module encrypt_tb
 # 
 # Top level modules:
 # 	encrypt_tb
-# End time: 02:27:24 on Mar 09,2021, Elapsed time: 0:00:00
+# End time: 22:41:03 on Mar 10,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-restart -f
+quit -sim
+# End time: 22:41:08 on Mar 10,2021, Elapsed time: 0:10:30
+# Errors: 0, Warnings: 0
+vsim work.encrypt_tb
+# vsim work.encrypt_tb 
+# Start time: 22:41:09 on Mar 10,2021
+# Loading sv_std.std
 # Loading work.encrypt_tb
+# Loading work.definitions
+# Loading work.TopLevel_sv_unit
+# Loading work.TopLevel
+# Loading work.InstFetch
+# Loading work.Ctrl_sv_unit
+# Loading work.Ctrl
+# Loading work.InstROM
+# Loading work.RegFile
+# Loading work.ALU_sv_unit
+# Loading work.ALU
+# Loading work.LUT
+# Loading work.DataMem
 run -all
 # ** Note: $stop    : C:/Users/blade/Desktop/ISA/program1_tb1.sv(155)
-#    Time: 22295 ns  Iteration: 0  Instance: /encrypt_tb
+#    Time: 22335 ns  Iteration: 0  Instance: /encrypt_tb
 # Break in Module encrypt_tb at C:/Users/blade/Desktop/ISA/program1_tb1.sv line 155
 quit -sim
-quit
-# End time: 02:27:48 on Mar 09,2021, Elapsed time: 0:01:48
+# End time: 22:42:35 on Mar 10,2021, Elapsed time: 0:01:26
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/blade/Desktop/ISA/program1_tb1.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:42:38 on Mar 10,2021
+# vlog -reportprogress 300 -work work C:/Users/blade/Desktop/ISA/program1_tb1.sv 
+# -- Compiling module encrypt_tb
+# 
+# Top level modules:
+# 	encrypt_tb
+# End time: 22:42:38 on Mar 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.encrypt_tb
+# vsim work.encrypt_tb 
+# Start time: 22:42:39 on Mar 10,2021
+# Loading sv_std.std
+# Loading work.encrypt_tb
+# Loading work.definitions
+# Loading work.TopLevel_sv_unit
+# Loading work.TopLevel
+# Loading work.InstFetch
+# Loading work.Ctrl_sv_unit
+# Loading work.Ctrl
+# Loading work.InstROM
+# Loading work.RegFile
+# Loading work.ALU_sv_unit
+# Loading work.ALU
+# Loading work.LUT
+# Loading work.DataMem
+run -all
+# ** Note: $stop    : C:/Users/blade/Desktop/ISA/program1_tb1.sv(155)
+#    Time: 22365 ns  Iteration: 0  Instance: /encrypt_tb
+# Break in Module encrypt_tb at C:/Users/blade/Desktop/ISA/program1_tb1.sv line 155
+vlog -reportprogress 300 -work work C:/Users/blade/Desktop/ISA/program1_tb1.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:10:46 on Mar 10,2021
+# vlog -reportprogress 300 -work work C:/Users/blade/Desktop/ISA/program1_tb1.sv 
+# -- Compiling module encrypt_tb
+# 
+# Top level modules:
+# 	encrypt_tb
+# End time: 23:10:46 on Mar 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+quit -sim
+# End time: 23:10:55 on Mar 10,2021, Elapsed time: 0:28:16
+# Errors: 0, Warnings: 0
+vsim work.encrypt_tb
+# vsim work.encrypt_tb 
+# Start time: 23:11:05 on Mar 10,2021
+# Loading sv_std.std
+# Loading work.encrypt_tb
+# Loading work.definitions
+# Loading work.TopLevel_sv_unit
+# Loading work.TopLevel
+# Loading work.InstFetch
+# Loading work.Ctrl_sv_unit
+# Loading work.Ctrl
+# Loading work.InstROM
+# Loading work.RegFile
+# Loading work.ALU_sv_unit
+# Loading work.ALU
+# Loading work.LUT
+# Loading work.DataMem
+run -all
+# ** Note: $stop    : C:/Users/blade/Desktop/ISA/program1_tb1.sv(155)
+#    Time: 22365 ns  Iteration: 0  Instance: /encrypt_tb
+# Break in Module encrypt_tb at C:/Users/blade/Desktop/ISA/program1_tb1.sv line 155
+quit -sim
+# End time: 23:16:31 on Mar 10,2021, Elapsed time: 0:05:26
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/blade/Desktop/ISA/program1_tb1.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:16:35 on Mar 10,2021
+# vlog -reportprogress 300 -work work C:/Users/blade/Desktop/ISA/program1_tb1.sv 
+# -- Compiling module encrypt_tb
+# 
+# Top level modules:
+# 	encrypt_tb
+# End time: 23:16:35 on Mar 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.encrypt_tb
+# vsim work.encrypt_tb 
+# Start time: 23:16:37 on Mar 10,2021
+# Loading sv_std.std
+# Loading work.encrypt_tb
+# Loading work.definitions
+# Loading work.TopLevel_sv_unit
+# Loading work.TopLevel
+# Loading work.InstFetch
+# Loading work.Ctrl_sv_unit
+# Loading work.Ctrl
+# Loading work.InstROM
+# Loading work.RegFile
+# Loading work.ALU_sv_unit
+# Loading work.ALU
+# Loading work.LUT
+# Loading work.DataMem
+run -all
+# ** Note: $stop    : C:/Users/blade/Desktop/ISA/program1_tb1.sv(155)
+#    Time: 22825 ns  Iteration: 0  Instance: /encrypt_tb
+# Break in Module encrypt_tb at C:/Users/blade/Desktop/ISA/program1_tb1.sv line 155
+vlog -reportprogress 300 -work work C:/Users/blade/Desktop/ISA/program1_tb1.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:29:40 on Mar 10,2021
+# vlog -reportprogress 300 -work work C:/Users/blade/Desktop/ISA/program1_tb1.sv 
+# -- Compiling module encrypt_tb
+# 
+# Top level modules:
+# 	encrypt_tb
+# End time: 23:29:40 on Mar 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+quit -sim
+# End time: 23:29:43 on Mar 10,2021, Elapsed time: 0:13:06
+# Errors: 0, Warnings: 0
+vsim work.encrypt_tb
+# vsim work.encrypt_tb 
+# Start time: 23:29:44 on Mar 10,2021
+# Loading sv_std.std
+# Loading work.encrypt_tb
+# Loading work.definitions
+# Loading work.TopLevel_sv_unit
+# Loading work.TopLevel
+# Loading work.InstFetch
+# Loading work.Ctrl_sv_unit
+# Loading work.Ctrl
+# Loading work.InstROM
+# Loading work.RegFile
+# Loading work.ALU_sv_unit
+# Loading work.ALU
+# Loading work.LUT
+# Loading work.DataMem
+run -all
+# ** Note: $stop    : C:/Users/blade/Desktop/ISA/program1_tb1.sv(155)
+#    Time: 22375 ns  Iteration: 0  Instance: /encrypt_tb
+# Break in Module encrypt_tb at C:/Users/blade/Desktop/ISA/program1_tb1.sv line 155
+vlog -reportprogress 300 -work work C:/Users/blade/Desktop/ISA/program1_tb1.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:30:35 on Mar 10,2021
+# vlog -reportprogress 300 -work work C:/Users/blade/Desktop/ISA/program1_tb1.sv 
+# -- Compiling module encrypt_tb
+# 
+# Top level modules:
+# 	encrypt_tb
+# End time: 23:30:35 on Mar 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+quit -sim
+# End time: 23:30:40 on Mar 10,2021, Elapsed time: 0:00:56
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/blade/Desktop/ISA/program1_tb1.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:30:44 on Mar 10,2021
+# vlog -reportprogress 300 -work work C:/Users/blade/Desktop/ISA/program1_tb1.sv 
+# -- Compiling module encrypt_tb
+# 
+# Top level modules:
+# 	encrypt_tb
+# End time: 23:30:44 on Mar 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.InstFetch
+# vsim work.InstFetch 
+# Start time: 23:30:45 on Mar 10,2021
+# Loading sv_std.std
+# Loading work.InstFetch
+quit -sim
+# End time: 23:30:50 on Mar 10,2021, Elapsed time: 0:00:05
+# Errors: 0, Warnings: 0
+vsim work.encrypt_tb
+# vsim work.encrypt_tb 
+# Start time: 23:30:51 on Mar 10,2021
+# Loading sv_std.std
+# Loading work.encrypt_tb
+# Loading work.definitions
+# Loading work.TopLevel_sv_unit
+# Loading work.TopLevel
+# Loading work.InstFetch
+# Loading work.Ctrl_sv_unit
+# Loading work.Ctrl
+# Loading work.InstROM
+# Loading work.RegFile
+# Loading work.ALU_sv_unit
+# Loading work.ALU
+# Loading work.LUT
+# Loading work.DataMem
+run -all
+# ** Note: $stop    : C:/Users/blade/Desktop/ISA/program1_tb1.sv(155)
+#    Time: 22375 ns  Iteration: 0  Instance: /encrypt_tb
+# Break in Module encrypt_tb at C:/Users/blade/Desktop/ISA/program1_tb1.sv line 155
+quit -sim
+# End time: 23:31:13 on Mar 10,2021, Elapsed time: 0:00:22
 # Errors: 0, Warnings: 0

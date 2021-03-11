@@ -10,7 +10,6 @@ ADDI 31				//ACCU+=31, ACCU=62
 ADDI 2					//ACCU+=2, ACCU=64
 MOVER $R4                                      //R4=64 (starting mem location to store)
 MOVEA $ZERO			//ACCU=0
-TEN:
 ADDI 10                                            //ACCU=10
 BLT $R3 TORANGE			// Check if r3<10, if initial spaces < 10
 TWENTYSIX:
@@ -20,12 +19,20 @@ BEQ $R3 GETTAP			// Check if r3<ACCU, if initial spaces <= 26
 TORANGE:
 MOVER $R3				// r3 = 10 or r3 = 26, depends on if r3<10 or r3>26
 GETTAP: 
-MOVEA $ZERO			//ACCU = 01
+MOVEA $ZERO			//ACCU = 00
 ADDI 31				//ACCU +=31                                                                            
 ADDI 31				//ACCU+= 31, ACCU=62
-LOAD $ACCU				//ACCU=mem[62], ACCU 
+LOAD $ACCU				//ACCU=mem[62], ACCU
+MOVER $R7
+MOVEA $ZERO			//ACCU = 00
+ADDI 8				//ACCU = 8
+BLT $R7 VALIDTAP
+BEQ $R7 VALIDTAP
+MOVEA $R7
 ANDI 7                       			//tap pointer is in range 0 - 8
-LUT $ACCU				//ACCU=LUT(ACCU) 
+MOVER $R7
+VALIDTAP:  
+LUT $R7				//ACCU=LUT(ACCU) 
 MOVER $R5                       	 	//R5 = tap pattern
 MOVEA $ZERO			//ACCU=0
 ADDI 31				//ACCU+=31
@@ -116,4 +123,4 @@ ADDI 1				//ACCU+=1, character increment fetch location
 MOVER $R2			//R2=ACCU, move character fetch location into R2
 JUMP LFSR			//Jump to top of loop
 EXIT:					//End of program 1
-	HALT
+HALT
