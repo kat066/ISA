@@ -1,5 +1,5 @@
 Analysis & Synthesis report for ISA
-Wed Mar 10 22:28:06 2021
+Thu Mar 11 01:13:44 2021
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -48,7 +48,7 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Wed Mar 10 22:28:06 2021       ;
+; Analysis & Synthesis Status        ; Successful - Thu Mar 11 01:13:44 2021       ;
 ; Quartus Prime Version              ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name                      ; ISA                                         ;
 ; Top-level Entity Name              ; TopLevel                                    ;
@@ -597,10 +597,14 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
-    Info: Processing started: Wed Mar 10 22:27:51 2021
+    Info: Processing started: Thu Mar 11 01:13:29 2021
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off ISA -c ISA
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 16 of the 16 processors detected
+Info (12021): Found 1 design units, including 1 entities, in source file program2_tb.sv
+    Info (12023): Found entity 1: decrypt_tb File: C:/Users/blade/Desktop/ISA/program2_tb.sv Line: 5
+Info (12021): Found 1 design units, including 1 entities, in source file toplevel_tb.sv
+    Info (12023): Found entity 1: TopLevel_tb File: C:/Users/blade/Desktop/ISA/TopLevel_tb.sv Line: 8
 Info (12021): Found 1 design units, including 1 entities, in source file program1_tb1.sv
     Info (12023): Found entity 1: encrypt_tb File: C:/Users/blade/Desktop/ISA/program1_tb1.sv Line: 7
 Info (12021): Found 1 design units, including 1 entities, in source file toplevel.sv
@@ -651,8 +655,8 @@ Info (21057): Implemented 4205 device resources after synthesis - the final reso
     Info (21059): Implemented 1 output pins
     Info (21061): Implemented 4201 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 14 warnings
-    Info: Peak virtual memory: 4864 megabytes
-    Info: Processing ended: Wed Mar 10 22:28:06 2021
+    Info: Peak virtual memory: 4863 megabytes
+    Info: Processing ended: Thu Mar 11 01:13:44 2021
     Info: Elapsed time: 00:00:15
     Info: Total CPU time (on all processors): 00:00:25
 

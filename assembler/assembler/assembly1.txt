@@ -1,0 +1,126 @@
+MOVEA $ZERO                                 //ACUU=0
+MOVER $R2                                       //R2=0
+ADDI 31                                             //ACCU+=31
+ADDI 30                                            //ACCU+=30, ACCU=61
+LOAD $ACCU                                    //ACCU = M[61], # initial spaces
+MOVER $R3                                       //R3=m[61]
+MOVEA $ZERO			//ACCU=0
+ADDI 31				//ACCU+=31
+ADDI 31				//ACCU+=31, ACCU=62
+ADDI 2					//ACCU+=2, ACCU=64
+MOVER $R4                                      //R4=64 (starting mem location to store)
+MOVEA $ZERO			//ACCU=0
+ADDI 10                                            //ACCU=10
+BLT $R3 TORANGE			// Check if r3<10, if initial spaces < 10
+TWENTYSIX:
+ADDI 16				//ACCU+=16, ACCU=26
+BLT $R3 GETTAP			// Check if r3<ACCU, if initial spaces <= 26
+BEQ $R3 GETTAP			// Check if r3<ACCU, if initial spaces <= 26
+TORANGE:
+MOVER $R3				// r3 = 10 or r3 = 26, depends on if r3<10 or r3>26
+GETTAP: 
+MOVEA $ZERO			//ACCU = 00
+ADDI 31				//ACCU +=31                                                                            
+ADDI 31				//ACCU+= 31, ACCU=62
+LOAD $ACCU				//ACCU=mem[62], ACCU
+MOVER $R7
+MOVEA $ZERO			//ACCU = 00
+ADDI 8				//ACCU = 8
+BLT $R7 VALIDTAP
+BEQ $R7 VALIDTAP
+MOVEA $R7
+ANDI 7                       			//tap pointer is in range 0 - 8
+MOVER $R7
+VALIDTAP:  
+LUT $R7				//ACCU=LUT(ACCU) 
+MOVER $R5                       	 	//R5 = tap pattern
+MOVEA $ZERO			//ACCU=0
+ADDI 31				//ACCU+=31
+ADDI 31				//ACCU+=31, ACCU=62
+ADDI 1					//ACCU+=1, ACCU=63 
+LOAD $ACCU				//ACCU=mem[ACCU]
+MOVER $R6                       		//R6 = starting state
+MOVEA $ZERO			//ACCU=0
+BEQ $R6 REPLACE		//check if starting state is all zero
+ADDI 31				//ACCU+=31
+ADDI 31			//ACCU+=31
+ADDI 31			//ACCU+=31
+ADDI 31			//ACCU+=31
+ADDI 4				//Else, ACCU+=4, ACCU=128
+BEQ $R6 REPLACE		//Check if starting state is 128
+JUMP PREAMBLE		//Starting state is valid, jump to preamble
+REPLACE:				//Replace starting state if it is 0 or 128
+MOVEA $ZERO		//ACCU=0
+ADDI 1				//ACCU+=1, ACCU=1
+MOVER $R6			//R6 = ACCU, R6 = 1
+PREAMBLE:				// Encrypt initial space characters
+MOVEA $ZERO		//ACCU=0
+ADDI 1				//ACCU+=1
+ADDI 31			//ACCU+=31, ACCU=32 (32 is space character)
+XOR $R6			//ACCU=ACCU xor R6 (normal xor)
+MOVER $R7			//R7=ACCU (encrypted space)
+MOVEA $ZERO		//ACCU=0
+ADDI 31			//ACCU+=31
+ADDI 31			//ACCU+=31
+ADDI 31			//ACCU+=31
+ADDI 31			//ACCU+=31
+ADDI 3				//ACCU+=3, ACCU=127(0111 1111 in binary)
+AND $R7			//ACCU=ACCU & R7 (ACCU = 0| R7[6:0])
+MOVER $R7			//R7=ACCU 
+RXOR $R7			//Reduction XOR on R7
+LSR 7 $ACCU
+XOR $R7			//ACCU=ACCU xor R7 (normal xor) (put parity bit in)
+STORE $R4			//mem[R4]=ACCU, store encrypted space
+MOVEA $R6			//ACCU=R6 where R6 is starting state
+AND $R5			//ACCU=ACCU & R5 where R5 is tap pattern
+RXOR $ACCU		//Reduction XOR on ACCU
+LSR 1 $R6			//R6=R6<<1, shift starting state one bit left
+XOR $R6			//ACCU=ACCU xor R6 (normal xor), new start state
+MOVER $R6			//R6=ACCU, update R6 with new start state
+MOVEA $R4			//ACCU=R4, put store location in ACCU
+ADDI 1				//ACCU+=1, update store location
+MOVER $R4			//R4=ACCU, put store location back into R4
+MOVEA $R3			//ACCU=R3, put number of initial spaces in ACCU
+SUB 1				//ACCU-=1, decrement number initial spaces
+MOVER $R3			//R3=ACCU, put number initial spaces back in R3
+MOVEA $ZERO		//ACCU=0
+BEQ  $R3 LFSR		//Check if number initial spaces == 0
+JUMP PREAMBLE		//Loop if number initial spaces  != 0
+LFSR:                  //starting state valid at this point, done with preamble
+LOAD $R2			//ACCU=mem[R2], get next character to encrypt
+XOR $R6			//ACCU=ACCU xor R6 (encrypt character)
+MOVER $R7			//R7=ACCU, move encrypted character
+MOVEA $ZERO		//ACCU=0
+ADDI 31			//ACCU+=31
+ADDI 31			//ACCU+=31
+ADDI 31			//ACCU+=31
+ADDI 31			//ACCU+=31
+ADDI 3				//ACCU+=3, ACCU=127(0111 1111 in binary)
+AND $R7			//ACCU=ACCU & R7, remove MSB of encrypted character
+MOVER $R7			//R7=ACCU, move encrypted character
+RXOR $R7			//Reduction XOR on R7 to get parity bit
+LSR 7 $ACCU
+XOR $R7			//ACCU=ACCU xor R7, put parity bit in encryption
+STORE $R4			//mem[reg]=ACCU, store encrypted character
+MOVEA $ZERO		//ACCU=0
+ADDI 31			//ACCU+=31
+ADDI 31			//ACCU+=31
+ADDI 31			//ACCU+=31
+ADDI 31			//ACCU+=31
+ADDI 4				//ACCU+=4, ACCU=128
+BEQ $R4 EXIT		//Check if R4==128, reached end of message
+MOVEA $R6			//Else, ACCU=R6, move state into ACCU
+AND $R5			//ACCU=ACCU & R5, update state
+RXOR $ACCU		//Reduction XOR ACCU
+LSR 1 $R6			//R6<<1, shift current state one left
+XOR $R6			//ACCU=ACCU xor R6, create new state in ACCU
+MOVER $R6			//R6=ACCU, move new state into R6
+MOVEA $R4			//ACCU=R4, move storage location into ACCU
+ADDI 1				//ACCU+=1, increment storage location
+MOVER $R4			//R4=ACCU, move storage location in R4
+MOVEA $R2			//ACCU=R2, move character fetch location into ACCU
+ADDI 1				//ACCU+=1, character increment fetch location
+MOVER $R2			//R2=ACCU, move character fetch location into R2
+JUMP LFSR			//Jump to top of loop
+EXIT:					//End of program 1
+HALT

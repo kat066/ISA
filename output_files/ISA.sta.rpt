@@ -1,5 +1,5 @@
 Timing Analyzer report for ISA
-Wed Mar 10 22:28:38 2021
+Thu Mar 11 01:14:18 2021
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -99,13 +99,13 @@ https://fpgasoftware.intel.com/eula.
 ; Number detected on machine ; 16          ;
 ; Maximum allowed            ; 16          ;
 ;                            ;             ;
-; Average used               ; 1.89        ;
+; Average used               ; 1.84        ;
 ; Maximum used               ; 16          ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;  37.8%      ;
-;     Processors 3-16        ;   3.7%      ;
+;     Processor 2            ;  37.7%      ;
+;     Processors 3-16        ;   3.3%      ;
 +----------------------------+-------------+
 
 
@@ -303,8 +303,8 @@ No paths to report.
 ; 2.548 ; DataMem:DM|Core[196][2]     ; RegFile:RF1|Registers[3][2] ; Clk          ; Clk         ; 0.000        ; 0.043      ; 2.748      ;
 ; 2.551 ; DataMem:DM|Core[111][2]     ; RegFile:RF1|Registers[3][2] ; Clk          ; Clk         ; 0.000        ; 0.047      ; 2.755      ;
 ; 2.557 ; RegFile:RF1|Registers[1][6] ; DataMem:DM|Core[34][6]      ; Clk          ; Clk         ; 0.000        ; 0.421      ; 3.135      ;
-; 2.565 ; InstFetch:IF1|ProgCtr[5]    ; InstFetch:IF1|ProgCtr[5]    ; Clk          ; Clk         ; 0.000        ; 0.064      ; 2.786      ;
 ; 2.565 ; RegFile:RF1|Registers[1][6] ; DataMem:DM|Core[253][6]     ; Clk          ; Clk         ; 0.000        ; 0.422      ; 3.144      ;
+; 2.565 ; InstFetch:IF1|ProgCtr[5]    ; InstFetch:IF1|ProgCtr[5]    ; Clk          ; Clk         ; 0.000        ; 0.064      ; 2.786      ;
 ; 2.572 ; RegFile:RF1|Registers[7][7] ; DataMem:DM|Core[92][1]      ; Clk          ; Clk         ; 0.000        ; 0.085      ; 2.814      ;
 ; 2.572 ; RegFile:RF1|Registers[7][7] ; DataMem:DM|Core[92][5]      ; Clk          ; Clk         ; 0.000        ; 0.085      ; 2.814      ;
 ; 2.572 ; RegFile:RF1|Registers[7][7] ; DataMem:DM|Core[92][7]      ; Clk          ; Clk         ; 0.000        ; 0.085      ; 2.814      ;
@@ -362,7 +362,6 @@ No paths to report.
 ; 2.771 ; RegFile:RF1|Registers[7][7] ; DataMem:DM|Core[5][6]       ; Clk          ; Clk         ; 0.000        ; 0.064      ; 2.992      ;
 ; 2.773 ; RegFile:RF1|Registers[1][6] ; DataMem:DM|Core[60][6]      ; Clk          ; Clk         ; 0.000        ; 0.414      ; 3.344      ;
 ; 2.775 ; InstFetch:IF1|ProgCtr[2]    ; InstFetch:IF1|ProgCtr[7]    ; Clk          ; Clk         ; 0.000        ; 0.055      ; 2.987      ;
-; 2.777 ; InstFetch:IF1|ProgCtr[8]    ; InstFetch:IF1|ProgCtr[8]    ; Clk          ; Clk         ; 0.000        ; 0.064      ; 2.998      ;
 ; 2.777 ; RegFile:RF1|Registers[7][7] ; DataMem:DM|Core[58][1]      ; Clk          ; Clk         ; 0.000        ; 0.069      ; 3.003      ;
 ; 2.777 ; RegFile:RF1|Registers[7][7] ; DataMem:DM|Core[58][5]      ; Clk          ; Clk         ; 0.000        ; 0.069      ; 3.003      ;
 ; 2.777 ; RegFile:RF1|Registers[7][7] ; DataMem:DM|Core[58][7]      ; Clk          ; Clk         ; 0.000        ; 0.069      ; 3.003      ;
@@ -371,6 +370,7 @@ No paths to report.
 ; 2.777 ; RegFile:RF1|Registers[7][7] ; DataMem:DM|Core[58][2]      ; Clk          ; Clk         ; 0.000        ; 0.069      ; 3.003      ;
 ; 2.777 ; RegFile:RF1|Registers[7][7] ; DataMem:DM|Core[58][0]      ; Clk          ; Clk         ; 0.000        ; 0.069      ; 3.003      ;
 ; 2.777 ; RegFile:RF1|Registers[7][7] ; DataMem:DM|Core[58][6]      ; Clk          ; Clk         ; 0.000        ; 0.069      ; 3.003      ;
+; 2.777 ; InstFetch:IF1|ProgCtr[8]    ; InstFetch:IF1|ProgCtr[8]    ; Clk          ; Clk         ; 0.000        ; 0.064      ; 2.998      ;
 ; 2.781 ; RegFile:RF1|Registers[7][7] ; RegFile:RF1|Registers[6][4] ; Clk          ; Clk         ; 0.000        ; 0.108      ; 3.046      ;
 ; 2.783 ; InstFetch:IF1|ProgCtr[5]    ; InstFetch:IF1|ProgCtr[9]    ; Clk          ; Clk         ; 0.000        ; 0.054      ; 2.994      ;
 ; 2.787 ; RegFile:RF1|Registers[1][6] ; DataMem:DM|Core[30][6]      ; Clk          ; Clk         ; 0.000        ; 0.394      ; 3.338      ;
@@ -384,8 +384,8 @@ No paths to report.
 ; 2.808 ; RegFile:RF1|Registers[1][6] ; DataMem:DM|Core[167][6]     ; Clk          ; Clk         ; 0.000        ; 0.454      ; 3.419      ;
 ; 2.809 ; RegFile:RF1|Registers[7][7] ; RegFile:RF1|Registers[7][4] ; Clk          ; Clk         ; 0.000        ; 0.079      ; 3.045      ;
 ; 2.824 ; RegFile:RF1|Registers[1][6] ; DataMem:DM|Core[151][6]     ; Clk          ; Clk         ; 0.000        ; 0.471      ; 3.452      ;
-; 2.825 ; DataMem:DM|Core[95][2]      ; RegFile:RF1|Registers[3][2] ; Clk          ; Clk         ; 0.000        ; 0.095      ; 3.077      ;
 ; 2.825 ; RegFile:RF1|Registers[7][7] ; DataMem:DM|Core[1][1]       ; Clk          ; Clk         ; 0.000        ; 0.096      ; 3.078      ;
+; 2.825 ; RegFile:RF1|Registers[7][7] ; DataMem:DM|Core[1][5]       ; Clk          ; Clk         ; 0.000        ; 0.096      ; 3.078      ;
 +-------+-----------------------------+-----------------------------+--------------+-------------+--------------+------------+------------+
 
 
@@ -908,8 +908,8 @@ No paths to report.
 ; 1.535 ; RegFile:RF1|Registers[7][7] ; DataMem:DM|Core[1][0]       ; Clk          ; Clk         ; 0.000        ; 0.062      ; 1.681      ;
 ; 1.535 ; RegFile:RF1|Registers[1][6] ; DataMem:DM|Core[56][6]      ; Clk          ; Clk         ; 0.000        ; 0.219      ; 1.838      ;
 ; 1.535 ; RegFile:RF1|Registers[7][6] ; DataMem:DM|Core[255][6]     ; Clk          ; Clk         ; 0.000        ; -0.156     ; 1.463      ;
-; 1.538 ; InstFetch:IF1|ProgCtr[9]    ; InstFetch:IF1|ProgCtr[9]    ; Clk          ; Clk         ; 0.000        ; 0.036      ; 1.658      ;
 ; 1.538 ; RegFile:RF1|Registers[1][6] ; DataMem:DM|Core[247][6]     ; Clk          ; Clk         ; 0.000        ; 0.249      ; 1.871      ;
+; 1.538 ; InstFetch:IF1|ProgCtr[9]    ; InstFetch:IF1|ProgCtr[9]    ; Clk          ; Clk         ; 0.000        ; 0.036      ; 1.658      ;
 ; 1.539 ; RegFile:RF1|Registers[1][6] ; DataMem:DM|Core[5][6]       ; Clk          ; Clk         ; 0.000        ; 0.228      ; 1.851      ;
 ; 1.542 ; RegFile:RF1|Registers[1][6] ; DataMem:DM|Core[30][6]      ; Clk          ; Clk         ; 0.000        ; 0.220      ; 1.846      ;
 ; 1.543 ; RegFile:RF1|Registers[7][7] ; RegFile:RF1|Registers[6][5] ; Clk          ; Clk         ; 0.000        ; 0.060      ; 1.687      ;
@@ -1096,7 +1096,7 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 Info: *******************************************************************
 Info: Running Quartus Prime Timing Analyzer
     Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
-    Info: Processing started: Wed Mar 10 22:28:35 2021
+    Info: Processing started: Thu Mar 11 01:14:15 2021
 Info: Command: quartus_sta ISA -c ISA
 Info: qsta_default_script.tcl version: #1
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
@@ -1169,7 +1169,7 @@ Info (332102): Design is not fully constrained for setup requirements
 Info (332102): Design is not fully constrained for hold requirements
 Info: Quartus Prime Timing Analyzer was successful. 0 errors, 5 warnings
     Info: Peak virtual memory: 4968 megabytes
-    Info: Processing ended: Wed Mar 10 22:28:38 2021
+    Info: Processing ended: Thu Mar 11 01:14:18 2021
     Info: Elapsed time: 00:00:03
     Info: Total CPU time (on all processors): 00:00:03
 

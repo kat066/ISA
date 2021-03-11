@@ -1,1 +1,2 @@
+Info (10281): Verilog HDL Declaration information at program2_tb.sv(14): object "lfsr_ptrn" differs only in case from object "LFSR_ptrn" in the same scope File: C:/Users/blade/Desktop/ISA/program2_tb.sv Line: 14
 Info (10281): Verilog HDL Declaration information at program1_tb1.sv(17): object "lfsr_ptrn" differs only in case from object "LFSR_ptrn" in the same scope File: C:/Users/blade/Desktop/ISA/program1_tb1.sv Line: 17
