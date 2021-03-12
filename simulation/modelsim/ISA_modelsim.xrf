@@ -1,4 +1,5 @@
 vendor_name = ModelSim
+source_file = 1, C:/Users/blade/Desktop/ISA/program3_tb.sv
 source_file = 1, C:/Users/blade/Desktop/ISA/program2_tb.sv
 source_file = 1, C:/Users/blade/Desktop/ISA/TopLevel_tb.sv
 source_file = 1, C:/Users/blade/Desktop/ISA/program1_tb1.sv

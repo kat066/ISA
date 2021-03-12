@@ -13,7 +13,7 @@ vALU
 Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
 Z2 DXx4 work 11 definitions 0 22 T<;g`k`0TGG3<zi7eeAJ30
 DXx4 work 11 ALU_sv_unit 0 22 VY=K2ngF1C`IcW`l>Fgf02
-Z3 !s110 1615454189
+Z3 !s110 1615489235
 Z4 VDg1SIo80bB@j0V0VzS_@n1
 r1
 !s85 0
@@ -30,7 +30,7 @@ Z7 FC:/Users/blade/Desktop/ISA/ALU.sv
 L0 10 50
 Z8 OV;L;2020.1;71
 31
-Z9 !s108 1615454189.000000
+Z9 !s108 1615489235.000000
 Z10 !s107 C:/Users/blade/Desktop/ISA/ALU.sv|
 Z11 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/blade/Desktop/ISA|C:/Users/blade/Desktop/ISA/ALU.sv|
 !i113 1
@@ -87,9 +87,9 @@ Z17 FC:/Users/blade/Desktop/ISA/Ctrl.sv
 L0 6 72
 R8
 31
-R9
-Z18 !s107 C:/Users/blade/Desktop/ISA/Ctrl.sv|
-Z19 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/blade/Desktop/ISA|C:/Users/blade/Desktop/ISA/Ctrl.sv|
+Z18 !s108 1615489234.000000
+Z19 !s107 C:/Users/blade/Desktop/ISA/Ctrl.sv|
+Z20 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/blade/Desktop/ISA|C:/Users/blade/Desktop/ISA/Ctrl.sv|
 !i113 1
 R12
 R13
@@ -115,9 +115,9 @@ R17
 L0 2 0
 R8
 31
-R9
 R18
 R19
+R20
 !i113 1
 R12
 R13
@@ -125,10 +125,10 @@ R14
 n@ctrl_sv_unit
 vDataMem
 R1
-R3
+Z21 !s110 1615489234
 !i10b 1
 !s100 mh6`>2o:IT=n5Z@5H9Q_n2
-Z20 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Z22 !s11b Dg1SIo80bB@j0V0VzS_@n1
 IT=m472HXa=:l0KVfGO0i>1
 R4
 S1
@@ -142,7 +142,7 @@ R8
 r1
 !s85 0
 31
-R9
+R18
 !s107 C:/Users/blade/Desktop/ISA/DataMem.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/blade/Desktop/ISA|C:/Users/blade/Desktop/ISA/DataMem.sv|
 !i113 1
@@ -150,37 +150,37 @@ R12
 R13
 R14
 n@data@mem
-vdecrypt_tb
+vdecrypt_depad_tb
 R1
-!s110 1615471932
+!s110 1615528220
 !i10b 1
-!s100 J43mb058_jmjLlYzB^?Go0
-R20
-IRYWHOIS>8`GJid?4>1m^C3
+!s100 BhlDJMndS34HdA;^2CBC70
+R22
+Ig2E]i@INz;EfnB_iOMAR[1
 R4
 S1
 R0
-w1615471927
-8C:/Users/blade/Desktop/ISA/program2_tb.sv
-FC:/Users/blade/Desktop/ISA/program2_tb.sv
-!i122 21
-L0 5 153
+w1615528207
+8C:/Users/blade/Desktop/ISA/program3_tb.sv
+FC:/Users/blade/Desktop/ISA/program3_tb.sv
+!i122 35
+L0 6 195
 R8
 r1
 !s85 0
 31
-!s108 1615471932.000000
-!s107 C:/Users/blade/Desktop/ISA/program2_tb.sv|
-!s90 -reportprogress|300|-work|work|C:/Users/blade/Desktop/ISA/program2_tb.sv|
+!s108 1615528220.000000
+!s107 C:/Users/blade/Desktop/ISA/program3_tb.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/blade/Desktop/ISA/program3_tb.sv|
 !i113 1
 o-work work
 R14
 Xdefinitions
 R1
-R3
+R21
 !i10b 1
 !s100 @<6[iISU?ZHJBLig<HYha0
-R20
+R22
 IT<;g`k`0TGG3<zi7eeAJ30
 VT<;g`k`0TGG3<zi7eeAJ30
 S1
@@ -194,7 +194,7 @@ R8
 r1
 !s85 0
 31
-R9
+R18
 !s107 C:/Users/blade/Desktop/ISA/Definitions.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/blade/Desktop/ISA|C:/Users/blade/Desktop/ISA/Definitions.sv|
 !i113 1
@@ -203,10 +203,10 @@ R13
 R14
 vInstFetch
 R1
-Z21 !s110 1615454188
+!s110 1615528053
 !i10b 1
 !s100 ?TLEZTSMDRD[BijF?Yi9k2
-R20
+R22
 I99IP@d?VWK;91M`bcz0o90
 R4
 S1
@@ -214,13 +214,13 @@ R0
 w1613985641
 8C:/Users/blade/Desktop/ISA/InstFetch.sv
 FC:/Users/blade/Desktop/ISA/InstFetch.sv
-!i122 2
+!i122 33
 L0 8 25
 R8
 r1
 !s85 0
 31
-Z22 !s108 1615454188.000000
+!s108 1615528053.000000
 !s107 C:/Users/blade/Desktop/ISA/InstFetch.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/blade/Desktop/ISA|C:/Users/blade/Desktop/ISA/InstFetch.sv|
 !i113 1
@@ -230,10 +230,10 @@ R14
 n@inst@fetch
 vInstROM
 R1
-R3
+R21
 !i10b 1
 !s100 Jn@kzfD^2T>bc5g:KSbSB2
-R20
+R22
 IF_QiW;D<l6PHbo`1E974a3
 R4
 S1
@@ -247,7 +247,7 @@ R8
 r1
 !s85 0
 31
-R9
+R18
 !s107 C:/Users/blade/Desktop/ISA/InstROM.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/blade/Desktop/ISA|C:/Users/blade/Desktop/ISA/InstROM.sv|
 !i113 1
@@ -260,7 +260,7 @@ R1
 R21
 !i10b 1
 !s100 __kBmb9=ZX]Jdf7N>go6g2
-R20
+R22
 I<Pzf;On[a2]]=eJRll<7i2
 R4
 S1
@@ -274,7 +274,7 @@ R8
 r1
 !s85 0
 31
-R22
+R18
 !s107 C:/Users/blade/Desktop/ISA/LUT.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/blade/Desktop/ISA|C:/Users/blade/Desktop/ISA/LUT.sv|
 !i113 1
@@ -287,7 +287,7 @@ R1
 R21
 !i10b 1
 !s100 3U1e48kQUVLi;VL`d5VUD0
-R20
+R22
 IB=`2d>EN`9A8;k53M34Sa3
 R4
 S1
@@ -301,7 +301,7 @@ R8
 r1
 !s85 0
 31
-R22
+R18
 !s107 C:/Users/blade/Desktop/ISA/RegFile.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/blade/Desktop/ISA|C:/Users/blade/Desktop/ISA/RegFile.sv|
 !i113 1

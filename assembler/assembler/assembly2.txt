@@ -1,0 +1,138 @@
+MOVEA $ZERO                 // $ACCU = 0                                                                          
+ADDI 31		        // $ACCU += 31
+ADDI 31		        // $ACCU += 31          
+ADDI 2		        // $ACCU += 2 $ACCU = 64
+MOVER $R2                      // $R2 = 64
+LOAD $R2                         // $ACCU = M[$R2] = M[64]
+MOVER $R3                      // R3 = M[64] 
+MOVEA $ZERO                // $ACCU = 0
+ADDI 31                           // $ACCU += 31
+ADDI 1		                 // $ACCU += 1                 $ACCU = 32
+XOR $R3  		      // $ACCU=$ACCU XOR $R3 = (32) XOR (M[64])   
+MOVER $R4                     // R4=initial state
+MOVEA $ZERO                // $ACCU = 0
+ADDI 31		      // $ACCU += 31
+ADDI 31		      // $ACCU += 31
+ADDI 31		      // $ACCU += 31
+ADDI 31		      // $ACCU += 31
+ADDI 3		      	      // $ACCU += 3,       $ACCU = 127
+AND $R4				//ignore most significant bit because it is a parity bit
+MOVER $R4
+MOVEA $ZERO		     // R7 = tap pattern count
+MOVER $R7
+LUT $R7                      // $ACCU = LOOKUP($R7)
+MOVER $R5                     // R5 = current trying tap pattern
+MOVEA $ZERO                // $ACCU = $ZERO = 0
+ADDI 1
+MOVER $R6                     // counter for preamble space,  $R6 = 0
+JUMP LOOP                     // go to label ‘LOOP’
+TRYNEXT:                                                                  //try next tap pattern
+MOVEA $ZERO                 // $ACCU = 0                                                                          
+ADDI 31		        // $ACCU += 31
+ADDI 31		        // $ACCU += 31          
+ADDI 2		        // $ACCU += 2 $ACCU = 64
+MOVER $R2                      // $R2 = 64
+LOAD $R2                         // $ACCU = M[$R2] = M[64]
+MOVER $R3                      // R3 = M[64] 
+MOVEA $ZERO                // $ACCU = 0
+ADDI 31                           // $ACCU += 31
+ADDI 1		                 // $ACCU += 1                 $ACCU = 32
+XOR $R3  		      // $ACCU=$ACCU XOR $R3 = (32) XOR (M[64])   
+MOVER $R4                     // R4=initial state
+MOVEA $ZERO                // $ACCU = 0
+ADDI 31		      // $ACCU += 31
+ADDI 31		      // $ACCU += 31
+ADDI 31		      // $ACCU += 31
+ADDI 31		      // $ACCU += 31
+ADDI 3		      	      // $ACCU += 3,       $ACCU = 127
+AND $R4				//ignore most significant bit because it is a parity bit
+MOVER $R4
+MOVEA $R7	      // $ACCU = $R7
+ADDI 1			     // $ACCU += 1
+MOVER $R7		      // $R7 = $ACCU
+LUT $ACCU	  	      // $ACCU = LOOKUP($ACCU)
+MOVER $R5			// R5 = current trying tap pattern
+MOVEA $ZERO                // $ACCU = $ZERO = 0
+ADDI 1
+MOVER $R6                     // counter for preamble space,  $R6 = 0
+LOOP:
+MOVEA $R5                      // $ACCU = $R5,  $R5 = current trying tap pattern
+AND $R4  		       // $ACCU = $ACCU & $R4=(current trying tap patten)  & (initial state)
+RXOR $ACCU                  // $ACCU = New least signicant bit
+LSR 1 $R4		      // $R4 = $R4<<1 = (initial state)<<1
+XOR $R4		      // $ACCU = $ACCU XOR $R4 = (initial state) XOR (initial state)
+MOVER $R4		      // $R4 = $ACCU
+MOVEA $R2	 	      // $ACCU = $R2 = 64
+ADDI 1			      // $ACCU += 1   ---->   $ACCU = 65
+MOVER $R2		      // $R2 = $ACCU = 65
+MOVEA $R6		      // $ACCU = $R6, $R6 = 0
+ADDI 1			      // $ACCU += 1    ---->   $ACCU = 1
+MOVER $R6		      // $R6 = $ACCU = 1
+MOVEA $ZERO	      // $ACCU = $ZERO = 0
+ADDI 31		      // $ACCU += 31
+ADDI 1			      // $ACCU += 32   ---->   $ACCU = 32
+XOR $R4		      // $ACCU = $ACCU XOR ($R4) = (32) XOR tap pattern
+MOVER $R3		      // $R3 = encryted space
+MOVEA $ZERO	      // $ACCU = $ZERO
+ADDI 31		      // $ACCU += 31
+ADDI 31		      // $ACCU += 31
+ADDI 31		      // $ACCU += 31
+ADDI 31		      // $ACCU += 31
+ADDI 3		      	      // $ACCU += 3,       $ACCU = 127
+AND $R3		      // $ACCU &= ($R4)
+MOVER $R3		      // $R3 = $ACCU
+RXOR $R3
+LSR 7 $ACCU
+XOR $R3
+MOVER $R3
+LOAD $R2 
+BEQ $R3 WHILE             // go to label ‘WHILE’ if $R3 == $ACCU
+JUMP TRYNEXT	     // go to label ‘TRYNEXT’
+WHILE:                                                       //while R6 <10
+MOVEA $ZERO 	     // $ACCU = $ZERO = 0
+ADDI 10		     // $ACCU += 10, $ACCU = 10
+BLT $R6 LOOP	     // go to label ‘LOOP’ if $R6 < $ACCU,       $ACCU = 10
+MOVEA $ZERO	     // $ACCU = $ZERO = 0
+MOVER $R6                    // Reset index R6 to 0 for decoding
+FOR:                                          // store 10 spaces first
+MOVEA $ZERO              // $ACCU = $ZERO = 0
+ADDI 31		      // $ACCU += 31
+ADDI 1			      // $ACCU = 32   ---->   $ACCU = 32	
+STORE $R6		     // M[$R6] = $ACCU = 32
+MOVEA $R6		     // $ACCU = $R6
+ADDI 1			     // $ACCU += 1
+MOVER $R6		     // $R6 = $ACCU
+MOVEA $ZERO
+ADDI 10
+BLT $R6 FOR		     // go to label ‘FOR’ if $R6 < $ACCU
+DECODE:
+MOVEA $R2		     // $ACCU = $R2
+ADDI 1			     // $ACCU += 1                                               //start decoding from mem[74] into memory[10]
+MOVER $R2		     // $R2 = $ACCU
+LOAD $R2		     // $ACCU = M[$R2]
+MOVER $R3	  	     // $R3 = $ACCU
+MOVEA $R5                      // $ACCU = $R5,  $R5 = current trying tap pattern
+AND $R4  		       // $ACCU = $ACCU & $R4=(current trying tap patten)  & (initial state)
+RXOR $ACCU                  // $ACCU = New least signicant bit
+LSR 1 $R4		      // $R4 = $R4<<1 = (initial state)<<1
+XOR $R4		      // $ACCU = $ACCU XOR $R4 = (tap bit) XOR (initial state)
+MOVER $R4		      // $R4 = $ACCU
+XOR $R3		     // $ACCU = $ACCU XOR $R3
+MOVER $R3
+MOVEA $ZERO		//ACCU=0
+ADDI 31			//ACCU+=31
+ADDI 31			//ACCU+=31
+ADDI 31			//ACCU+=31
+ADDI 31			//ACCU+=31
+ADDI 3				//ACCU+=3, ACCU=127(0111 1111 in binary)
+AND $R3	
+STORE $R6		     // M[$R6] = $ACCU
+MOVEA $R6		     // $ACCU = $R6
+ADDI 1			     // $ACCU += 1
+MOVER $R6		     // $R6 = $ACCU
+MOVEA $ZERO	     // $ACCU = $ZERO = 0
+ADDI 31		        // $ACCU += 31
+ADDI 31		        // $ACCU += 31          
+ADDI 2		        // $ACCU += 2 $ACCU = 64
+BLT $R6 DECODE	     // go to label ‘DECODE’ if $R6 < 64
+HALT

@@ -94,29 +94,38 @@ ADDI 10		     // $ACCU += 10, $ACCU = 10
 BLT $R6 LOOP	     // go to label ‘LOOP’ if $R6 < $ACCU,       $ACCU = 10
 MOVEA $ZERO	     // $ACCU = $ZERO = 0
 MOVER $R6                    // Reset index R6 to 0 for decoding
-FOR:                                          // store 10 spaces first
-MOVEA $ZERO              // $ACCU = $ZERO = 0
-ADDI 31		      // $ACCU += 31
-ADDI 1			      // $ACCU = 32   ---->   $ACCU = 32	
-STORE $R6		     // M[$R6] = $ACCU = 32
-MOVEA $R6		     // $ACCU = $R6
-ADDI 1			     // $ACCU += 1
-MOVER $R6		     // $R6 = $ACCU
 MOVEA $ZERO
-ADDI 10
-BLT $R6 FOR		     // go to label ‘FOR’ if $R6 < $ACCU
-DECODE:
+ADDI 31		      // $ACCU += 31
+ADDI 31		      // $ACCU += 31
+ADDI 31		      // $ACCU += 31
+ADDI 31		      // $ACCU += 31
+ADDI 4		      	      // $ACCU += 4,       $ACCU = 128
+MOVER $R7		//$R7=128
+REMOVEZERO:
 MOVEA $R2		     // $ACCU = $R2
-ADDI 1			     // $ACCU += 1                                               //start decoding from mem[74] into memory[10]
-MOVER $R2		     // $R2 = $ACCU
-LOAD $R2		     // $ACCU = M[$R2]
+ADDI 1			     // $ACCU += 1 
+LOAD $ACCU		     // $ACCU = M[$R2]
 MOVER $R3	  	     // $R3 = $ACCU
+RXOR $ACCU
+BLT $ZERO DECODE
+MOVEA $R2		     // $ACCU = $R2
+ADDI 1			     // $ACCU += 1 
+MOVER $R2		     // $R2 = $ACCU
+BEQ $R7 DECODE
 MOVEA $R5                      // $ACCU = $R5,  $R5 = current trying tap pattern
 AND $R4  		       // $ACCU = $ACCU & $R4=(current trying tap patten)  & (initial state)
 RXOR $ACCU                  // $ACCU = New least signicant bit
 LSR 1 $R4		      // $R4 = $R4<<1 = (initial state)<<1
 XOR $R4		      // $ACCU = $ACCU XOR $R4 = (tap bit) XOR (initial state)
 MOVER $R4		      // $R4 = $ACCU
+MOVEA $ZERO
+ADDI 31			//ACCU+=31
+ADDI 31			//ACCU+=31
+ADDI 31			//ACCU+=31
+ADDI 31			//ACCU+=31
+ADDI 3				//ACCU+=3, ACCU=127(0111 1111 in binary)
+AND $R4
+MOVER $R4
 XOR $R3		     // $ACCU = $ACCU XOR $R3
 MOVER $R3
 MOVEA $ZERO		//ACCU=0
@@ -125,7 +134,60 @@ ADDI 31			//ACCU+=31
 ADDI 31			//ACCU+=31
 ADDI 31			//ACCU+=31
 ADDI 3				//ACCU+=3, ACCU=127(0111 1111 in binary)
-AND $R3	
+AND $R3
+MOVER $R3
+MOVEA $ZERO
+ADDI 31			//ACCU+=31
+ADDI 1
+BEQ $R3 REMOVEZERO
+JUMP PAD
+DECODE:
+MOVEA $R2		     // $ACCU = $R2
+ADDI 1			     // $ACCU += 1 
+MOVER $R2		     // $R2 = $ACCU
+MOVEA $R7
+BLT $R2 INRANGE
+MOVEA $ZERO
+ADDI 31		        // $ACCU += 31
+ADDI 1			//$ACCU=32
+MOVER $R3	  	     // $R3 = $ACCU
+JUMP PAD
+INRANGE:		//start decoding from mem[74] into memory[10]
+MOVEA $R5                      // $ACCU = $R5,  $R5 = current trying tap pattern
+AND $R4  		       // $ACCU = $ACCU & $R4=(current trying tap patten)  & (initial state)
+RXOR $ACCU                  // $ACCU = New least signicant bit
+LSR 1 $R4		      // $R4 = $R4<<1 = (initial state)<<1
+XOR $R4		      // $ACCU = $ACCU XOR $R4 = (tap bit) XOR (initial state)
+MOVER $R4		      // $R4 = $ACCU
+MOVEA $ZERO
+ADDI 31			//ACCU+=31
+ADDI 31			//ACCU+=31
+ADDI 31			//ACCU+=31
+ADDI 31			//ACCU+=31
+ADDI 3				//ACCU+=3, ACCU=127(0111 1111 in binary)
+AND $R4
+MOVER $R4                                     
+LOAD $R2		     // $ACCU = M[$R2]
+MOVER $R3	  	     // $R3 = $ACCU
+RXOR $ACCU
+BEQ $ZERO GOODBIT
+MOVEA $R7
+MOVER $R3
+JUMP PAD
+GOODBIT:
+MOVEA $R4
+XOR $R3		     // $ACCU = $ACCU XOR $R3
+MOVER $R3
+MOVEA $ZERO		//ACCU=0
+ADDI 31			//ACCU+=31
+ADDI 31			//ACCU+=31
+ADDI 31			//ACCU+=31
+ADDI 31			//ACCU+=31
+ADDI 3				//ACCU+=3, ACCU=127(0111 1111 in binary)
+AND $R3
+MOVER $R3
+PAD:
+MOVEA $R3
 STORE $R6		     // M[$R6] = $ACCU
 MOVEA $R6		     // $ACCU = $R6
 ADDI 1			     // $ACCU += 1

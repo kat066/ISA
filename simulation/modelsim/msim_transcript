@@ -12,67 +12,67 @@
 # 
 # vlog -sv -work work +incdir+C:/Users/blade/Desktop/ISA {C:/Users/blade/Desktop/ISA/RegFile.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 01:16:28 on Mar 11,2021
+# Start time: 11:00:34 on Mar 11,2021
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/blade/Desktop/ISA" C:/Users/blade/Desktop/ISA/RegFile.sv 
 # -- Compiling module RegFile
 # 
 # Top level modules:
 # 	RegFile
-# End time: 01:16:28 on Mar 11,2021, Elapsed time: 0:00:00
+# End time: 11:00:34 on Mar 11,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/blade/Desktop/ISA {C:/Users/blade/Desktop/ISA/LUT.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 01:16:28 on Mar 11,2021
+# Start time: 11:00:34 on Mar 11,2021
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/blade/Desktop/ISA" C:/Users/blade/Desktop/ISA/LUT.sv 
 # -- Compiling module LUT
 # 
 # Top level modules:
 # 	LUT
-# End time: 01:16:28 on Mar 11,2021, Elapsed time: 0:00:00
+# End time: 11:00:34 on Mar 11,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/blade/Desktop/ISA {C:/Users/blade/Desktop/ISA/InstFetch.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 01:16:28 on Mar 11,2021
+# Start time: 11:00:34 on Mar 11,2021
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/blade/Desktop/ISA" C:/Users/blade/Desktop/ISA/InstFetch.sv 
 # -- Compiling module InstFetch
 # 
 # Top level modules:
 # 	InstFetch
-# End time: 01:16:29 on Mar 11,2021, Elapsed time: 0:00:01
+# End time: 11:00:34 on Mar 11,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/blade/Desktop/ISA {C:/Users/blade/Desktop/ISA/Definitions.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 01:16:29 on Mar 11,2021
+# Start time: 11:00:34 on Mar 11,2021
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/blade/Desktop/ISA" C:/Users/blade/Desktop/ISA/Definitions.sv 
 # -- Compiling package definitions
 # 
 # Top level modules:
 # 	--none--
-# End time: 01:16:29 on Mar 11,2021, Elapsed time: 0:00:00
+# End time: 11:00:34 on Mar 11,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/blade/Desktop/ISA {C:/Users/blade/Desktop/ISA/DataMem.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 01:16:29 on Mar 11,2021
+# Start time: 11:00:34 on Mar 11,2021
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/blade/Desktop/ISA" C:/Users/blade/Desktop/ISA/DataMem.sv 
 # -- Compiling module DataMem
 # 
 # Top level modules:
 # 	DataMem
-# End time: 01:16:29 on Mar 11,2021, Elapsed time: 0:00:00
+# End time: 11:00:34 on Mar 11,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/blade/Desktop/ISA {C:/Users/blade/Desktop/ISA/InstROM.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 01:16:29 on Mar 11,2021
+# Start time: 11:00:34 on Mar 11,2021
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/blade/Desktop/ISA" C:/Users/blade/Desktop/ISA/InstROM.sv 
 # -- Compiling module InstROM
 # 
 # Top level modules:
 # 	InstROM
-# End time: 01:16:29 on Mar 11,2021, Elapsed time: 0:00:00
+# End time: 11:00:34 on Mar 11,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/blade/Desktop/ISA {C:/Users/blade/Desktop/ISA/Ctrl.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 01:16:29 on Mar 11,2021
+# Start time: 11:00:34 on Mar 11,2021
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/blade/Desktop/ISA" C:/Users/blade/Desktop/ISA/Ctrl.sv 
 # -- Compiling package Ctrl_sv_unit
 # -- Importing package definitions
@@ -80,11 +80,11 @@
 # 
 # Top level modules:
 # 	Ctrl
-# End time: 01:16:29 on Mar 11,2021, Elapsed time: 0:00:00
+# End time: 11:00:35 on Mar 11,2021, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/blade/Desktop/ISA {C:/Users/blade/Desktop/ISA/ALU.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 01:16:29 on Mar 11,2021
+# Start time: 11:00:35 on Mar 11,2021
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/blade/Desktop/ISA" C:/Users/blade/Desktop/ISA/ALU.sv 
 # -- Compiling package ALU_sv_unit
 # -- Importing package definitions
@@ -92,11 +92,11 @@
 # 
 # Top level modules:
 # 	ALU
-# End time: 01:16:29 on Mar 11,2021, Elapsed time: 0:00:00
+# End time: 11:00:35 on Mar 11,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/blade/Desktop/ISA {C:/Users/blade/Desktop/ISA/TopLevel.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 01:16:29 on Mar 11,2021
+# Start time: 11:00:35 on Mar 11,2021
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/blade/Desktop/ISA" C:/Users/blade/Desktop/ISA/TopLevel.sv 
 # -- Compiling package TopLevel_sv_unit
 # -- Importing package definitions
@@ -104,82 +104,24 @@
 # 
 # Top level modules:
 # 	TopLevel
-# End time: 01:16:29 on Mar 11,2021, Elapsed time: 0:00:00
+# End time: 11:00:35 on Mar 11,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
-vlog -reportprogress 300 -work work C:/Users/blade/Desktop/ISA/program2_tb.sv
+vlog -reportprogress 300 -work work C:/Users/blade/Desktop/ISA/program3_tb.sv
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 01:17:35 on Mar 11,2021
-# vlog -reportprogress 300 -work work C:/Users/blade/Desktop/ISA/program2_tb.sv 
-# -- Compiling module decrypt_tb
+# Start time: 11:00:46 on Mar 11,2021
+# vlog -reportprogress 300 -work work C:/Users/blade/Desktop/ISA/program3_tb.sv 
+# -- Compiling module decrypt_depad_tb
 # 
 # Top level modules:
-# 	decrypt_tb
-# End time: 01:17:35 on Mar 11,2021, Elapsed time: 0:00:00
+# 	decrypt_depad_tb
+# End time: 11:00:46 on Mar 11,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-vsim work.decrypt_tb
-# vsim work.decrypt_tb 
-# Start time: 01:17:37 on Mar 11,2021
+vsim work.decrypt_depad_tb
+# vsim work.decrypt_depad_tb 
+# Start time: 11:00:56 on Mar 11,2021
 # Loading sv_std.std
-# Loading work.decrypt_tb
-# Loading work.definitions
-# Loading work.TopLevel_sv_unit
-# Loading work.TopLevel
-# Loading work.InstFetch
-# Loading work.Ctrl_sv_unit
-# Loading work.Ctrl
-# Loading work.InstROM
-# Loading work.RegFile
-# Loading work.ALU_sv_unit
-# Loading work.ALU
-# Loading work.LUT
-# Loading work.DataMem
-# ** Warning: (vsim-3008) [CNNODP] - Component name (core) is not on a downward path.
-#    Time: 0 ps  Iteration: 0  Instance: /decrypt_tb File: C:/Users/blade/Desktop/ISA/program2_tb.sv Line: 121
-# ** Error: (vsim-3043) Unresolved reference to 'core' in dut.DM.core.
-#    Time: 0 ps  Iteration: 0  Instance: /decrypt_tb File: C:/Users/blade/Desktop/ISA/program2_tb.sv Line: 121
-# Error loading design
-# End time: 01:17:37 on Mar 11,2021, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 1
-vsim work.decrypt_tb
-# vsim work.decrypt_tb 
-# Start time: 01:17:42 on Mar 11,2021
-# Loading sv_std.std
-# Loading work.decrypt_tb
-# Loading work.definitions
-# Loading work.TopLevel_sv_unit
-# Loading work.TopLevel
-# Loading work.InstFetch
-# Loading work.Ctrl_sv_unit
-# Loading work.Ctrl
-# Loading work.InstROM
-# Loading work.RegFile
-# Loading work.ALU_sv_unit
-# Loading work.ALU
-# Loading work.LUT
-# Loading work.DataMem
-# ** Warning: (vsim-3008) [CNNODP] - Component name (core) is not on a downward path.
-#    Time: 0 ps  Iteration: 0  Instance: /decrypt_tb File: C:/Users/blade/Desktop/ISA/program2_tb.sv Line: 121
-# ** Error: (vsim-3043) Unresolved reference to 'core' in dut.DM.core.
-#    Time: 0 ps  Iteration: 0  Instance: /decrypt_tb File: C:/Users/blade/Desktop/ISA/program2_tb.sv Line: 121
-# Error loading design
-# End time: 01:17:43 on Mar 11,2021, Elapsed time: 0:00:01
-# Errors: 1, Warnings: 1
-vlog -reportprogress 300 -work work C:/Users/blade/Desktop/ISA/program2_tb.sv
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 01:18:29 on Mar 11,2021
-# vlog -reportprogress 300 -work work C:/Users/blade/Desktop/ISA/program2_tb.sv 
-# -- Compiling module decrypt_tb
-# 
-# Top level modules:
-# 	decrypt_tb
-# End time: 01:18:29 on Mar 11,2021, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vsim work.decrypt_tb
-# vsim work.decrypt_tb 
-# Start time: 01:18:31 on Mar 11,2021
-# Loading sv_std.std
-# Loading work.decrypt_tb
+# Loading work.decrypt_depad_tb
 # Loading work.definitions
 # Loading work.TopLevel_sv_unit
 # Loading work.TopLevel
@@ -193,452 +135,1023 @@ vsim work.decrypt_tb
 # Loading work.LUT
 # Loading work.DataMem
 run -all
-# ** Warning: (vsim-PLI-3406) Too many digits (13) in data on line 2 of file "machine_code.txt". (Max is 9.)    : C:/Users/blade/Desktop/ISA/InstROM.sv(42)
-#    Time: 0 ps  Iteration: 0  Instance: /decrypt_tb/dut/IR1
-# pt_no =           2
-# Break key hit
-# Break in Module InstFetch at C:/Users/blade/Desktop/ISA/InstFetch.sv line 20
+# ** Note: $stop    : C:/Users/blade/Desktop/ISA/program3_tb.sv(192)
+#    Time: 36075 ns  Iteration: 0  Instance: /decrypt_depad_tb
+# Break in Module decrypt_depad_tb at C:/Users/blade/Desktop/ISA/program3_tb.sv line 192
+quit -sim
+# End time: 11:08:27 on Mar 11,2021, Elapsed time: 0:07:31
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/blade/Desktop/ISA/program3_tb.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:08:52 on Mar 11,2021
+# vlog -reportprogress 300 -work work C:/Users/blade/Desktop/ISA/program3_tb.sv 
+# -- Compiling module decrypt_depad_tb
+# 
+# Top level modules:
+# 	decrypt_depad_tb
+# End time: 11:08:52 on Mar 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.decrypt_depad_tb
+# vsim work.decrypt_depad_tb 
+# Start time: 11:08:53 on Mar 11,2021
+# Loading sv_std.std
+# Loading work.decrypt_depad_tb
+# Loading work.definitions
+# Loading work.TopLevel_sv_unit
+# Loading work.TopLevel
+# Loading work.InstFetch
+# Loading work.Ctrl_sv_unit
+# Loading work.Ctrl
+# Loading work.InstROM
+# Loading work.RegFile
+# Loading work.ALU_sv_unit
+# Loading work.ALU
+# Loading work.LUT
+# Loading work.DataMem
+run -all
+# ** Note: $stop    : C:/Users/blade/Desktop/ISA/program3_tb.sv(192)
+#    Time: 23275 ns  Iteration: 0  Instance: /decrypt_depad_tb
+# Break in Module decrypt_depad_tb at C:/Users/blade/Desktop/ISA/program3_tb.sv line 192
+add wave -position end sim:/decrypt_depad_tb/dut/*
+add wave -position 0  sim:/decrypt_depad_tb/dut/RF1/Registers
+add wave -position 0  sim:/decrypt_depad_tb/dut/ALU1/op_mnemonic
+add wave -position 0  sim:/decrypt_depad_tb/dut/DM/Core
 restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
 run -all
-# ** Warning: (vsim-PLI-3406) Too many digits (13) in data on line 2 of file "machine_code.txt". (Max is 9.)    : C:/Users/blade/Desktop/ISA/InstROM.sv(42)
-#    Time: 0 ps  Iteration: 0  Instance: /decrypt_tb/dut/IR1
-# pt_no =           2
+# ** Note: $stop    : C:/Users/blade/Desktop/ISA/program3_tb.sv(192)
+#    Time: 23275 ns  Iteration: 0  Instance: /decrypt_depad_tb
+# Break in Module decrypt_depad_tb at C:/Users/blade/Desktop/ISA/program3_tb.sv line 192
+restart -f
+run -all
+# ** Note: $stop    : C:/Users/blade/Desktop/ISA/program3_tb.sv(192)
+#    Time: 23915 ns  Iteration: 0  Instance: /decrypt_depad_tb
+# Break in Module decrypt_depad_tb at C:/Users/blade/Desktop/ISA/program3_tb.sv line 192
+quit -sim
+# End time: 11:18:41 on Mar 11,2021, Elapsed time: 0:09:48
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/blade/Desktop/ISA/program3_tb.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:18:56 on Mar 11,2021
+# vlog -reportprogress 300 -work work C:/Users/blade/Desktop/ISA/program3_tb.sv 
+# -- Compiling module decrypt_depad_tb
+# 
+# Top level modules:
+# 	decrypt_depad_tb
+# End time: 11:18:56 on Mar 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.decrypt_depad_tb
+# vsim work.decrypt_depad_tb 
+# Start time: 11:18:57 on Mar 11,2021
+# Loading sv_std.std
+# Loading work.decrypt_depad_tb
+# Loading work.definitions
+# Loading work.TopLevel_sv_unit
+# Loading work.TopLevel
+# Loading work.InstFetch
+# Loading work.Ctrl_sv_unit
+# Loading work.Ctrl
+# Loading work.InstROM
+# Loading work.RegFile
+# Loading work.ALU_sv_unit
+# Loading work.ALU
+# Loading work.LUT
+# Loading work.DataMem
+add wave -position end sim:/decrypt_depad_tb/dut/*
+add wave -position 0  sim:/decrypt_depad_tb/dut/RF1/Registers
+add wave -position 0  sim:/decrypt_depad_tb/dut/ALU1/op_mnemonic
+add wave -position 0  sim:/decrypt_depad_tb/dut/DM/Core
+run -all
+# ** Note: $stop    : C:/Users/blade/Desktop/ISA/program3_tb.sv(192)
+#    Time: 31615 ns  Iteration: 0  Instance: /decrypt_depad_tb
+# Break in Module decrypt_depad_tb at C:/Users/blade/Desktop/ISA/program3_tb.sv line 192
+quit -sim
+# End time: 11:35:17 on Mar 11,2021, Elapsed time: 0:16:20
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/blade/Desktop/ISA/program3_tb.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:35:22 on Mar 11,2021
+# vlog -reportprogress 300 -work work C:/Users/blade/Desktop/ISA/program3_tb.sv 
+# -- Compiling module decrypt_depad_tb
+# 
+# Top level modules:
+# 	decrypt_depad_tb
+# End time: 11:35:22 on Mar 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.decrypt_depad_tb
+# vsim work.decrypt_depad_tb 
+# Start time: 11:35:24 on Mar 11,2021
+# Loading sv_std.std
+# Loading work.decrypt_depad_tb
+# Loading work.definitions
+# Loading work.TopLevel_sv_unit
+# Loading work.TopLevel
+# Loading work.InstFetch
+# Loading work.Ctrl_sv_unit
+# Loading work.Ctrl
+# Loading work.InstROM
+# Loading work.RegFile
+# Loading work.ALU_sv_unit
+# Loading work.ALU
+# Loading work.LUT
+# Loading work.DataMem
+run -all
+# ** Note: $stop    : C:/Users/blade/Desktop/ISA/program3_tb.sv(192)
+#    Time: 14385 ns  Iteration: 0  Instance: /decrypt_depad_tb
+# Break in Module decrypt_depad_tb at C:/Users/blade/Desktop/ISA/program3_tb.sv line 192
+restart -f
+run -all
+# ** Note: $stop    : C:/Users/blade/Desktop/ISA/program3_tb.sv(192)
+#    Time: 23355 ns  Iteration: 0  Instance: /decrypt_depad_tb
+# Break in Module decrypt_depad_tb at C:/Users/blade/Desktop/ISA/program3_tb.sv line 192
+add wave -position end sim:/decrypt_depad_tb/dut/*
+add wave -position 0  sim:/decrypt_depad_tb/dut/RF1/Registers
+add wave -position 0  sim:/decrypt_depad_tb/dut/ALU1/op_mnemonic
+add wave -position 0  sim:/decrypt_depad_tb/dut/DM/Core
+restart -f
+run -all
+# ** Note: $stop    : C:/Users/blade/Desktop/ISA/program3_tb.sv(192)
+#    Time: 23355 ns  Iteration: 0  Instance: /decrypt_depad_tb
+# Break in Module decrypt_depad_tb at C:/Users/blade/Desktop/ISA/program3_tb.sv line 192
+quit -sim
+# End time: 11:47:21 on Mar 11,2021, Elapsed time: 0:11:57
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/blade/Desktop/ISA/program3_tb.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:47:39 on Mar 11,2021
+# vlog -reportprogress 300 -work work C:/Users/blade/Desktop/ISA/program3_tb.sv 
+# -- Compiling module decrypt_depad_tb
+# 
+# Top level modules:
+# 	decrypt_depad_tb
+# End time: 11:47:39 on Mar 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.decrypt_depad_tb
+# vsim work.decrypt_depad_tb 
+# Start time: 11:47:40 on Mar 11,2021
+# Loading sv_std.std
+# Loading work.decrypt_depad_tb
+# Loading work.definitions
+# Loading work.TopLevel_sv_unit
+# Loading work.TopLevel
+# Loading work.InstFetch
+# Loading work.Ctrl_sv_unit
+# Loading work.Ctrl
+# Loading work.InstROM
+# Loading work.RegFile
+# Loading work.ALU_sv_unit
+# Loading work.ALU
+# Loading work.LUT
+# Loading work.DataMem
+run -all
+# ** Note: $stop    : C:/Users/blade/Desktop/ISA/program3_tb.sv(192)
+#    Time: 23755 ns  Iteration: 0  Instance: /decrypt_depad_tb
+# Break in Module decrypt_depad_tb at C:/Users/blade/Desktop/ISA/program3_tb.sv line 192
+quit -sim
+# End time: 12:04:11 on Mar 11,2021, Elapsed time: 0:16:31
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/blade/Desktop/ISA/program3_tb.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:04:14 on Mar 11,2021
+# vlog -reportprogress 300 -work work C:/Users/blade/Desktop/ISA/program3_tb.sv 
+# -- Compiling module decrypt_depad_tb
+# 
+# Top level modules:
+# 	decrypt_depad_tb
+# End time: 12:04:15 on Mar 11,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim work.decrypt_depad_tb
+# vsim work.decrypt_depad_tb 
+# Start time: 12:04:18 on Mar 11,2021
+# Loading sv_std.std
+# Loading work.decrypt_depad_tb
+# Loading work.definitions
+# Loading work.TopLevel_sv_unit
+# Loading work.TopLevel
+# Loading work.InstFetch
+# Loading work.Ctrl_sv_unit
+# Loading work.Ctrl
+# Loading work.InstROM
+# Loading work.RegFile
+# Loading work.ALU_sv_unit
+# Loading work.ALU
+# Loading work.LUT
+# Loading work.DataMem
+run -all
+# ** Note: $stop    : C:/Users/blade/Desktop/ISA/program3_tb.sv(192)
+#    Time: 23455 ns  Iteration: 0  Instance: /decrypt_depad_tb
+# Break in Module decrypt_depad_tb at C:/Users/blade/Desktop/ISA/program3_tb.sv line 192
+run -all
+add wave -position end sim:/decrypt_depad_tb/dut/*
+add wave -position 0  sim:/decrypt_depad_tb/dut/RF1/Registers
+add wave -position 0  sim:/decrypt_depad_tb/dut/ALU1/op_mnemonic
+add wave -position 0  sim:/decrypt_depad_tb/dut/DM/Core
 # Break key hit
 # Simulation stop requested.
 restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
 restart -f
 run -all
-# pt_no =           2
-add wave -position end sim:/decrypt_tb/dut/*
+# ** Note: $stop    : C:/Users/blade/Desktop/ISA/program3_tb.sv(192)
+#    Time: 23455 ns  Iteration: 0  Instance: /decrypt_depad_tb
+# Break in Module decrypt_depad_tb at C:/Users/blade/Desktop/ISA/program3_tb.sv line 192
+quit -sim
+# End time: 13:45:03 on Mar 11,2021, Elapsed time: 1:40:45
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/blade/Desktop/ISA/program3_tb.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:45:06 on Mar 11,2021
+# vlog -reportprogress 300 -work work C:/Users/blade/Desktop/ISA/program3_tb.sv 
+# -- Compiling module decrypt_depad_tb
+# 
+# Top level modules:
+# 	decrypt_depad_tb
+# End time: 13:45:06 on Mar 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.decrypt_depad_tb
+# vsim work.decrypt_depad_tb 
+# Start time: 13:45:07 on Mar 11,2021
+# Loading sv_std.std
+# Loading work.decrypt_depad_tb
+# Loading work.definitions
+# Loading work.TopLevel_sv_unit
+# Loading work.TopLevel
+# Loading work.InstFetch
+# Loading work.Ctrl_sv_unit
+# Loading work.Ctrl
+# Loading work.InstROM
+# Loading work.RegFile
+# Loading work.ALU_sv_unit
+# Loading work.ALU
+# Loading work.LUT
+# Loading work.DataMem
+run -all
+# ** Note: $stop    : C:/Users/blade/Desktop/ISA/program3_tb.sv(192)
+#    Time: 28125 ns  Iteration: 0  Instance: /decrypt_depad_tb
+# Break in Module decrypt_depad_tb at C:/Users/blade/Desktop/ISA/program3_tb.sv line 192
+restart -f
+add wave -position end sim:/decrypt_depad_tb/dut/*
+add wave -position 0  sim:/decrypt_depad_tb/dut/RF1/Registers
+add wave -position 0  sim:/decrypt_depad_tb/dut/ALU1/op_mnemonic
+add wave -position 0  sim:/decrypt_depad_tb/dut/DM/Core
+run -all
+# ** Note: $stop    : C:/Users/blade/Desktop/ISA/program3_tb.sv(192)
+#    Time: 28125 ns  Iteration: 0  Instance: /decrypt_depad_tb
+# Break in Module decrypt_depad_tb at C:/Users/blade/Desktop/ISA/program3_tb.sv line 192
+quit -sim
+# End time: 14:06:24 on Mar 11,2021, Elapsed time: 0:21:17
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/blade/Desktop/ISA/program3_tb.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:06:43 on Mar 11,2021
+# vlog -reportprogress 300 -work work C:/Users/blade/Desktop/ISA/program3_tb.sv 
+# -- Compiling module decrypt_depad_tb
+# 
+# Top level modules:
+# 	decrypt_depad_tb
+# End time: 14:06:43 on Mar 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.decrypt_depad_tb
+# vsim work.decrypt_depad_tb 
+# Start time: 14:06:44 on Mar 11,2021
+# Loading sv_std.std
+# Loading work.decrypt_depad_tb
+# Loading work.definitions
+# Loading work.TopLevel_sv_unit
+# Loading work.TopLevel
+# Loading work.InstFetch
+# Loading work.Ctrl_sv_unit
+# Loading work.Ctrl
+# Loading work.InstROM
+# Loading work.RegFile
+# Loading work.ALU_sv_unit
+# Loading work.ALU
+# Loading work.LUT
+# Loading work.DataMem
+run -all
+# ** Note: $stop    : C:/Users/blade/Desktop/ISA/program3_tb.sv(192)
+#    Time: 27815 ns  Iteration: 0  Instance: /decrypt_depad_tb
+# Break in Module decrypt_depad_tb at C:/Users/blade/Desktop/ISA/program3_tb.sv line 192
+quit -sim
+# End time: 14:11:03 on Mar 11,2021, Elapsed time: 0:04:19
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/blade/Desktop/ISA/program3_tb.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:11:05 on Mar 11,2021
+# vlog -reportprogress 300 -work work C:/Users/blade/Desktop/ISA/program3_tb.sv 
+# -- Compiling module decrypt_depad_tb
+# 
+# Top level modules:
+# 	decrypt_depad_tb
+# End time: 14:11:06 on Mar 11,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim work.decrypt_depad_tb
+# vsim work.decrypt_depad_tb 
+# Start time: 14:11:11 on Mar 11,2021
+# Loading sv_std.std
+# Loading work.decrypt_depad_tb
+# Loading work.definitions
+# Loading work.TopLevel_sv_unit
+# Loading work.TopLevel
+# Loading work.InstFetch
+# Loading work.Ctrl_sv_unit
+# Loading work.Ctrl
+# Loading work.InstROM
+# Loading work.RegFile
+# Loading work.ALU_sv_unit
+# Loading work.ALU
+# Loading work.LUT
+# Loading work.DataMem
+run -all
+# ** Note: $stop    : C:/Users/blade/Desktop/ISA/program3_tb.sv(192)
+#    Time: 29295 ns  Iteration: 0  Instance: /decrypt_depad_tb
+# Break in Module decrypt_depad_tb at C:/Users/blade/Desktop/ISA/program3_tb.sv line 192
+add wave -position end sim:/decrypt_depad_tb/dut/*
+add wave -position 0  sim:/decrypt_depad_tb/dut/RF1/Registers
+add wave -position 0  sim:/decrypt_depad_tb/dut/ALU1/op_mnemonic
+add wave -position 0  sim:/decrypt_depad_tb/dut/DM/Core
+restart -f
+run -all
+# ** Note: $stop    : C:/Users/blade/Desktop/ISA/program3_tb.sv(192)
+#    Time: 29295 ns  Iteration: 0  Instance: /decrypt_depad_tb
+# Break in Module decrypt_depad_tb at C:/Users/blade/Desktop/ISA/program3_tb.sv line 192
+quit -sim
+# End time: 14:16:56 on Mar 11,2021, Elapsed time: 0:05:45
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/blade/Desktop/ISA/program3_tb.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:17:01 on Mar 11,2021
+# vlog -reportprogress 300 -work work C:/Users/blade/Desktop/ISA/program3_tb.sv 
+# -- Compiling module decrypt_depad_tb
+# 
+# Top level modules:
+# 	decrypt_depad_tb
+# End time: 14:17:01 on Mar 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.decrypt_depad_tb
+# vsim work.decrypt_depad_tb 
+# Start time: 14:17:02 on Mar 11,2021
+# Loading sv_std.std
+# Loading work.decrypt_depad_tb
+# Loading work.definitions
+# Loading work.TopLevel_sv_unit
+# Loading work.TopLevel
+# Loading work.InstFetch
+# Loading work.Ctrl_sv_unit
+# Loading work.Ctrl
+# Loading work.InstROM
+# Loading work.RegFile
+# Loading work.ALU_sv_unit
+# Loading work.ALU
+# Loading work.LUT
+# Loading work.DataMem
+run -all
+# ** Note: $stop    : C:/Users/blade/Desktop/ISA/program3_tb.sv(192)
+#    Time: 29095 ns  Iteration: 0  Instance: /decrypt_depad_tb
+# Break in Module decrypt_depad_tb at C:/Users/blade/Desktop/ISA/program3_tb.sv line 192
+quit -sim
+# End time: 20:41:25 on Mar 11,2021, Elapsed time: 6:24:23
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/blade/Desktop/ISA/program3_tb.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:41:28 on Mar 11,2021
+# vlog -reportprogress 300 -work work C:/Users/blade/Desktop/ISA/program3_tb.sv 
+# -- Compiling module decrypt_depad_tb
+# ** Error: (vlog-13051) C:/Users/blade/Desktop/ISA/program3_tb.sv(151): near "[end of file]": Illegal digit for specified base in numeric constant.
+# End time: 20:41:28 on Mar 11,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/blade/Desktop/ISA/program3_tb.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:42:28 on Mar 11,2021
+# vlog -reportprogress 300 -work work C:/Users/blade/Desktop/ISA/program3_tb.sv 
+# -- Compiling module decrypt_depad_tb
+# ** Error: (vlog-13051) C:/Users/blade/Desktop/ISA/program3_tb.sv(151): near "[end of file]": Illegal digit for specified base in numeric constant.
+# End time: 20:42:28 on Mar 11,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/blade/Desktop/ISA/program3_tb.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:42:29 on Mar 11,2021
+# vlog -reportprogress 300 -work work C:/Users/blade/Desktop/ISA/program3_tb.sv 
+# -- Compiling module decrypt_depad_tb
+# ** Error: (vlog-13051) C:/Users/blade/Desktop/ISA/program3_tb.sv(151): near "[end of file]": Illegal digit for specified base in numeric constant.
+# End time: 20:42:29 on Mar 11,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/blade/Desktop/ISA/program3_tb.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:43:11 on Mar 11,2021
+# vlog -reportprogress 300 -work work C:/Users/blade/Desktop/ISA/program3_tb.sv 
+# -- Compiling module decrypt_depad_tb
+# ** Error: (vlog-13051) C:/Users/blade/Desktop/ISA/program3_tb.sv(151): near "[end of file]": Illegal digit for specified base in numeric constant.
+# End time: 20:43:11 on Mar 11,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/blade/Desktop/ISA/program3_tb.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:44:37 on Mar 11,2021
+# vlog -reportprogress 300 -work work C:/Users/blade/Desktop/ISA/program3_tb.sv 
+# -- Compiling module decrypt_depad_tb
+# 
+# Top level modules:
+# 	decrypt_depad_tb
+# End time: 20:44:38 on Mar 11,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim work.decrypt_depad_tb
+# vsim work.decrypt_depad_tb 
+# Start time: 20:44:41 on Mar 11,2021
+# Loading sv_std.std
+# Loading work.decrypt_depad_tb
+# Loading work.definitions
+# Loading work.TopLevel_sv_unit
+# Loading work.TopLevel
+# Loading work.InstFetch
+# Loading work.Ctrl_sv_unit
+# Loading work.Ctrl
+# Loading work.InstROM
+# Loading work.RegFile
+# Loading work.ALU_sv_unit
+# Loading work.ALU
+# Loading work.LUT
+# Loading work.DataMem
+run -all
+# ** Note: $stop    : C:/Users/blade/Desktop/ISA/program3_tb.sv(192)
+#    Time: 26255 ns  Iteration: 0  Instance: /decrypt_depad_tb
+# Break in Module decrypt_depad_tb at C:/Users/blade/Desktop/ISA/program3_tb.sv line 192
+quit -sim
+# End time: 20:46:06 on Mar 11,2021, Elapsed time: 0:01:25
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/blade/Desktop/ISA/program3_tb.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:46:10 on Mar 11,2021
+# vlog -reportprogress 300 -work work C:/Users/blade/Desktop/ISA/program3_tb.sv 
+# -- Compiling module decrypt_depad_tb
+# 
+# Top level modules:
+# 	decrypt_depad_tb
+# End time: 20:46:10 on Mar 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.decrypt_depad_tb
+# vsim work.decrypt_depad_tb 
+# Start time: 20:46:11 on Mar 11,2021
+# Loading sv_std.std
+# Loading work.decrypt_depad_tb
+# Loading work.definitions
+# Loading work.TopLevel_sv_unit
+# Loading work.TopLevel
+# Loading work.InstFetch
+# Loading work.Ctrl_sv_unit
+# Loading work.Ctrl
+# Loading work.InstROM
+# Loading work.RegFile
+# Loading work.ALU_sv_unit
+# Loading work.ALU
+# Loading work.LUT
+# Loading work.DataMem
+run -all
+# ** Note: $stop    : C:/Users/blade/Desktop/ISA/program3_tb.sv(192)
+#    Time: 26455 ns  Iteration: 0  Instance: /decrypt_depad_tb
+# Break in Module decrypt_depad_tb at C:/Users/blade/Desktop/ISA/program3_tb.sv line 192
+add wave -position end sim:/decrypt_depad_tb/dut/*
+add wave -position 0  sim:/decrypt_depad_tb/dut/RF1/Registers
+add wave -position 0  sim:/decrypt_depad_tb/dut/ALU1/op_mnemonic
+add wave -position 0  sim:/decrypt_depad_tb/dut/DM/Core
+restart -f
+restart -f
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/blade/Desktop/ISA/program3_tb.sv(192)
+#    Time: 26455 ns  Iteration: 0  Instance: /decrypt_depad_tb
+# Break in Module decrypt_depad_tb at C:/Users/blade/Desktop/ISA/program3_tb.sv line 192
+quit -sim
+# End time: 20:56:23 on Mar 11,2021, Elapsed time: 0:10:12
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/blade/Desktop/ISA/program3_tb.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:56:26 on Mar 11,2021
+# vlog -reportprogress 300 -work work C:/Users/blade/Desktop/ISA/program3_tb.sv 
+# -- Compiling module decrypt_depad_tb
+# 
+# Top level modules:
+# 	decrypt_depad_tb
+# End time: 20:56:26 on Mar 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.decrypt_depad_tb
+# vsim work.decrypt_depad_tb 
+# Start time: 20:56:28 on Mar 11,2021
+# Loading sv_std.std
+# Loading work.decrypt_depad_tb
+# Loading work.definitions
+# Loading work.TopLevel_sv_unit
+# Loading work.TopLevel
+# Loading work.InstFetch
+# Loading work.Ctrl_sv_unit
+# Loading work.Ctrl
+# Loading work.InstROM
+# Loading work.RegFile
+# Loading work.ALU_sv_unit
+# Loading work.ALU
+# Loading work.LUT
+# Loading work.DataMem
+run -all
+# ** Note: $stop    : C:/Users/blade/Desktop/ISA/program3_tb.sv(192)
+#    Time: 29395 ns  Iteration: 0  Instance: /decrypt_depad_tb
+# Break in Module decrypt_depad_tb at C:/Users/blade/Desktop/ISA/program3_tb.sv line 192
+quit -sim
+# End time: 20:57:20 on Mar 11,2021, Elapsed time: 0:00:52
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/blade/Desktop/ISA/program3_tb.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:57:22 on Mar 11,2021
+# vlog -reportprogress 300 -work work C:/Users/blade/Desktop/ISA/program3_tb.sv 
+# -- Compiling module decrypt_depad_tb
+# 
+# Top level modules:
+# 	decrypt_depad_tb
+# End time: 20:57:22 on Mar 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.decrypt_depad_tb
+# vsim work.decrypt_depad_tb 
+# Start time: 20:57:22 on Mar 11,2021
+# Loading sv_std.std
+# Loading work.decrypt_depad_tb
+# Loading work.definitions
+# Loading work.TopLevel_sv_unit
+# Loading work.TopLevel
+# Loading work.InstFetch
+# Loading work.Ctrl_sv_unit
+# Loading work.Ctrl
+# Loading work.InstROM
+# Loading work.RegFile
+# Loading work.ALU_sv_unit
+# Loading work.ALU
+# Loading work.LUT
+# Loading work.DataMem
+run -all
+# ** Note: $stop    : C:/Users/blade/Desktop/ISA/program3_tb.sv(192)
+#    Time: 29535 ns  Iteration: 0  Instance: /decrypt_depad_tb
+# Break in Module decrypt_depad_tb at C:/Users/blade/Desktop/ISA/program3_tb.sv line 192
+quit -sim
+# End time: 20:57:41 on Mar 11,2021, Elapsed time: 0:00:19
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/blade/Desktop/ISA/program3_tb.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:58:16 on Mar 11,2021
+# vlog -reportprogress 300 -work work C:/Users/blade/Desktop/ISA/program3_tb.sv 
+# -- Compiling module decrypt_depad_tb
+# 
+# Top level modules:
+# 	decrypt_depad_tb
+# End time: 20:58:16 on Mar 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.decrypt_depad_tb
+# vsim work.decrypt_depad_tb 
+# Start time: 20:58:17 on Mar 11,2021
+# Loading sv_std.std
+# Loading work.decrypt_depad_tb
+# Loading work.definitions
+# Loading work.TopLevel_sv_unit
+# Loading work.TopLevel
+# Loading work.InstFetch
+# Loading work.Ctrl_sv_unit
+# Loading work.Ctrl
+# Loading work.InstROM
+# Loading work.RegFile
+# Loading work.ALU_sv_unit
+# Loading work.ALU
+# Loading work.LUT
+# Loading work.DataMem
+run -all
+# ** Note: $stop    : C:/Users/blade/Desktop/ISA/program3_tb.sv(192)
+#    Time: 34315 ns  Iteration: 0  Instance: /decrypt_depad_tb
+# Break in Module decrypt_depad_tb at C:/Users/blade/Desktop/ISA/program3_tb.sv line 192
+quit -sim
+# End time: 20:58:58 on Mar 11,2021, Elapsed time: 0:00:41
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/blade/Desktop/ISA/program3_tb.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:58:59 on Mar 11,2021
+# vlog -reportprogress 300 -work work C:/Users/blade/Desktop/ISA/program3_tb.sv 
+# -- Compiling module decrypt_depad_tb
+# 
+# Top level modules:
+# 	decrypt_depad_tb
+# End time: 20:58:59 on Mar 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.decrypt_depad_tb
+# vsim work.decrypt_depad_tb 
+# Start time: 20:59:05 on Mar 11,2021
+# Loading sv_std.std
+# Loading work.decrypt_depad_tb
+# Loading work.definitions
+# Loading work.TopLevel_sv_unit
+# Loading work.TopLevel
+# Loading work.InstFetch
+# Loading work.Ctrl_sv_unit
+# Loading work.Ctrl
+# Loading work.InstROM
+# Loading work.RegFile
+# Loading work.ALU_sv_unit
+# Loading work.ALU
+# Loading work.LUT
+# Loading work.DataMem
+run -all
+# ** Note: $stop    : C:/Users/blade/Desktop/ISA/program3_tb.sv(192)
+#    Time: 35585 ns  Iteration: 0  Instance: /decrypt_depad_tb
+# Break in Module decrypt_depad_tb at C:/Users/blade/Desktop/ISA/program3_tb.sv line 192
+quit -sim
+# End time: 21:09:51 on Mar 11,2021, Elapsed time: 0:10:46
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/blade/Desktop/ISA/program3_tb.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:09:53 on Mar 11,2021
+# vlog -reportprogress 300 -work work C:/Users/blade/Desktop/ISA/program3_tb.sv 
+# -- Compiling module decrypt_depad_tb
+# 
+# Top level modules:
+# 	decrypt_depad_tb
+# End time: 21:09:53 on Mar 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.decrypt_depad_tb
+# vsim work.decrypt_depad_tb 
+# Start time: 21:09:54 on Mar 11,2021
+# Loading sv_std.std
+# Loading work.decrypt_depad_tb
+# Loading work.definitions
+# Loading work.TopLevel_sv_unit
+# Loading work.TopLevel
+# Loading work.InstFetch
+# Loading work.Ctrl_sv_unit
+# Loading work.Ctrl
+# Loading work.InstROM
+# Loading work.RegFile
+# Loading work.ALU_sv_unit
+# Loading work.ALU
+# Loading work.LUT
+# Loading work.DataMem
+run -all
+# ** Note: $stop    : C:/Users/blade/Desktop/ISA/program3_tb.sv(192)
+#    Time: 28305 ns  Iteration: 0  Instance: /decrypt_depad_tb
+# Break in Module decrypt_depad_tb at C:/Users/blade/Desktop/ISA/program3_tb.sv line 192
+quit -sim
+vlog -work work C:/Users/blade/Desktop/ISA/program3_tb.sv
+# End time: 21:11:46 on Mar 11,2021, Elapsed time: 0:01:52
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:11:46 on Mar 11,2021
+# vlog -reportprogress 300 -work work C:/Users/blade/Desktop/ISA/program3_tb.sv 
+# -- Compiling module decrypt_depad_tb
+# 
+# Top level modules:
+# 	decrypt_depad_tb
+# End time: 21:11:47 on Mar 11,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim work.decrypt_depad_tb
+# vsim work.decrypt_depad_tb 
+# Start time: 21:11:47 on Mar 11,2021
+# Loading sv_std.std
+# Loading work.decrypt_depad_tb
+# Loading work.definitions
+# Loading work.TopLevel_sv_unit
+# Loading work.TopLevel
+# Loading work.InstFetch
+# Loading work.Ctrl_sv_unit
+# Loading work.Ctrl
+# Loading work.InstROM
+# Loading work.RegFile
+# Loading work.ALU_sv_unit
+# Loading work.ALU
+# Loading work.LUT
+# Loading work.DataMem
+run -all
+# ** Note: $stop    : C:/Users/blade/Desktop/ISA/program3_tb.sv(192)
+#    Time: 23045 ns  Iteration: 0  Instance: /decrypt_depad_tb
+# Break in Module decrypt_depad_tb at C:/Users/blade/Desktop/ISA/program3_tb.sv line 192
+quit -sim
+# End time: 21:15:24 on Mar 11,2021, Elapsed time: 0:03:37
+# Errors: 0, Warnings: 0
+vsim work.decrypt_depad_tb
+# vsim work.decrypt_depad_tb 
+# Start time: 21:15:24 on Mar 11,2021
+# Loading sv_std.std
+# Loading work.decrypt_depad_tb
+# Loading work.definitions
+# Loading work.TopLevel_sv_unit
+# Loading work.TopLevel
+# Loading work.InstFetch
+# Loading work.Ctrl_sv_unit
+# Loading work.Ctrl
+# Loading work.InstROM
+# Loading work.RegFile
+# Loading work.ALU_sv_unit
+# Loading work.ALU
+# Loading work.LUT
+# Loading work.DataMem
+quit -sim
+vlog -work work C:/Users/blade/Desktop/ISA/program3_tb.sv
+# End time: 21:15:33 on Mar 11,2021, Elapsed time: 0:00:09
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:15:33 on Mar 11,2021
+# vlog -reportprogress 300 -work work C:/Users/blade/Desktop/ISA/program3_tb.sv 
+# -- Compiling module decrypt_depad_tb
+# 
+# Top level modules:
+# 	decrypt_depad_tb
+# End time: 21:15:33 on Mar 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.decrypt_depad_tb
+# vsim work.decrypt_depad_tb 
+# Start time: 21:15:38 on Mar 11,2021
+# Loading sv_std.std
+# Loading work.decrypt_depad_tb
+# Loading work.definitions
+# Loading work.TopLevel_sv_unit
+# Loading work.TopLevel
+# Loading work.InstFetch
+# Loading work.Ctrl_sv_unit
+# Loading work.Ctrl
+# Loading work.InstROM
+# Loading work.RegFile
+# Loading work.ALU_sv_unit
+# Loading work.ALU
+# Loading work.LUT
+# Loading work.DataMem
+run -all
+# ** Note: $stop    : C:/Users/blade/Desktop/ISA/program3_tb.sv(192)
+#    Time: 35195 ns  Iteration: 0  Instance: /decrypt_depad_tb
+# Break in Module decrypt_depad_tb at C:/Users/blade/Desktop/ISA/program3_tb.sv line 192
+quit -sim
+# End time: 21:19:47 on Mar 11,2021, Elapsed time: 0:04:09
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/blade/Desktop/ISA/program3_tb.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:19:53 on Mar 11,2021
+# vlog -reportprogress 300 -work work C:/Users/blade/Desktop/ISA/program3_tb.sv 
+# -- Compiling module decrypt_depad_tb
+# 
+# Top level modules:
+# 	decrypt_depad_tb
+# End time: 21:19:53 on Mar 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.decrypt_depad_tb
+# vsim work.decrypt_depad_tb 
+# Start time: 21:19:54 on Mar 11,2021
+# Loading sv_std.std
+# Loading work.decrypt_depad_tb
+# Loading work.definitions
+# Loading work.TopLevel_sv_unit
+# Loading work.TopLevel
+# Loading work.InstFetch
+# Loading work.Ctrl_sv_unit
+# Loading work.Ctrl
+# Loading work.InstROM
+# Loading work.RegFile
+# Loading work.ALU_sv_unit
+# Loading work.ALU
+# Loading work.LUT
+# Loading work.DataMem
+run -all
+# ** Note: $stop    : C:/Users/blade/Desktop/ISA/program3_tb.sv(192)
+#    Time: 35585 ns  Iteration: 0  Instance: /decrypt_depad_tb
+# Break in Module decrypt_depad_tb at C:/Users/blade/Desktop/ISA/program3_tb.sv line 192
+quit -sim
+vlog -work work C:/Users/blade/Desktop/ISA/program3_tb.sv
+# End time: 21:26:14 on Mar 11,2021, Elapsed time: 0:06:20
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:26:14 on Mar 11,2021
+# vlog -reportprogress 300 -work work C:/Users/blade/Desktop/ISA/program3_tb.sv 
+# -- Compiling module decrypt_depad_tb
+# 
+# Top level modules:
+# 	decrypt_depad_tb
+# End time: 21:26:14 on Mar 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.decrypt_depad_tb
+# vsim work.decrypt_depad_tb 
+# Start time: 21:26:16 on Mar 11,2021
+# Loading sv_std.std
+# Loading work.decrypt_depad_tb
+# Loading work.definitions
+# Loading work.TopLevel_sv_unit
+# Loading work.TopLevel
+# Loading work.InstFetch
+# Loading work.Ctrl_sv_unit
+# Loading work.Ctrl
+# Loading work.InstROM
+# Loading work.RegFile
+# Loading work.ALU_sv_unit
+# Loading work.ALU
+# Loading work.LUT
+# Loading work.DataMem
+run -all
+# ** Note: $stop    : C:/Users/blade/Desktop/ISA/program3_tb.sv(192)
+#    Time: 35585 ns  Iteration: 0  Instance: /decrypt_depad_tb
+# Break in Module decrypt_depad_tb at C:/Users/blade/Desktop/ISA/program3_tb.sv line 192
+add wave -position end sim:/decrypt_depad_tb/dut/*
+add wave -position 0  sim:/decrypt_depad_tb/dut/DM/Core
+add wave -position 0  sim:/decrypt_depad_tb/dut/ALU1/op_mnemonic
+add wave -position 0  sim:/decrypt_depad_tb/dut/RF1/Registers
+restart -f
+run -all
+# ** Note: $stop    : C:/Users/blade/Desktop/ISA/program3_tb.sv(192)
+#    Time: 35585 ns  Iteration: 0  Instance: /decrypt_depad_tb
+# Break in Module decrypt_depad_tb at C:/Users/blade/Desktop/ISA/program3_tb.sv line 192
 # WARNING: No extended dataflow license exists
-add wave -position 0  sim:/decrypt_tb/dut/RF1/Registers
-add wave -position 0  sim:/decrypt_tb/dut/ALU1/op_mnemonic
-add wave -position 0  sim:/decrypt_tb/dut/DM/Core
+quit -sim
+# End time: 21:42:20 on Mar 11,2021, Elapsed time: 0:16:04
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/blade/Desktop/ISA/program3_tb.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:42:23 on Mar 11,2021
+# vlog -reportprogress 300 -work work C:/Users/blade/Desktop/ISA/program3_tb.sv 
+# -- Compiling module decrypt_depad_tb
+# 
+# Top level modules:
+# 	decrypt_depad_tb
+# End time: 21:42:23 on Mar 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.decrypt_depad_tb
+# vsim work.decrypt_depad_tb 
+# Start time: 21:42:24 on Mar 11,2021
+# Loading sv_std.std
+# Loading work.decrypt_depad_tb
+# Loading work.definitions
+# Loading work.TopLevel_sv_unit
+# Loading work.TopLevel
+# Loading work.InstFetch
+# Loading work.Ctrl_sv_unit
+# Loading work.Ctrl
+# Loading work.InstROM
+# Loading work.RegFile
+# Loading work.ALU_sv_unit
+# Loading work.ALU
+# Loading work.LUT
+# Loading work.DataMem
+run -all
+# ** Note: $stop    : C:/Users/blade/Desktop/ISA/program3_tb.sv(192)
+#    Time: 32915 ns  Iteration: 0  Instance: /decrypt_depad_tb
+# Break in Module decrypt_depad_tb at C:/Users/blade/Desktop/ISA/program3_tb.sv line 192
+quit -sim
+# End time: 21:44:07 on Mar 11,2021, Elapsed time: 0:01:43
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/blade/Desktop/ISA/program3_tb.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:44:50 on Mar 11,2021
+# vlog -reportprogress 300 -work work C:/Users/blade/Desktop/ISA/program3_tb.sv 
+# -- Compiling module decrypt_depad_tb
+# 
+# Top level modules:
+# 	decrypt_depad_tb
+# End time: 21:44:50 on Mar 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.decrypt_depad_tb
+# vsim work.decrypt_depad_tb 
+# Start time: 21:44:52 on Mar 11,2021
+# Loading sv_std.std
+# Loading work.decrypt_depad_tb
+# Loading work.definitions
+# Loading work.TopLevel_sv_unit
+# Loading work.TopLevel
+# Loading work.InstFetch
+# Loading work.Ctrl_sv_unit
+# Loading work.Ctrl
+# Loading work.InstROM
+# Loading work.RegFile
+# Loading work.ALU_sv_unit
+# Loading work.ALU
+# Loading work.LUT
+# Loading work.DataMem
+#  Trace back: Bad sequence in.main_pane.memory.interior.cs.body.tree.lwchildsite.clipper.canvas.sfchildsite.tree, aborting query. (2)
+#     while executing
+# "$itk_component(tree) insertquery end """
+#     (object "::.main_pane.memory.interior.cs.body.tree" method "::vsimwidgets::Hierarchy::requery" body line 3)
+#     invoked from within
+# "requery"
+#     (object "::.main_pane.memory.interior.cs.body.tree" method "::FlatMemlist::UpdateFlatMemList" body line 8)
+#     invoked from within
+# "$tree UpdateFlatMemList"
+#     (procedure "Memview::delayedUpdateMemoryList" line 6)
+#     invoked from within
+# "Memview::delayedUpdateMemoryList"
+#     ("after" script)
+#    <2:C:/Quartus/modelsim_ase/win32aloem/tk8.6/bgerror.tcl:106: ::tkerror {Bad sequence in.main_pane.memory.interior.cs.body.tree.lwchildsite.clipper.canvas.sfchildsite.tree, aborting query. (2)}
+#    <1:C:/mtitcl/vsim/vsiminit.tc_:523: ::tk::dialog::error::bgerror {Bad sequence in.main_pane.memory.interior.cs.body.tree.lwchildsite.clipper.canvas.sfchildsite.tree, aborting query. (2)}
+run -all
+# ** Note: $stop    : C:/Users/blade/Desktop/ISA/program3_tb.sv(192)
+#    Time: 36315 ns  Iteration: 0  Instance: /decrypt_depad_tb
+# Break in Module decrypt_depad_tb at C:/Users/blade/Desktop/ISA/program3_tb.sv line 192
+quit -sim
+# End time: 21:46:33 on Mar 11,2021, Elapsed time: 0:01:41
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/blade/Desktop/ISA/program3_tb.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:46:34 on Mar 11,2021
+# vlog -reportprogress 300 -work work C:/Users/blade/Desktop/ISA/program3_tb.sv 
+# -- Compiling module decrypt_depad_tb
+# 
+# Top level modules:
+# 	decrypt_depad_tb
+# End time: 21:46:35 on Mar 11,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim work.decrypt_depad_tb
+# vsim work.decrypt_depad_tb 
+# Start time: 21:46:35 on Mar 11,2021
+# Loading sv_std.std
+# Loading work.decrypt_depad_tb
+# Loading work.definitions
+# Loading work.TopLevel_sv_unit
+# Loading work.TopLevel
+# Loading work.InstFetch
+# Loading work.Ctrl_sv_unit
+# Loading work.Ctrl
+# Loading work.InstROM
+# Loading work.RegFile
+# Loading work.ALU_sv_unit
+# Loading work.ALU
+# Loading work.LUT
+# Loading work.DataMem
+run -all
+# ** Note: $stop    : C:/Users/blade/Desktop/ISA/program3_tb.sv(192)
+#    Time: 35855 ns  Iteration: 0  Instance: /decrypt_depad_tb
+# Break in Module decrypt_depad_tb at C:/Users/blade/Desktop/ISA/program3_tb.sv line 192
+quit -sim
+vlog -sv -work work +incdir+C:/Users/blade/Desktop/ISA C:/Users/blade/Desktop/ISA/InstFetch.sv
+# End time: 21:47:33 on Mar 11,2021, Elapsed time: 0:00:58
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:47:33 on Mar 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/blade/Desktop/ISA" C:/Users/blade/Desktop/ISA/InstFetch.sv 
+# -- Compiling module InstFetch
+# 
+# Top level modules:
+# 	InstFetch
+# End time: 21:47:33 on Mar 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/blade/Desktop/ISA/program3_tb.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:47:35 on Mar 11,2021
+# vlog -reportprogress 300 -work work C:/Users/blade/Desktop/ISA/program3_tb.sv 
+# -- Compiling module decrypt_depad_tb
+# 
+# Top level modules:
+# 	decrypt_depad_tb
+# End time: 21:47:35 on Mar 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.decrypt_depad_tb
+# vsim work.decrypt_depad_tb 
+# Start time: 21:47:36 on Mar 11,2021
+# Loading sv_std.std
+# Loading work.decrypt_depad_tb
+# Loading work.definitions
+# Loading work.TopLevel_sv_unit
+# Loading work.TopLevel
+# Loading work.InstFetch
+# Loading work.Ctrl_sv_unit
+# Loading work.Ctrl
+# Loading work.InstROM
+# Loading work.RegFile
+# Loading work.ALU_sv_unit
+# Loading work.ALU
+# Loading work.LUT
+# Loading work.DataMem
+run -all
+# ** Note: $stop    : C:/Users/blade/Desktop/ISA/program3_tb.sv(192)
+#    Time: 33655 ns  Iteration: 0  Instance: /decrypt_depad_tb
+# Break in Module decrypt_depad_tb at C:/Users/blade/Desktop/ISA/program3_tb.sv line 192
+quit -sim
+# End time: 21:50:18 on Mar 11,2021, Elapsed time: 0:02:42
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/blade/Desktop/ISA/program3_tb.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:50:20 on Mar 11,2021
+# vlog -reportprogress 300 -work work C:/Users/blade/Desktop/ISA/program3_tb.sv 
+# -- Compiling module decrypt_depad_tb
+# 
+# Top level modules:
+# 	decrypt_depad_tb
+# End time: 21:50:20 on Mar 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.decrypt_depad_tb
+# vsim work.decrypt_depad_tb 
+# Start time: 21:50:20 on Mar 11,2021
+# Loading sv_std.std
+# Loading work.decrypt_depad_tb
+# Loading work.definitions
+# Loading work.TopLevel_sv_unit
+# Loading work.TopLevel
+# Loading work.InstFetch
+# Loading work.Ctrl_sv_unit
+# Loading work.Ctrl
+# Loading work.InstROM
+# Loading work.RegFile
+# Loading work.ALU_sv_unit
+# Loading work.ALU
+# Loading work.LUT
+# Loading work.DataMem
+run -all
+# ** Note: $stop    : C:/Users/blade/Desktop/ISA/program3_tb.sv(192)
+#    Time: 34085 ns  Iteration: 0  Instance: /decrypt_depad_tb
+# Break in Module decrypt_depad_tb at C:/Users/blade/Desktop/ISA/program3_tb.sv line 192
+quit -sim
 # Break key hit
-# Simulation stop requested.
-restart -f
-run -all
-# pt_no =           2
-# Break key hit
-# Break in Module TopLevel at C:/Users/blade/Desktop/ISA/TopLevel.sv line 64
-quit -sim
-# End time: 01:37:22 on Mar 11,2021, Elapsed time: 0:18:51
-# Errors: 0, Warnings: 0
-vlog -reportprogress 300 -work work C:/Users/blade/Desktop/ISA/program2_tb.sv
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 01:37:24 on Mar 11,2021
-# vlog -reportprogress 300 -work work C:/Users/blade/Desktop/ISA/program2_tb.sv 
-# -- Compiling module decrypt_tb
-# 
-# Top level modules:
-# 	decrypt_tb
-# End time: 01:37:24 on Mar 11,2021, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vsim work.decrypt_tb
-# vsim work.decrypt_tb 
-# Start time: 01:37:29 on Mar 11,2021
-# Loading sv_std.std
-# Loading work.decrypt_tb
-# Loading work.definitions
-# Loading work.TopLevel_sv_unit
-# Loading work.TopLevel
-# Loading work.InstFetch
-# Loading work.Ctrl_sv_unit
-# Loading work.Ctrl
-# Loading work.InstROM
-# Loading work.RegFile
-# Loading work.ALU_sv_unit
-# Loading work.ALU
-# Loading work.LUT
-# Loading work.DataMem
-add wave -position end sim:/decrypt_tb/dut/*
-add wave -position 0  sim:/decrypt_tb/dut/RF1/Registers
-add wave -position 1  sim:/decrypt_tb/dut/ALU1/op_mnemonic
-add wave -position 2  sim:/decrypt_tb/dut/DM/Core
-run -all
-# pt_no =           2
-# Break key hit
-# Break in Module ALU at C:/Users/blade/Desktop/ISA/ALU.sv line 26
-restart -f
-run -all
-# ** Warning: (vsim-PLI-3406) Too many digits (15) in data on line 14 of file "machine_code.txt". (Max is 9.)    : C:/Users/blade/Desktop/ISA/InstROM.sv(42)
-#    Time: 0 ps  Iteration: 0  Instance: /decrypt_tb/dut/IR1
-# pt_no =           2
-# Break key hit
-# Break in Module DataMem at C:/Users/blade/Desktop/ISA/DataMem.sv line 22
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-run -all
-# pt_no =           2
-# Break key hit
-# Break at C:/Users/blade/Desktop/ISA/TopLevel.sv line 108
-quit -sim
-# End time: 04:44:11 on Mar 11,2021, Elapsed time: 3:06:42
-# Errors: 0, Warnings: 0
-vlog -reportprogress 300 -work work C:/Users/blade/Desktop/ISA/program2_tb.sv
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 04:44:15 on Mar 11,2021
-# vlog -reportprogress 300 -work work C:/Users/blade/Desktop/ISA/program2_tb.sv 
-# -- Compiling module decrypt_tb
-# 
-# Top level modules:
-# 	decrypt_tb
-# End time: 04:44:15 on Mar 11,2021, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vsim work.decrypt_tb
-# vsim work.decrypt_tb 
-# Start time: 04:44:37 on Mar 11,2021
-# Loading sv_std.std
-# Loading work.decrypt_tb
-# Loading work.definitions
-# Loading work.TopLevel_sv_unit
-# Loading work.TopLevel
-# Loading work.InstFetch
-# Loading work.Ctrl_sv_unit
-# Loading work.Ctrl
-# Loading work.InstROM
-# Loading work.RegFile
-# Loading work.ALU_sv_unit
-# Loading work.ALU
-# Loading work.LUT
-# Loading work.DataMem
-add wave -position end sim:/decrypt_tb/dut/*
-add wave -position 0  sim:/decrypt_tb/dut/RF1/Registers
-add wave -position 0  sim:/decrypt_tb/dut/ALU1/op_mnemonic
-add wave -position 0  sim:/decrypt_tb/dut/DM/Core
-run -all
-# pt_no =           2
-# WARNING: No extended dataflow license exists
-# Break key hit
-# Break in Module TopLevel at C:/Users/blade/Desktop/ISA/TopLevel.sv line 110
-quit -sim
-# End time: 05:25:20 on Mar 11,2021, Elapsed time: 0:40:43
-# Errors: 0, Warnings: 0
-vlog -reportprogress 300 -work work C:/Users/blade/Desktop/ISA/program2_tb.sv
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 05:25:22 on Mar 11,2021
-# vlog -reportprogress 300 -work work C:/Users/blade/Desktop/ISA/program2_tb.sv 
-# -- Compiling module decrypt_tb
-# 
-# Top level modules:
-# 	decrypt_tb
-# End time: 05:25:22 on Mar 11,2021, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vsim work.decrypt_tb
-# vsim work.decrypt_tb 
-# Start time: 05:25:23 on Mar 11,2021
-# Loading sv_std.std
-# Loading work.decrypt_tb
-# Loading work.definitions
-# Loading work.TopLevel_sv_unit
-# Loading work.TopLevel
-# Loading work.InstFetch
-# Loading work.Ctrl_sv_unit
-# Loading work.Ctrl
-# Loading work.InstROM
-# Loading work.RegFile
-# Loading work.ALU_sv_unit
-# Loading work.ALU
-# Loading work.LUT
-# Loading work.DataMem
-add wave -position end sim:/decrypt_tb/dut/*
-add wave -position 0  sim:/decrypt_tb/dut/RF1/Registers
-add wave -position 0  sim:/decrypt_tb/dut/ALU1/op_mnemonic
-add wave -position 0  sim:/decrypt_tb/dut/DM/Core
-run -all
-# pt_no =           2
-# ** Note: $stop    : C:/Users/blade/Desktop/ISA/program2_tb.sv(149)
-#    Time: 24675 ns  Iteration: 0  Instance: /decrypt_tb
-# Break in Module decrypt_tb at C:/Users/blade/Desktop/ISA/program2_tb.sv line 149
-quit -sim
-# End time: 05:38:34 on Mar 11,2021, Elapsed time: 0:13:11
-# Errors: 0, Warnings: 0
-vlog -reportprogress 300 -work work C:/Users/blade/Desktop/ISA/program2_tb.sv
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 05:38:42 on Mar 11,2021
-# vlog -reportprogress 300 -work work C:/Users/blade/Desktop/ISA/program2_tb.sv 
-# -- Compiling module decrypt_tb
-# 
-# Top level modules:
-# 	decrypt_tb
-# End time: 05:38:42 on Mar 11,2021, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vsim work.decrypt_tb
-# vsim work.decrypt_tb 
-# Start time: 05:38:43 on Mar 11,2021
-# Loading sv_std.std
-# Loading work.decrypt_tb
-# Loading work.definitions
-# Loading work.TopLevel_sv_unit
-# Loading work.TopLevel
-# Loading work.InstFetch
-# Loading work.Ctrl_sv_unit
-# Loading work.Ctrl
-# Loading work.InstROM
-# Loading work.RegFile
-# Loading work.ALU_sv_unit
-# Loading work.ALU
-# Loading work.LUT
-# Loading work.DataMem
-add wave -position end sim:/decrypt_tb/dut/*
-add wave -position 0  sim:/decrypt_tb/dut/RF1/Registers
-add wave -position 0  sim:/decrypt_tb/dut/ALU1/op_mnemonic
-add wave -position 0  sim:/decrypt_tb/dut/DM/Core
-run -all
-# pt_no =           2
-# ** Note: $stop    : C:/Users/blade/Desktop/ISA/program2_tb.sv(149)
-#    Time: 24365 ns  Iteration: 0  Instance: /decrypt_tb
-# Break in Module decrypt_tb at C:/Users/blade/Desktop/ISA/program2_tb.sv line 149
-# Break key hit
-quit -sim
-# End time: 05:48:47 on Mar 11,2021, Elapsed time: 0:10:04
-# Errors: 0, Warnings: 0
-vlog -reportprogress 300 -work work C:/Users/blade/Desktop/ISA/program2_tb.sv
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 05:48:51 on Mar 11,2021
-# vlog -reportprogress 300 -work work C:/Users/blade/Desktop/ISA/program2_tb.sv 
-# -- Compiling module decrypt_tb
-# 
-# Top level modules:
-# 	decrypt_tb
-# End time: 05:48:51 on Mar 11,2021, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vsim work.DataMem
-# vsim work.DataMem 
-# Start time: 05:48:52 on Mar 11,2021
-# Loading sv_std.std
-# Loading work.DataMem
-quit -sim
-# End time: 05:48:59 on Mar 11,2021, Elapsed time: 0:00:07
-# Errors: 0, Warnings: 0
-vsim work.decrypt_tb
-# vsim work.decrypt_tb 
-# Start time: 05:49:00 on Mar 11,2021
-# Loading sv_std.std
-# Loading work.decrypt_tb
-# Loading work.definitions
-# Loading work.TopLevel_sv_unit
-# Loading work.TopLevel
-# Loading work.InstFetch
-# Loading work.Ctrl_sv_unit
-# Loading work.Ctrl
-# Loading work.InstROM
-# Loading work.RegFile
-# Loading work.ALU_sv_unit
-# Loading work.ALU
-# Loading work.LUT
-# Loading work.DataMem
-add wave -position end sim:/decrypt_tb/dut/*
-add wave -position 0  sim:/decrypt_tb/dut/DM/Core
-add wave -position 0  sim:/decrypt_tb/dut/ALU1/op_mnemonic
-add wave -position 1  sim:/decrypt_tb/dut/RF1/Registers
-add wave -position 0  sim:/decrypt_tb/dut/RF1/Registers
-run -all
-# pt_no =           2
-# Break key hit
-# Break in Module TopLevel at C:/Users/blade/Desktop/ISA/TopLevel.sv line 96
-restart -f
-run -all
-# pt_no =           2
-# ** Note: $stop    : C:/Users/blade/Desktop/ISA/program2_tb.sv(149)
-#    Time: 22655 ns  Iteration: 0  Instance: /decrypt_tb
-# Break in Module decrypt_tb at C:/Users/blade/Desktop/ISA/program2_tb.sv line 149
-restart -f
-run -all
-# pt_no =           2
-# ** Note: $stop    : C:/Users/blade/Desktop/ISA/program2_tb.sv(149)
-#    Time: 22655 ns  Iteration: 0  Instance: /decrypt_tb
-# Break in Module decrypt_tb at C:/Users/blade/Desktop/ISA/program2_tb.sv line 149
-vlog -reportprogress 300 -work work C:/Users/blade/Desktop/ISA/program2_tb.sv
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 06:07:14 on Mar 11,2021
-# vlog -reportprogress 300 -work work C:/Users/blade/Desktop/ISA/program2_tb.sv 
-# -- Compiling module decrypt_tb
-# 
-# Top level modules:
-# 	decrypt_tb
-# End time: 06:07:14 on Mar 11,2021, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-quit -sim
-# End time: 06:07:24 on Mar 11,2021, Elapsed time: 0:18:24
-# Errors: 0, Warnings: 0
-vsim work.decrypt_tb
-# vsim work.decrypt_tb 
-# Start time: 06:07:24 on Mar 11,2021
-# Loading sv_std.std
-# Loading work.decrypt_tb
-# Loading work.definitions
-# Loading work.TopLevel_sv_unit
-# Loading work.TopLevel
-# Loading work.InstFetch
-# Loading work.Ctrl_sv_unit
-# Loading work.Ctrl
-# Loading work.InstROM
-# Loading work.RegFile
-# Loading work.ALU_sv_unit
-# Loading work.ALU
-# Loading work.LUT
-# Loading work.DataMem
-run -all
-# pt_no =           2
-# ** Note: $stop    : C:/Users/blade/Desktop/ISA/program2_tb.sv(149)
-#    Time: 21635 ns  Iteration: 0  Instance: /decrypt_tb
-# Break in Module decrypt_tb at C:/Users/blade/Desktop/ISA/program2_tb.sv line 149
-vlog -reportprogress 300 -work work C:/Users/blade/Desktop/ISA/program2_tb.sv
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 06:08:22 on Mar 11,2021
-# vlog -reportprogress 300 -work work C:/Users/blade/Desktop/ISA/program2_tb.sv 
-# -- Compiling module decrypt_tb
-# 
-# Top level modules:
-# 	decrypt_tb
-# End time: 06:08:22 on Mar 11,2021, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-quit -sim
-# End time: 06:08:28 on Mar 11,2021, Elapsed time: 0:01:04
-# Errors: 0, Warnings: 0
-vsim work.decrypt_tb
-# vsim work.decrypt_tb 
-# Start time: 06:08:41 on Mar 11,2021
-# Loading sv_std.std
-# Loading work.decrypt_tb
-# Loading work.definitions
-# Loading work.TopLevel_sv_unit
-# Loading work.TopLevel
-# Loading work.InstFetch
-# Loading work.Ctrl_sv_unit
-# Loading work.Ctrl
-# Loading work.InstROM
-# Loading work.RegFile
-# Loading work.ALU_sv_unit
-# Loading work.ALU
-# Loading work.LUT
-# Loading work.DataMem
-run -all
-# pt_no =           2
-# ** Note: $stop    : C:/Users/blade/Desktop/ISA/program2_tb.sv(149)
-#    Time: 22655 ns  Iteration: 0  Instance: /decrypt_tb
-# Break in Module decrypt_tb at C:/Users/blade/Desktop/ISA/program2_tb.sv line 149
-quit -sim
-# End time: 06:09:07 on Mar 11,2021, Elapsed time: 0:00:26
-# Errors: 0, Warnings: 0
-vlog -reportprogress 300 -work work C:/Users/blade/Desktop/ISA/program2_tb.sv
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 06:09:29 on Mar 11,2021
-# vlog -reportprogress 300 -work work C:/Users/blade/Desktop/ISA/program2_tb.sv 
-# -- Compiling module decrypt_tb
-# 
-# Top level modules:
-# 	decrypt_tb
-# End time: 06:09:29 on Mar 11,2021, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vsim work.decrypt_tb
-# vsim work.decrypt_tb 
-# Start time: 06:09:31 on Mar 11,2021
-# Loading sv_std.std
-# Loading work.decrypt_tb
-# Loading work.definitions
-# Loading work.TopLevel_sv_unit
-# Loading work.TopLevel
-# Loading work.InstFetch
-# Loading work.Ctrl_sv_unit
-# Loading work.Ctrl
-# Loading work.InstROM
-# Loading work.RegFile
-# Loading work.ALU_sv_unit
-# Loading work.ALU
-# Loading work.LUT
-# Loading work.DataMem
-run -all
-# pt_no =           2
-# ** Note: $stop    : C:/Users/blade/Desktop/ISA/program2_tb.sv(149)
-#    Time: 22655 ns  Iteration: 0  Instance: /decrypt_tb
-# Break in Module decrypt_tb at C:/Users/blade/Desktop/ISA/program2_tb.sv line 149
-vlog -reportprogress 300 -work work C:/Users/blade/Desktop/ISA/program2_tb.sv
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 06:10:18 on Mar 11,2021
-# vlog -reportprogress 300 -work work C:/Users/blade/Desktop/ISA/program2_tb.sv 
-# -- Compiling module decrypt_tb
-# 
-# Top level modules:
-# 	decrypt_tb
-# End time: 06:10:18 on Mar 11,2021, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-run -all
-# Break key hit
-# Simulation stop requested.
-quit -sim
-# End time: 06:10:33 on Mar 11,2021, Elapsed time: 0:01:02
-# Errors: 0, Warnings: 0
-vsim work.decrypt_tb
-# vsim work.decrypt_tb 
-# Start time: 06:10:33 on Mar 11,2021
-# Loading sv_std.std
-# Loading work.decrypt_tb
-# Loading work.definitions
-# Loading work.TopLevel_sv_unit
-# Loading work.TopLevel
-# Loading work.InstFetch
-# Loading work.Ctrl_sv_unit
-# Loading work.Ctrl
-# Loading work.InstROM
-# Loading work.RegFile
-# Loading work.ALU_sv_unit
-# Loading work.ALU
-# Loading work.LUT
-# Loading work.DataMem
-run -all
-# pt_no =           7
-# ** Note: $stop    : C:/Users/blade/Desktop/ISA/program2_tb.sv(149)
-#    Time: 28035 ns  Iteration: 0  Instance: /decrypt_tb
-# Break in Module decrypt_tb at C:/Users/blade/Desktop/ISA/program2_tb.sv line 149
-quit -sim
-# End time: 06:10:58 on Mar 11,2021, Elapsed time: 0:00:25
-# Errors: 0, Warnings: 0
-vlog -reportprogress 300 -work work C:/Users/blade/Desktop/ISA/program2_tb.sv
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 06:11:44 on Mar 11,2021
-# vlog -reportprogress 300 -work work C:/Users/blade/Desktop/ISA/program2_tb.sv 
-# -- Compiling module decrypt_tb
-# 
-# Top level modules:
-# 	decrypt_tb
-# End time: 06:11:44 on Mar 11,2021, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vlog -reportprogress 300 -work work C:/Users/blade/Desktop/ISA/program2_tb.sv
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 06:12:12 on Mar 11,2021
-# vlog -reportprogress 300 -work work C:/Users/blade/Desktop/ISA/program2_tb.sv 
-# -- Compiling module decrypt_tb
-# 
-# Top level modules:
-# 	decrypt_tb
-# End time: 06:12:13 on Mar 11,2021, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-vsim work.decrypt_tb
-# vsim work.decrypt_tb 
-# Start time: 06:12:14 on Mar 11,2021
-# Loading sv_std.std
-# Loading work.decrypt_tb
-# Loading work.definitions
-# Loading work.TopLevel_sv_unit
-# Loading work.TopLevel
-# Loading work.InstFetch
-# Loading work.Ctrl_sv_unit
-# Loading work.Ctrl
-# Loading work.InstROM
-# Loading work.RegFile
-# Loading work.ALU_sv_unit
-# Loading work.ALU
-# Loading work.LUT
-# Loading work.DataMem
-run -all
-# pt_no =           2
-# ** Note: $stop    : C:/Users/blade/Desktop/ISA/program2_tb.sv(149)
-#    Time: 22655 ns  Iteration: 0  Instance: /decrypt_tb
-# Break in Module decrypt_tb at C:/Users/blade/Desktop/ISA/program2_tb.sv line 149
-quit -sim
-# End time: 06:12:51 on Mar 11,2021, Elapsed time: 0:00:37
+# End time: 02:13:55 on Mar 12,2021, Elapsed time: 4:23:35
 # Errors: 0, Warnings: 0
